@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://docs.keeb.supply/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
