@@ -7,35 +7,12 @@ enableGitInfo = false
 enableRobotsTXT = true
 paginate = 7
 rssLimit = 10
+disableKinds = ['taxonomy', 'term']
 
-# Multilingual
-defaultContentLanguage = "en"
-disableLanguages = ["de", "nl"]
-# defaultContentLanguageInSubdir = true
 
-# add redirects/headers
 [outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+home = ["HTML", "RSS"]
 section = ["HTML", "RSS", "SITEMAP"]
-
-# remove .{ext} from text/netlify
-[mediaTypes."text/netlify"]
-suffixes = [""]
-delimiter = ""
-
-# add output format for netlify _redirects
-[outputFormats.REDIRECTS]
-mediaType = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-
-# add output format for netlify _headers
-[outputFormats.HEADERS]
-mediaType = "text/netlify"
-baseName = "_headers"
-isPlainText = true
-notAlternative = true
 
 # add output format for section sitemap.xml
 [outputFormats.SITEMAP]
@@ -56,14 +33,14 @@ rel  = "sitemap"
   filename = "sitemap.xml"
   priority = 0.5
 
-[taxonomies]
-  contributor = "contributors"
-  category = "categories"
-  tag = "tags"
+# [taxonomies]
+#   contributor = "contributors"
+#   category = "categories"
+#   tag = "tags"
 
-[permalinks]
-  blog = "/blog/:title/"
-# docs = "/docs/1.0/:sections[1:]/:title/"
+# [permalinks]
+#   blog = "/blog/:title/"
+# # docs = "/docs/1.0/:sections[1:]/:title/"
 
 [minify.tdewolff.html]
   keepWhitespace = false
@@ -72,12 +49,12 @@ rel  = "sitemap"
   threshold = 80
   includeNewer = true
   toLower = false
-    [[related.indices]]
-    name = "categories"
-    weight = 100
-    [[related.indices]]
-    name = "tags"
-    weight = 80
+    # [[related.indices]]
+    # name = "categories"
+    # weight = 100
+    # [[related.indices]]
+    # name = "tags"
+    # weight = 80
     [[related.indices]]
     name = "date"
     weight = 10

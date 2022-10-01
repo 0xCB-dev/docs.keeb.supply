@@ -4,7 +4,7 @@
 title = "KeebSupply"
 titleSeparator = "-"
 titleAddition = "Docs"
-description = "Documentation for everything related to KeebSuply."
+description = "Documentation for everything related to KeebSupply."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -84,10 +84,10 @@ docsRepo = "https://github.com/0xCB-dev/docs.keeb.supply"
 docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = true
-lastMod = false
+lastMod = true
 
-[sections]
-  sectionNav = ["docs", "guides"]
+# [sections]
+#   sectionNav = ["docs", "guides"]
 
 [options]
   lazySizes = true
@@ -98,14 +98,14 @@ lastMod = false
   searchSectionsIndex = []
   darkMode = true
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
   kaTex = false
   multilingualMode = false
   docsVersioning = false
   fullWidth = false
   navbarSticky = true
-  toTopButton = false
+  toTopButton = true
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
 
 [menu]
