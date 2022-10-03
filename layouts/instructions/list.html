@@ -5,15 +5,14 @@
 			<h1 class="text-center">{{ .Title }}</h1>
 			<div class="text-center">{{ .Content }}</div>
 			<div class="card-list">
-				{{ $currentSection := .CurrentSection }}
-				{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
-				{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+				{{ range .Site.Taxonomies.categories.instructions }}
 				<div class="card my-3">
+					{{- .Scratch.Set "fillImage" "1270x620 Center" -}}
+					{{ partial "content/card-image.html" . }}
 					<div class="card-body">
 						<a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
 					</div>
 				</div>
-				{{ end }}
 				{{ end }}
 			</div>
 		</article>

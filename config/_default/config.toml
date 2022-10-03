@@ -7,7 +7,6 @@ enableGitInfo = false
 enableRobotsTXT = true
 paginate = 7
 rssLimit = 10
-disableKinds = ['taxonomy', 'term']
 
 
 [outputs]
@@ -33,9 +32,8 @@ rel  = "sitemap"
   filename = "sitemap.xml"
   priority = 0.5
 
-# [taxonomies]
-#   contributor = "contributors"
-#   category = "categories"
+[taxonomies]
+  category = "categories"
 #   tag = "tags"
 
 # [permalinks]

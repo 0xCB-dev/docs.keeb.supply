@@ -1,0 +1,11 @@
+[[0xcb-static]]
+  name = "0xcb-static"
+  weight = 10
+  identifier = "0xcb-static"
+  url = "/0xcb-static/"
+
+[[0xcb-1337]]
+  name = "0xcb-1337"
+  weight = 10
+  identifier = "0xcb-1337"
+  url = "/0xcb-1337/"
