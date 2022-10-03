@@ -13,13 +13,13 @@ weight: 10
 toc: true
 ---
 
-| Image             | Description                                                                              | Quantity |
-| ----------------- | ---------------------------------------------------------------------------------------- | -------- |
-|                   |
-| ![case](case.jpg) | 3D Printed<br><br>Assembly This inludes all 3D printed parts, M2 screws and rubber feet. | 1        |
-| pcb               | PCB<br><br>all components presoldered                                                    | 1        |
-| encoder           | rotary encoder with knob                                                                 | 1        |
-| oled              | OLED Screen                                                                              | 1        |
-| millmax           | Mill-Max Sockets<br><br>enough to build one macro pad                                    | 1        |
-| ribbon            | ribbon cable                                                                             | 1        |
-| allenkey          | Allen Keys                                                                               | 1        |
+| Image    | Description                                                                              | Quantity |
+| -------- | ---------------------------------------------------------------------------------------- | -------- |
+|          |
+|          | 3D Printed<br><br>Assembly This inludes all 3D printed parts, M2 screws and rubber feet. | 1        |
+| pcb      | PCB<br><br>all components presoldered                                                    | 1        |
+| encoder  | rotary encoder with knob                                                                 | 1        |
+| oled     | OLED Screen                                                                              | 1        |
+| millmax  | Mill-Max Sockets<br><br>enough to build one macro pad                                    | 1        |
+| ribbon   | ribbon cable                                                                             | 1        |
+| allenkey | Allen Keys                                                                               | 1        |

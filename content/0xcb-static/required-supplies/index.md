@@ -13,9 +13,9 @@ weight: 20
 toc: true
 ---
 
-| Image             | Part           | Description                                                                                                                                   |
-| ----------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-|                   |
-| ![case](case.jpg) | Flush Cutters  | You will need these to cut the wires needed for the OLED.                                                                                     |
-| pcb               | Soldering Iron | We recomment a good soldering iron! Don't expect a challenge like the USB Port on the Static tho, the soldering on the 1337 is rather simple. |
-| encoder           | Solder         | Please use high quality solder (flux core or apply flux externally) to make your life easier when soldering this kit!                         |  |
+| Image                                 | Part           | Description                                                                                                           |
+| ------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- |
+|                                       |                |                                                                                                                       |
+| ![flush-cutters](flush-cutters.jpg)   | Flush Cutters  | You will need these to cut the wires needed for the OLED.                                                             |
+| ![soldering-iron](soldering-iron.jpg) | Soldering Iron | We recomment a good soldering iron! Don't expect a challenge tho, the soldering on the 1337 is rather simple.         |
+| ![solder](solder.jpg)                 | Solder         | Please use high quality solder (flux core or apply flux externally) to make your life easier when soldering this kit! |
