@@ -13,9 +13,9 @@ weight: 20
 toc: true
 ---
 
-| Image                                 | Part           | Description                                                                                                           |
-| ------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- |
-|                                       |                |                                                                                                                       |
-| ![flush-cutters](flush-cutters.jpg)   | Flush Cutters  | You will need these to cut the wires needed for the OLED.                                                             |
-| ![soldering-iron](soldering-iron.jpg) | Soldering Iron | We recomment a good soldering iron! Don't expect a challenge tho, the soldering on the 1337 is rather simple.         |
-| ![solder](solder.jpg)                 | Solder         | Please use high quality solder (flux core or apply flux externally) to make your life easier when soldering this kit! |
+| Image                                  | Part           | Description                                                                                                           |
+| -------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- |
+|                                        |                |                                                                                                                       |
+| ![flush-cutters](flush-cutters.webp)   | Flush Cutters  | You will need these to cut the wires needed for the OLED.                                                             |
+| ![soldering-iron](soldering-iron.webp) | Soldering Iron | We recomment a good soldering iron! Don't expect a challenge tho, the soldering on the 1337 is rather simple.         |
+| ![solder](solder.webp)                 | Solder         | Please use high quality solder (flux core or apply flux externally) to make your life easier when soldering this kit! |

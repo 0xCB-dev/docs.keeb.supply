@@ -13,13 +13,13 @@ weight: 10
 toc: true
 ---
 
-| Image                     | Description                                                                              | Quantity |
-| ------------------------- | ---------------------------------------------------------------------------------------- | -------- |
+| Image                     | Description                                                                               | Quantity |
+| ------------------------- | ----------------------------------------------------------------------------------------- | -------- |
 |                           |
-| ![case](case.jpg)         | 3D Printed<br><br>Assembly This inludes all 3D printed parts, M2 screws and rubber feet. | 1        |
-| ![pcb](pcb.jpg)           | PCB<br><br>all components presoldered                                                    | 1        |
-| ![encoder](encoder.jpg)   | rotary encoder with knob                                                                 | 1        |
-| ![oled](oled.jpg)         | OLED Screen                                                                              | 1        |
-| ![millmax](millmax.jpg)   | Mill-Max Sockets<br><br>enough to build one macro pad                                    | 1        |
-| ![ribbon](ribbon.jpg)     | ribbon cable                                                                             | 1        |
-| ![allenkey](allenkey.jpg) | Allen Keys                                                                               | 1        |
+| ![case](case.jpg)         | 3D Printed Assembly <br><br>This inludes all 3D printed parts, M2 screws and rubber feet. | 1        |
+| ![pcb](pcb.jpg)           | PCB<br><br>all components presoldered                                                     | 1        |
+| ![encoder](encoder.jpg)   | rotary encoder with knob                                                                  | 1        |
+| ![oled](oled.jpg)         | OLED Screen                                                                               | 1        |
+| ![millmax](millmax.jpg)   | Mill-Max Sockets<br><br>enough to build one macro pad                                     | 1        |
+| ![ribbon](ribbon.jpg)     | ribbon cable                                                                              | 1        |
+| ![allenkey](allenkey.jpg) | Allen Keys                                                                                | 1        |

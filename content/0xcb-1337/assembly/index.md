@@ -9,12 +9,9 @@ images: []
 menu:
   0xcb-1337:
     parent: "0xcb-1337"
-weight: 30
+weight: 40
 toc: true
 ---
-<br>
-![](.jpg)
-
 
 Let's start the assembly with the PCB.
 ![pcb2](pcb2.jpg)
