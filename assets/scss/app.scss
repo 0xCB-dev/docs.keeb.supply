@@ -10,6 +10,12 @@
 /** Import highlight.js */
 // @import "highlight.js/scss/github-dark-dimmed";
 
+/** Import docsearch */
+// @import "@docsearch/css/dist/_variables";
+// @import "@docsearch/css/dist/button";
+// @import "@docsearch/css/dist/modal";
+@import "@docsearch/css/dist/style";
+
 /** Import KaTeX */
 @import "katex/dist/katex";
 

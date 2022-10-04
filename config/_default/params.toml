@@ -65,7 +65,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1024x768 Center" # normalize image size
 
 # Footer
-footer = "Shop now on <a class=\"text-muted\" href=\"https://keeb.supply/\">KeebSupply</a>"
+footer = "Shop now on <a class=\"text-muted\" href=\"https://keeb.supply/\">KeebSupply</a> - Our <a class=\"text-muted\" href=\"https://github.com/0xcb-dev/\">GitHub</a>"
 
 # Feed
 copyRight = "Copyright (c) 2022 Burns & Kriener Keyboards GbR"
@@ -106,7 +106,7 @@ lastMod = true
   fullWidth = false
   navbarSticky = true
   toTopButton = true
-  scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
+  scrollSpy = true # experimental; needs Bootstrap >= 5.2.0-beta1
 
 [menu]
   [menu.section]

@@ -71,9 +71,9 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "layouts"
     target = "layouts"
-  [[module.mounts]]
-    source = "node_modules/flexsearch"
-    target = "assets/js/vendor/flexsearch"
+  [[mounts]]
+    source = "node_modules/docsearch.js"
+    target = "assets/js/vendor/docsearch.js"
   [[module.mounts]]
     source = "node_modules/katex"
     target = "assets/js/vendor/katex"
