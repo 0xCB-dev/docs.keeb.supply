@@ -13,7 +13,7 @@ weight: 40
 toc: true
 ---
 
-Let's start the assembly with the PCB.
+<br>Let's start the assembly with the PCB.
 ![pcb2](pcb2.jpg)
 
 <br>If you want to solder your 1337 with the Mill-Max sockets then you should start with those. You also can solder the switches directly. If you want to do that skip the Mill-Max soldering.
