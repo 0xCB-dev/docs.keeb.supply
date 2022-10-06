@@ -1,7 +1,7 @@
 ---
 title : "Packing List"
-description: "These parts should all be included in your 1337 kit!"
-lead: "These parts should all be included in your 1337 kit!"
+description: "These parts should all be included in your acrylic case kit!"
+lead: "These parts should all be included in your acrylic case kit!"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
