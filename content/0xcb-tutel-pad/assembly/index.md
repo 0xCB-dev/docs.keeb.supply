@@ -13,8 +13,7 @@ weight: 40
 toc: true
 ---
 
-<br>
-![](.jpg)
+[test]({{< ref "optional-supplies" >}})
 
 <br>Let's start the assembly with the PCB.
 ![pcb](pcb.jpg)

@@ -1,0 +1,5 @@
+[[troubleshooting]]
+  name = "Hardware"
+  weight = 10
+  identifier = "hardware"
+  url = "/troubleshooting/hardware"
