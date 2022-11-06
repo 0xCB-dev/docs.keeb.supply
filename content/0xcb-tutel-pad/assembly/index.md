@@ -13,36 +13,16 @@ weight: 40
 toc: true
 ---
 
-[test]({{< ref "optional-supplies" >}})
-
 <br>Let's start the assembly with the PCB.
 ![pcb](pcb.jpg)
 
-<br>Start by soldering in the header-pins for the micro controller. You can use IC-hotswap sockets or the solder variant that most likely came with your micro controller.
-![socketsalone](socketsalone.jpg)
-
-<br>On the PCB you will see text, indicating on which side which component is supposed to go.
+<br>The first step is to solder in the header pins for the controller. Instrcutions can be found [here]({{< ref "/basics/soldering/promicro" >}}). On the PCB you will see text, indicating on which side which component is supposed to go.
 ![text](text.jpg)
-
-<br>Place the header pins inside the through holes on the PCB.
-![pcbsockets](pcbsockets.jpg)
-
-<br>Turn around the PCB. Pay close attention to the straightness of the headers.
-![socketpins](socketpins.jpg)
-
-<br>First solder only one pin per header.
-![1pinsoldered](1pinsoldered.jpg)
-
-<br>Then check if they are straight and a controller can fit on them. If they are not straight, heat up the one pin and realign them.
-![sideview](sideview.jpg)
-
-<br>You can go ahead and solder the rest if they are straight.
-![allpinssoldered](allpinssoldered.jpg)
 
 <br>Now solder in the reset button. Again, please pay attention on which side of the PCB you have to solder it on.
 ![button](button.jpg)
 
-<br>Now is also a good time to solder in Mill-Max sockets if you want to.
+<br>Now is also a good time to solder in Mill-Max sockets if you want to. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/mill-max" >}}).
 ![switchmillmax](switchmillmax.jpg)
 
 <br>Next solder in the OLED. This goes on the opposite side of the controller. The OLED should sit straight in the cutout in the switch plate afterwards, so solder only one pin at first.
