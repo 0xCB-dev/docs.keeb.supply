@@ -9205,7 +9205,6 @@ textarea.form-control-lg {
 
 /** Import highlight.js */
 /** Import docsearch */
-/*! @docsearch/css 3.2.1 | MIT License | © Algolia, Inc. and contributors | https://docsearch.algolia.com */
 :root {
   --docsearch-primary-color:#5468ff;
   --docsearch-text-color:#1c1e21;
