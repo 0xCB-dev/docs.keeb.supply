@@ -1,4 +1,10 @@
 [[basics]]
+  name = "Intro"
+  weight = 1
+  identifier = "intro"
+  url = "/basics/intro"
+
+[[basics]]
   name = "Soldering"
   weight = 10
   identifier = "soldering"
@@ -10,13 +16,19 @@
   identifier = "hardware"
   url = "/basics/hardware"
 
-  [[basics]]
+[[basics]]
   name = "Firmware"
   weight = 30
   identifier = "firmware"
   url = "/basics/firmware"
 
 ######################################################################################################
+
+[[troubleshooting]]
+  name = "Intro"
+  weight = 1
+  identifier = "intro"
+  url = "/troubleshooting/intro"
 
 [[troubleshooting]]
   name = "Hardware"
@@ -36,13 +48,13 @@
   name = "Basics"
   weight = 40
   identifier = "basics"
-  url = "/basics"
+  url = "/basics/intro/getting-started/"
 
 [[main]]
   name = "Troubleshooting"
   weight = 40
   identifier = "troubleshooting"
-  url = "/troubleshooting"
+  url = "/troubleshooting/intro/getting-started/"
 
 ######################################################################################################
 

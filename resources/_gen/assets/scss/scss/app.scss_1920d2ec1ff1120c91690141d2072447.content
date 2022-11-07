@@ -9205,6 +9205,7 @@ textarea.form-control-lg {
 
 /** Import highlight.js */
 /** Import docsearch */
+/*! @docsearch/css 3.3.0 | MIT License | © Algolia, Inc. and contributors | https://docsearch.algolia.com */
 :root {
   --docsearch-primary-color:#5468ff;
   --docsearch-text-color:#1c1e21;
@@ -9922,7 +9923,7 @@ svg.DocSearch-Hit-Select-Icon {
   border-color: currentColor; }
 
 .katex .katex-version::after {
-  content: "0.16.2"; }
+  content: "0.16.3"; }
 
 .katex .katex-mathml {
   /* Accessibility hack to only show to screen readers
