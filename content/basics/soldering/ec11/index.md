@@ -26,3 +26,6 @@ toc: true
 
 <br>You can now go ahead and solder the big pins forst and then the 5 small pins. The big pins take quite a bit of solder, so just keep feeding solder in there until you see a nice coverage of solder.
 ![rotary-soldered](rotary-soldered.jpg)
+
+<br>And now you are done with your encoder!
+![removenut](removenut.jpg)

@@ -40,21 +40,21 @@
 
 [[main]]
   name = "Instructions"
-  weight = 30
+  weight = 10
   identifier = "instructions"
   url = "/instructions/"
 
 [[main]]
   name = "Basics"
-  weight = 40
+  weight = 20
   identifier = "basics"
-  url = "/basics/intro/getting-started/"
+  url = "basics/soldering/solder-advice/"
 
 [[main]]
   name = "Troubleshooting"
-  weight = 40
+  weight = 30
   identifier = "troubleshooting"
-  url = "/troubleshooting/intro/getting-started/"
+  url = "/troubleshooting/hardware/usb-c/"
 
 ######################################################################################################
 

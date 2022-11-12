@@ -22,4 +22,4 @@ toc: true
 <br>Turn around the PCB and solder the sockets. Here it is important that the solder doesn't flow into the hole in the top. So add solder from the side until you have a decent amount. You don't need a lot here, just enough so that it holds itself.
 ![socketssolder](socketssolder.jpg)
 
-<br>After you have soldered them, remove the tape and check if your sockets sit nicely in you PCB. You can also put in a switch to test the fitment.
+<br>After you have soldered them, remove the tape and check if your sockets sit nicely in your PCB. You can also put in a switch to test the fitment.

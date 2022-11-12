@@ -13,7 +13,7 @@ weight: 30
 toc: true
 ---
 
-Soldering the USB Port is always the most challenging part of any build! We recommend starting with it, because it is easiest when no other component is in the PCB.
+Soldering the USB Port is always the most challenging part of any build! We recommend starting your keyboard soldering with this, because it is easiest when no other component is in the PCB.
 
 
 <br>Start by placing the USB Port in the PCB on the side, that has all the printing for the components on it. It should go in super easy. If you need to use any kind of force you are doing it wrong! Just let it slide in there.
@@ -34,10 +34,10 @@ Soldering the USB Port is always the most challenging part of any build! We reco
 <br>If you have extra flux add that to the little pins of the USB port now! Also go ahead and add a little bit of solder to your soldering iron now. You will use it in the next step.
 ![irontip](irontip.jpg)
 
-<br>Take your soldering iron and rub it over the little pins. The solder should flow nicely into the cavities.
+<br>Take your soldering iron and rub it over the little pins. The solder should flow nicely into the cavities. If it doesn't, add some more flux and try to direct the solder onto the pins.
 ![usb-bottom-partlysoldered](usb-bottom-partlysoldered.jpg)
 
-<br>If you didn't add enough just go over the pins again with a bit of new solder. But be careful! Here it is crucial to not add a lot of solder! So be careful when soldering.
+<br>If you didn't add enough just go over the pins again with a bit of new solder. But be careful! Here it is crucial to not add a lot of solder!
 ![usb-bottom-fullysoldered](usb-bottom-fullysoldered.jpg)
 
 <br>Here is a close up of an USB port. It should look like this. No pin is touching another one. If there are pins toughing each other go over there again with the soldering iron and kind of wipe the solder off of there. Before that it's also great if you have a brass sponge to clean your tip of the soldering iron!

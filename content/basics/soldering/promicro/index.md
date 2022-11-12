@@ -14,6 +14,9 @@ toc: true
 ---
 
 ## Header Pins
+
+For every ProMicro controller you will need header pins. So we'll start with those.
+
 You can use IC-hotswap sockets or the solder variant that most likely came with your micro controller.
 ![socketsalone](socketsalone.jpg)
 
@@ -33,6 +36,8 @@ You can use IC-hotswap sockets or the solder variant that most likely came with 
 ![allpinssoldered](allpinssoldered.jpg)
 
 ## ProMicro
+
+When you have your header pins soldered, you can go ahead and solder in your controller. Depending on the header pins used, you will need to use two different techniques.
 
 ### Solder Sockets
 
