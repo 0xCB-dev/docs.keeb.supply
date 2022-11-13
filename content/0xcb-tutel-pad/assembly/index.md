@@ -37,13 +37,13 @@ toc: true
 <br>Clip off the pins of the OLED on the other side. Otherwise the controller will not fit.
 ![oledclipped](oledclipped.jpg)
 
-<br>You have to flash the controller. You can find the firmware <a href="https://github.com/0xCB-dev/0xCB-TutelPad/releases/tag/v1.0" >here<a>.
+<br>You have to flash the controller. You can find the firmware <a href="https://github.com/0xCB-dev/0xCB-TutelPad/releases/tag/v1.0" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 ![git](git.webp)
 
-<br>It is good practice to confirm the PCB working after you flashed the controller. So plug it in the computer and see if you can get it to show up in VIAL.
+<br>It is good practice to confirm the PCB working after you flashed the controller. So plug it in the computer and see if you can get it to show up in [VIAL]({{< ref "basics/firmware/viaandvial#VIAL" >}}).
 ![VIAL](VIAL.webp)
 
-<br>If your controller is working, you can solder it in. When you have the PCB in front of you so that you can read the text on it, the USB port should go to the top of the PCB. You should not see the components of the micro controller, when it is sitting in the PCB.
+<br>If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you so that you can read the text on it, the USB port should go to the top of the PCB. You should not see the components of the micro controller, when it is sitting in the PCB.
 ![controller](controller.jpg)
 
 <br>Insert the Switches into the switch plate. You can use the switch plate both ways around either with or without the TUTEL writing.

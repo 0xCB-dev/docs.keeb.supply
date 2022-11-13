@@ -35,6 +35,8 @@ You can use IC-hotswap sockets or the solder variant that most likely came with 
 <br>You can go ahead and solder the rest if they are straight.
 ![allpinssoldered](allpinssoldered.jpg)
 
+<br> Some PCBs might need a smaller header at the bottom. You can follow the same procedure here.
+
 ## ProMicro
 
 When you have your header pins soldered, you can go ahead and solder in your controller. Depending on the header pins used, you will need to use two different techniques.
