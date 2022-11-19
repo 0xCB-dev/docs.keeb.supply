@@ -13,17 +13,17 @@ weight: 10
 toc: true
 ---
 
-| Image                           | Description                           | Quantity |
-| ------------------------------- | ------------------------------------- | -------- |
-|                                 |
-| ![]()                           | bottom plate                          | 1        |
-| ![]()                           | PCB<br><br>SMD components presoldered | 1        |
-| ![]()                           | switch plate                          | 1        |
-| ![]()                           | OLED screen                           | 1        |
-| ![rubber-feet](rubber-feet.jpg) | rubber feet                           | 4        |
-| ![]()                           | standoffs (M2x5mm)                    | 6        |
-| ![]()                           | standoffs (M2x12mm)                   | 2        |
-| ![]()                           | torx screws (M2x4mm)                  | 16       |
-| ![]()                           | acrylic cover                         | 1        |
-| ![]()                           | acrylic feet                          | 2+2      |
-| ![]()                           | Torx T6 allen key                     | 1        |
+| Image                               | Description                           | Quantity |
+| ----------------------------------- | ------------------------------------- | -------- |
+|                                     |
+| ![bottomplate](bottomplate.jpg)     | bottom plate                          | 1        |
+| ![PCB](PCB.jpg)                     | PCB<br><br>SMD components presoldered | 1        |
+| ![switchplate](switchplate.jpg)     | switch plate                          | 1        |
+| ![]()                               | rubber feet                           | 4        |
+| ![standoff_5mm](standoff_5mm.jpg)   | standoffs (M2x5mm)                    | 6        |
+| ![standoff_12mm](standoff_12mm.jpg) | standoffs (M2x12mm)                   | 2        |
+| ![screw_4mm](screw_4mm.jpg)         | torx screws (M2x4mm)                  | 16       |
+| ![screw_12mm](screw_12mm.jpg)       | torx screws (M2x12mm)                 | 4        |
+| ![acrylcover](acrylcover.jpg)       | acrylic cover                         | 1        |
+| ![acrylfeet](acrylfeet.jpg)         | acrylic feet                          | 2+2      |
+| ![allen_key](allen_key.jpg)         | Torx T6 allen key                     | 1        |
