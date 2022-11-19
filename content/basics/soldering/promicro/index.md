@@ -23,6 +23,9 @@ You can use IC-hotswap sockets or the solder variant that most likely came with 
 <br>Place the header pins inside the through holes on the PCB.
 ![pcbsockets](pcbsockets.jpg)
 
+<br>For solder headers you need to place the short side in the PCB.
+![solderheader](solderheader.jpg)
+
 <br>Turn around the PCB. Pay close attention to the straightness of the headers.
 ![socketpins](socketpins.jpg)
 
@@ -36,6 +39,7 @@ You can use IC-hotswap sockets or the solder variant that most likely came with 
 ![allpinssoldered](allpinssoldered.jpg)
 
 <br> Some PCBs might need a smaller header at the bottom. You can follow the same procedure here.
+![headerbottom](headerbottom.jpg)
 
 ## ProMicro
 
@@ -43,4 +47,28 @@ When you have your header pins soldered, you can go ahead and solder in your con
 
 ### Solder Sockets
 
+Soldering these sockets is pretty easy and straight forward. Start by placing the controller in the pins. Be aware of the pinout and the orientation of the controller!
+![thtcontroller-notsoldered](thtcontroller-notsoldered.jpg)
+
+<br>After that just solder all the pins.
+![thtcontroller-soldered](thtcontroller-soldered.jpg)
+
+<br>You will probably want to clip of the long pins on top of the controller
+![clipped](clipped.jpg)
+
 ### IC Hotswap Sockets
+
+Soldering Hotswap sockets takes a bit more work. Start by just placing your controller ontop of the headers. Be aware of the pinout and the orientation of the controller!
+![controller-notsoldered](controller-notsoldered.jpg)
+
+<br>After that stick a diode leg into one of the holes of the controller. You can also use [these](https://www.mouser.de/ProductDetail/575-3320000150000030) MillMax pins that.
+![diode](diode.jpg)
+
+<br>Clip off that diode flush with the top of the controller.
+![diode-clipped](diode-clipped.jpg)
+
+<br>Repeat that for all of the pins that you need.
+![diode-clippedall](diode-clippedall.jpg)
+
+<br>Now add solder to all of the pins. Be careful to not add too much solder so that it doesn't come out of the other side.
+![all-soldered](all-soldered.jpg)

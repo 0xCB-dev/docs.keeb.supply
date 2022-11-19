@@ -19,9 +19,9 @@ toc: true
 | ![bottomplate](bottomplate.jpg)     | bottom plate                          | 1        |
 | ![PCB](PCB.jpg)                     | PCB<br><br>SMD components presoldered | 1        |
 | ![switchplate](switchplate.jpg)     | switch plate                          | 1        |
-| ![]()                               | rubber feet                           | 4        |
+| ![rubberfeet](rubberfeet.jpg)       | rubber feet                           | 4        |
 | ![standoff_5mm](standoff_5mm.jpg)   | standoffs (M2x5mm)                    | 6        |
-| ![standoff_12mm](standoff_12mm.jpg) | standoffs (M2x12mm)                   | 2        |
+| ![standoff_12mm](standoff_12mm.jpg) | standoffs (M2x10mm)                   | 2        |
 | ![screw_4mm](screw_4mm.jpg)         | torx screws (M2x4mm)                  | 16       |
 | ![screw_12mm](screw_12mm.jpg)       | torx screws (M2x12mm)                 | 4        |
 | ![acrylcover](acrylcover.jpg)       | acrylic cover                         | 1        |

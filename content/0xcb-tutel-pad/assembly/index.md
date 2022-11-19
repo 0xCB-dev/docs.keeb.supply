@@ -16,7 +16,7 @@ toc: true
 <br>Let's start the assembly with the PCB.
 ![pcb](pcb.jpg)
 
-<br>The first step is to solder in the header pins for the controller. Instrcutions can be found [here]({{< ref "/basics/soldering/promicro" >}}). On the PCB you will see text, indicating on which side which component is supposed to go.
+<br>The first step is to solder in the header pins for the controller. Instructions can be found [here]({{< ref "/basics/soldering/promicro" >}}). On the PCB you will see text, indicating on which side which component is supposed to go.
 ![text](text.jpg)
 
 <br>Now solder in the reset button. Again, please pay attention on which side of the PCB you have to solder it on.
