@@ -17,7 +17,7 @@ toc: true
 
 ![OLED](oled.webp)
 
-Oled are great to display info about your current layer, indicate CAPS lock and much more. But the most important use case is of course the Bongo Cat ;)
+Oleds are great to display info about your current layer, indicate CAPS lock and much more. But the most important use case is of course the Bongo Cat ;)
 
 They are available in multiple sizes and aspect ratios - the most common ones are 0.91" 128x32 and 0.96" 128x64.
 
@@ -27,7 +27,7 @@ As always the [QMK docs](https://github.com/qmk/qmk_firmware/blob/master/docs/fe
 
 You can take this repo as a reference for the [Bongo Cat](https://github.com/nwii/oledbongocat).
 
-If you want to prolong the lifespan of you OLED, make sure to retain a sane screen timout to prevent excessive burn in.
+If you want to prolong the lifespan of your OLED, make sure to retain a sane screen timout to prevent excessive burn in.
 
 ## Soldering
 
@@ -36,3 +36,5 @@ The OLEDs communicate via [I<sup>2</sup>C](https://learn.sparkfun.com/tutorials/
 Keyboards that support OLEDs out of the box have through hole pads in that configuration, so you just plug in the OLED and solder the pins (make sure to connect GND to GND, ...) - you can also use headers to make the OLED hot swappable.
 
 Feel free to check out the general soldering advice [here]({{< relref "/basics/soldering/solder-advice" >}}).
+
+You can find instructions for OLED soldering [here](/0xcb-static/soldering#oled).
