@@ -24,6 +24,7 @@ toc: true
 | ![standoff_12mm](standoff_12mm.jpg) | standoffs (M2x10mm)                   | 2        |
 | ![screw_4mm](screw_4mm.jpg)         | torx screws (M2x4mm)                  | 16       |
 | ![screw_12mm](screw_12mm.jpg)       | torx screws (M2x12mm)                 | 4        |
+| ![nuts](nuts.jpg)                   | nuts (M2)                             | 4        |
 | ![acrylcover](acrylcover.jpg)       | acrylic cover                         | 1        |
 | ![acrylfeet](acrylfeet.jpg)         | acrylic feet                          | 2+2      |
 | ![allen_key](allen_key.jpg)         | Torx T6 allen key                     | 1        |
