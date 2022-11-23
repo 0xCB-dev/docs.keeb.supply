@@ -1,3 +1,4 @@
+---
 title: "Firmware"
 description: "Basics about Firmwares."
 lead: "Basics about Firmwares."
