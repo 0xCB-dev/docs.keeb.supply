@@ -24,7 +24,7 @@ toc: true
 <br>So go ahead and do that now. The two big pins should hold it in there good. If some pins are bend during shipping it's really not a problem. Just bend them back carefully so that they look straight again!
 ![rotary-not-soldered](rotary-not-soldered.jpg)
 
-<br>You can now go ahead and solder the big pins forst and then the 5 small pins. The big pins take quite a bit of solder, so just keep feeding solder in there until you see a nice coverage of solder.
+<br>You can now go ahead and solder the big pins first and then the 5 small pins. The big pins take quite a bit of solder, so just keep feeding solder in there until you see a nice coverage of solder.
 ![rotary-soldered](rotary-soldered.jpg)
 
 <br>And now you are done with your encoder!
