@@ -4,7 +4,7 @@
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 /** Import Bootstrap */
 /*!
-   * Bootstrap  v5.2.2 (https://getbootstrap.com/)
+   * Bootstrap  v5.2.3 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -5043,7 +5043,6 @@ textarea.form-control-lg {
 .carousel-item-prev {
   display: block; }
 
-/* rtl:begin:ignore */
 .carousel-item-next:not(.carousel-item-start),
 .active.carousel-item-end {
   transform: translateX(100%); }
@@ -5052,7 +5051,6 @@ textarea.form-control-lg {
 .active.carousel-item-start {
   transform: translateX(-100%); }
 
-/* rtl:end:ignore */
 .carousel-fade .carousel-item {
   opacity: 0;
   transition-property: opacity;
@@ -9205,7 +9203,7 @@ textarea.form-control-lg {
 
 /** Import highlight.js */
 /** Import docsearch */
-/*! @docsearch/css 3.3.0 | MIT License | © Algolia, Inc. and contributors | https://docsearch.algolia.com */
+/*! @docsearch/css 3.3.1 | MIT License | © Algolia, Inc. and contributors | https://docsearch.algolia.com */
 :root {
   --docsearch-primary-color:#5468ff;
   --docsearch-text-color:#1c1e21;
@@ -9428,9 +9426,6 @@ html[data-theme=dark] {
 
 .DocSearch-Reset[hidden] {
   display: none; }
-
-.DocSearch-Reset:focus {
-  outline: none; }
 
 .DocSearch-Reset:hover {
   color: var(--docsearch-highlight-color); }
@@ -9923,7 +9918,7 @@ svg.DocSearch-Hit-Select-Icon {
   border-color: currentColor; }
 
 .katex .katex-version::after {
-  content: "0.16.3"; }
+  content: "0.16.4"; }
 
 .katex .katex-mathml {
   /* Accessibility hack to only show to screen readers
