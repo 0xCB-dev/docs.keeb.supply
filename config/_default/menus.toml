@@ -62,6 +62,6 @@
 ######################################################################################################
 
 [[footer]]
-  name = "Legal notice and Privacy Policy"
+  name = "Legal Notice and Privacy Policy"
   url = "/privacy-policy/"
   weight = 10
