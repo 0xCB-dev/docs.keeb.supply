@@ -18,10 +18,10 @@ toc: true
 ![package](package.png)
 
 This new chip by the Raspberry Pi foundation finally replaces the outdated AVR microcontrollers and expensive/hard-to-get STM32 chips.
-It's low cost coming in at just 1$ p.p. and most importantly it's available in high volume.
+It's low cost coming in at just 1$ p.p. and most importantly it's available in high volume!
 
 The RP2040 features two ARM Cortex-M0+ 32-bit CPUs that operate at 133MHz, along with 264Kb of SRAM.
-For comparison the atmega32u4 chips used in Pro Micros only feature a single 8-bit RISC core operating at 16MHz, along with 2.5KB SRAM (they also have onboard flash, but sadly only 32KB)
+For comparison the atmega32u4 chips used in Pro Micros only feature a single 8-bit RISC core operating at 16MHz, along with 2.5KB SRAM (they also have onboard flash, but sadly only 32KB).
 
 So as you can tell it's a pretty big upgrade from the 32U4 and I/O wise it's also a beast:
 
@@ -35,7 +35,7 @@ The main star is the PIO making the use cases endless. Some options are [etherne
 
 ## Power
 
-The rp2040 needs 3.3V power instead of 5V like the 32u4
+The rp2040 needs 3.3V power instead of 5V like the 32u4.
 
 ### 3.3V
 
@@ -44,11 +44,13 @@ The easiest way to archive this is by using a 3.3V LDO to step down the 5V from 
 ### 1.1V
 
 You might have spotted the voltage regulator in the floorplan image.
-it provides 1.1V for the cores. It is extremely important to place 1μF capacitors directly next to their input and output!
+it provides 1.1V for the cores. 
+
+{{< alert icon="💡" text="Because of that it is extremely important to place 1μF capacitors directly next to their input and output!" />}}
 
 ## Flash
 
-As I hinted beforehand you need an external 3.3V (Q)SPI flash and you may use up to 128Mb / 16MB of it.
+Because the RP2040 doesn't have in build storage you need an external 3.3V (Q)SPI flash and you may use up to 128Mb / 16MB of it.
 
 ![flash](flash.png)
 
@@ -70,12 +72,15 @@ For hand soldering:
 
 ## Bootloader
 
-The RP2040 comes with a bootloader etched into ROM (Read Only Memory) -> you can not brick it
+The RP2040 comes with a bootloader etched into ROM (Read Only Memory).
+{{< alert icon="💡" text="This means that you can not brick it!" />}}
+
 After that, a second-stage bootloader takes over and runs code from the flash.
 
 ### Entering the bootloader
 
-to enter the bootloader you have to disable the flash chip on startup:
+To enter the bootloader you have to disable the flash chip on startup:
+
 pull and hold QSPI_SS_N low and reset the controller by pulling RUN low.
 
 You will see a new flash drive appear on your computer and you can drag and drop .uf2 files onto it to flash them.
@@ -125,7 +130,7 @@ This for example enables you to place full duplex split transport almost anywher
 
 ### QMKs naming for GPIO
 
-To reference the RP2040s GPIO you use GP* where * is the GPIO number (not the pin number)
+To reference the RP2040s GPIO you use GP* where * is the GPIO number (not the pin number).
 
 ## Die Shot
 
