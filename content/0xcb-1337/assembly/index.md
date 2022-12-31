@@ -16,7 +16,7 @@ toc: true
 <br>Let's start the assembly with the PCB.
 ![pcb2](pcb2.jpg)
 
-<br>If you want to solder your 1337 with the Mill-Max sockets then you should start with those. You can find Instructions on how to solder Mill-Max Sockets [here]({{< ref "/basics/soldering/mill-max" >}}). You also can solder the switches directly. If you want to do that skip the Mill-Max soldering.
+<br>If you want to solder your 1337 with the Mill-Max sockets then you should start with those. You can find Instructions on how to solder Mill-Max Sockets [here]({{< ref "/basics/soldering/hotswap#millmax" >}}). You also can solder the switches directly. If you want to do that skip the Mill-Max soldering.
 ![switchmillmax](switchmillmax.jpg)
 
 <br>After that get yourself the ribbon cable. Seperate the ends and strip them. They should look like this.
