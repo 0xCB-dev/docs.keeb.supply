@@ -13,7 +13,7 @@ weight: 40
 toc: true
 ---
 
-<br />Before we start the assembly, you need to take apart the case! Please remove the screws from the bottom and pull apart the pieces. You should be left with 3 bottom pieces, two switch plates and the PCB. You can leave the standoffs and screws in the switch plate.
+<br />Before we start the assembly, you need to take apart the case! Please remove the screws from one side and pull apart the pieces. You should be left with 3 bottom pieces, two switch plates and the PCB. You can leave the standoffs in the switch plate. You will then need to remove the plastic film from all of the acrylic pieces.
 ![]()
 
 ## PCB
@@ -67,7 +67,7 @@ Begin soldering with the hotswap sockets. You can find instructions for that [he
 
 ### Assembly
 
-<br /> Put on your switch plates again.
+<br /> Put on your switch plates again. Check again, if you have removed the plastic film!
 ![]()
 
 <br />Push in your switches now. Be careful and hold against the hotswap sockets from the other side.
