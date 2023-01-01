@@ -13,23 +13,23 @@ weight: 10
 toc: true
 ---
 
-| Image              | Description                           | Quantity |
-| ------------------ | ------------------------------------- | -------- |
-|                    |
-| ![PCB]()           | PCB<br><br>SMD components presoldered | 1        |
-| ![switchplate]()   | acrylic switch plate                  | 2        |
-| ![bottomplate]()   | acrylic bottom plate                  | 1        |
-| ![middleplate]()   | acrylic middle layer                  | 2        |
-| ![cover]()         | acrylic cover                         | 1        |
-| ![encoder]()       | rotary encoder                        | 1        |
-| ![knob]()          | aluminium knob                        | 1        |
-| ![sockets]()       | hotswap sockets                       | 40       |
-| ![sk-mini]()       | SK6812mini-e LEDs                     | 18       |
-| ![JST-PH]()        | JST-PH battery connector              | 1        |
-| ![knob]()          | aluminium knob                        | 1        |
-| ![rubberfeet]()    | rubber feet                           | 4        |
-| ![standoff_12mm]() | standoffs (M2x12mm)                   | 10       |
-| ![standoff_11mm]() | standoffs (M2x11mm)                   | 4        |
-| ![screw_5mm]()     | torx screws (M2x5mm)                  | 24       |
-| ![screw_11mm]()    | torx screws (M2x11mm)                 | 4        |
-| ![allen_key]()     | Torx T6 allen key                     | 1        |
+| Image                                      | Description                | Quantity |
+| ------------------------------------------ | -------------------------- | -------- |
+|                                            |
+| ![PCB](pcb.jpg)                            | PCB                        | 1        |
+| ![switchplateleft](switchplate-left.jpg)   | acrylic switch plate left  | 1        |
+| ![switchplateright](switchplate-right.jpg) | acrylic switch plate right | 1        |
+| ![bottomplate](bottom.jpg)                 | acrylic bottom plate       | 1        |
+| ![middleplateleft](middle-left.jpg)        | acrylic middle layer left  | 1        |
+| ![middleplateright](middle-right.jpg)      | acrylic middle layer right | 1        |
+| ![cover](cover.jpg)                        | acrylic cover              | 1        |
+| ![encoder](encoder.jpg)                    | rotary encoder with knob   | 1        |
+| ![sockets]()                               | hotswap sockets            | 40       |
+| ![sk-mini]()                               | SK6812mini-e LEDs          | 18       |
+| ![JST-PH]()                                | JST-PH battery connector   | 1        |
+| ![rubberfeet]()                            | rubber feet                | 4        |
+| ![standoff_12mm](standoffs-long.jpg)       | standoffs (M2x12mm)        | 10       |
+| ![standoff_11mm](standoffs-short.jpg)      | standoffs (M2x11mm)        | 4        |
+| ![screw_5mm](screws-short.jpg)             | torx screws (M2x5mm)       | 24       |
+| ![screw_11mm](screws-long.jpg)             | torx screws (M2x11mm)      | 4        |
+| ![allen_key](allen_key.jpg)                | Torx T6 allen key          | 1        |
