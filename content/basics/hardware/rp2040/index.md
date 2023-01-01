@@ -50,7 +50,7 @@ it provides 1.1V for the cores.
 
 ## Flash
 
-Because the RP2040 doesn't have in build storage you need an external 3.3V (Q)SPI flash and you may use up to 128Mb / 16MB of it.
+Because the RP2040 doesn't have built-in storage you need an external 3.3V (Q)SPI flash and you may use up to 128Mb / 16MB of it.
 
 ![flash](flash.png)
 
