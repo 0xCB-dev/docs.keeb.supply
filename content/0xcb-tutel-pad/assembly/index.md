@@ -37,7 +37,7 @@ toc: true
 <br>Clip off the pins of the OLED on the other side. Otherwise the controller will not fit.
 ![oledclipped](oledclipped.jpg)
 
-<br>You have to flash the controller. You can find the firmware <a href="https://github.com/0xCB-dev/0xCB-TutelPad/releases/tag/v1.0" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
+<br>You have to flash the controller. You can find the firmware <a href="https://files.keeb.supply/firmware/TutelPad/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 ![git](git.webp)
 
 <br>It is good practice to confirm the PCB working after you flashed the controller. So plug it in the computer and see if you can get it to show up in [VIAL]({{< ref "basics/firmware/viaandvial#VIAL" >}}).
