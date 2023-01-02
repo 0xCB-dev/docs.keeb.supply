@@ -1,3 +1,4 @@
+---
 title: "Hardware"
 description: "Your hardware is not working? Here's how to fix it!"
 lead: "Your hardware is not working? Here's how to fix it!"

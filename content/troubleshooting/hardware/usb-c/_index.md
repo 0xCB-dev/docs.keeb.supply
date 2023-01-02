@@ -9,7 +9,7 @@ images: []
 menu:
   troubleshooting:
     parent: "hardware"
-weight: 20
+weight: 10
 toc: true
 ---
 
