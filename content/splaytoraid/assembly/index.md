@@ -13,25 +13,32 @@ weight: 40
 toc: true
 ---
 
-<br />Before we start the assembly, you need to take apart the case! Please remove the screws from one side and pull apart the pieces. You should be left with 3 bottom pieces, two switch plates and the PCB. You can leave the standoffs in the switch plate. You will then need to remove the plastic film from all of the acrylic pieces.
+<br />Before we start the assembly, you need to take apart the case! This is how you will get everything from us:
+![case-stack](case-stack.jpg)
+As you can see all the acrylic parts are stacked together with the PCB.
+
+
+<br />Please remove the screws from one side and pull apart the pieces. You should be left with 3 bottom pieces, two switch plates, the PCB and most of the hardware. You will then need to remove the plastic film from all of the acrylic pieces!
 ![]()
 
 ## PCB
 
-Let's start the assembly with the PCB.
+Let's start the assembly with the PCB and electronic components.
+![pcb](pcb.jpg)
 
 ### Controller
 
 Before soldering anything on the PCB we should get your controller ready.
+![helios](helios.jpg)
+
 
 <br>You have to flash the controller. You can find the firmware <a href="https://files.keeb.supply/firmware/NewHorizons/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 ![qmk](qmk.jpg)
 
 <br> Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
-![]()
+![vial](vial.png)
 
-<br>If it does you have successfully flashed your controller and can move on.
-![]()
+If it does you have successfully flashed your controller and can move on.
 
 ### Soldering
 
@@ -40,10 +47,10 @@ There are a few things you absolutely need to solder and a few which are optiona
 #### required
 
 Begin soldering with the hotswap sockets. You can find instructions for that [here]({{< ref "/basics/soldering/hotswap#kailh" >}}). If you plan on using choc switches, skip this step.
-![]()
+![hotswap](hotswap.jpg)
 
 <br>Please solder in the headers for the controller. You can find instructions for that [here]({{< ref "/basics/soldering/promicro" >}}). The headers go on the front. That is the side with the messenger writing on it.
-![]()
+![ic-socket](ic-socket.jpg)
 
 <br />If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you, the USB port should go to the top of the PCB. You should see the components of the micro controller, when it is sitting in the PCB!
 ![]()

@@ -24,10 +24,10 @@ toc: true
 | ![middleplateright](middle-right.jpg)      | acrylic middle layer right | 1        |
 | ![cover](cover.jpg)                        | acrylic cover              | 1        |
 | ![encoder](encoder.jpg)                    | rotary encoder with knob   | 1        |
-| ![sockets]()                               | hotswap sockets            | 40       |
-| ![sk-mini]()                               | SK6812mini-e LEDs          | 18       |
+| ![sockets](sockets.jpg)                    | hotswap sockets            | 40       |
+| ![sk-mini](leds.jpg)                       | SK6812mini-e LEDs          | 18       |
 | ![JST-PH]()                                | JST-PH battery connector   | 1        |
-| ![rubberfeet]()                            | rubber feet                | 4        |
+| ![rubberfeet](feet.jpg)                    | rubber feet                | 6        |
 | ![standoff_12mm](standoffs-long.jpg)       | standoffs (M2x12mm)        | 10       |
 | ![standoff_11mm](standoffs-short.jpg)      | standoffs (M2x11mm)        | 4        |
 | ![screw_5mm](screws-short.jpg)             | torx screws (M2x5mm)       | 24       |
