@@ -1,3 +1,4 @@
+---
 title: "Software"
 description: "Your firmware is not working? Here's how to fix it!"
 lead: "Your firmware is not working? Here's how to fix it!"
