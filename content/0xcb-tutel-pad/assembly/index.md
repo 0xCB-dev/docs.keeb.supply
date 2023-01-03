@@ -22,7 +22,7 @@ toc: true
 <br>Now solder in the reset button. Again, please pay attention on which side of the PCB you have to solder it on.
 ![button](button.jpg)
 
-<br>Now is also a good time to solder in Mill-Max sockets if you want to. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/mill-max" >}}).
+<br>Now is also a good time to solder in Mill-Max sockets if you want to. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/hotswap#millmax" >}}).
 ![switchmillmax](switchmillmax.jpg)
 
 <br>Next solder in the OLED. This goes on the opposite side of the controller. The OLED should sit straight in the cutout in the switch plate afterwards, so solder only one pin at first.

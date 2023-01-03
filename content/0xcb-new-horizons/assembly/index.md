@@ -52,7 +52,7 @@ Please solder in the headers for the controller. You can find instructions for t
 
 {{< alert icon="💡" text="There are a few features of New Horizons, which you can only use if you soldered in the bottom header with 5 pins. These include the rotary encoder, speaker and LEDs. You need an Elite-C, Pluto, Nice-Nano, Helios, or other similar controllers to utilize these." />}}
 
-<br>You can solder in MillMax-Sockets. You can find instructions for that [here]({{< ref "/basics/soldering/mill-max" >}}).
+<br>You can solder in MillMax-Sockets. You can find instructions for that [here]({{< ref "/basics/soldering/hotswap#millmax" >}}).
 ![millmax](millmax.jpg)
 
 <br>You can solder in a rotary encoder. You can find instructions for that [here]({{< ref "/basics/soldering/ec11" >}}). The encoder goes on the top right of the PCB where your delete key would be located.

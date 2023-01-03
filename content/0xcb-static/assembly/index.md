@@ -16,7 +16,7 @@ toc: true
 <br>Here we will go over all the steps you need to follow after you have soldered the PCB!
 ![topdown-ic](topdown-ic.jpg)
 
-<br>Get your soldered PCB and the switch plate. In the next step we will solder in the switches. So if you plan to Mill-Max your Static please do that now!
+<br>Get your soldered PCB and the switch plate. In the next step we will solder in the switches. So if you plan to Mill-Max your Static please do that now! You can find Instructions on how to solder Mill-Max Sockets [here]({{< ref "/basics/soldering/hotswap#millmax" >}}). 
 ![millmax](millmax.jpg)
 
 <br>Now is also the right time to put your stabilisers in there!
