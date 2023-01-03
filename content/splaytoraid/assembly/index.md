@@ -19,7 +19,7 @@ As you can see all the acrylic parts are stacked together with the PCB.
 
 
 <br />Please remove the screws from one side and pull apart the pieces. You should be left with 3 bottom pieces, two switch plates, the PCB and most of the hardware. You will then need to remove the plastic film from all of the acrylic pieces!
-![]()
+![dissasembled](dissasembled.jpg)
 
 ## PCB
 
@@ -31,8 +31,7 @@ Let's start the assembly with the PCB and electronic components.
 Before soldering anything on the PCB we should get your controller ready.
 ![helios](helios.jpg)
 
-
-<br>You have to flash the controller. You can find the firmware <a href="https://files.keeb.supply/firmware/NewHorizons/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
+<br>You have to flash the controller. You can find the firmware <a href="https://files.keeb.supply/firmware/Splaytoraid/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 ![qmk](qmk.jpg)
 
 <br> Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
@@ -53,23 +52,23 @@ Begin soldering with the hotswap sockets. You can find instructions for that [he
 ![ic-socket](ic-socket.jpg)
 
 <br />If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you, the USB port should go to the top of the PCB. You should see the components of the micro controller, when it is sitting in the PCB!
-![]()
+![controller](controller.jpg)
 
 <br />When you have your controller soldered in, it is good practice to do a [matrix test]({{< ref "/basics/firmware/viaandvial#matrix-testing" >}}).
-![]()
+![matrix](matrix.png)
 
 <br />You also need to solder in your rotary encoder. You can find instructions for that [here]({{< ref "/basics/soldering/ec11" >}}). On the Splaytoraid you need to clip one of the big pins, otherwise it will not fit!
-![]()
+![encoder](encoder.jpg)
 
 #### optional
 
-<br>If you don't want to go with MX style switches you can also ignore the switch plates and just solder in choc switches.
-![]()
+If you don't want to go with MX style switches you can also ignore the switch plates and just solder in choc switches.
+![choc](choc.jpg)
 
 <br />If you want you can solder in the RGB LEDs! Place the PCB in front of you, so that the side with the hotswap sockets on it is facing you. Solder in the LEDs now, facing your way.
-![]()
+![leds](leds.jpg)
 
-<br />You can also make this board bluetooth compatible. In order to use for example a Nice!Nano in this board, you have to solder in the supplied battery connector.
+<br />You can also make this board bluetooth compatible. In order to use bluetooth, you have to solder in the supplied battery connector.
 ![]()
 
 ### Assembly
