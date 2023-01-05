@@ -110,4 +110,4 @@ If you don't want to go with MX style switches you can also ignore the switch pl
 ![rubber-feet](rubber-feet.jpg)
 
 <br />Now you can put on your Keycaps and you are done!
-![]()
+![done](done.jpg)
