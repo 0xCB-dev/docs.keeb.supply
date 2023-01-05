@@ -7,6 +7,7 @@ lastmod: 2022-10-01T21:35:03+02:00
 draft: false
 images: [cover.jpg]
 categories: instructions
+weight: 40
 ---
 
 Here you can find the instructions for the 0xCB Static!

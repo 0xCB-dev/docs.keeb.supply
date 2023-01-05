@@ -24,7 +24,7 @@ As you can see all the acrylic parts are stacked together with the PCB.
 ## PCB
 
 Let's start the assembly with the PCB and electronic components.
-![pcb](pcb.jpg)
+![pcb](pcb-topdown.jpg)
 
 ### Controller
 
@@ -73,35 +73,41 @@ If you don't want to go with MX style switches you can also ignore the switch pl
 
 ### Assembly
 
-<br /> Put on your switch plates again. Check again, if you have removed the plastic film!
-![]()
+<br />Go ahead and screw in the M2x12mm standoffs using M2x5mm screws.
+![switchplate-screws](switchplate-screws.jpg)
 
-<br />Push in your switches now. Be careful and hold against the hotswap sockets from the other side.
-![]()
+<br /> Put on your switch plates again. Check again, if you have removed the plastic film!
+![switchplate-pcb](switchplate-pcb.jpg)
+
+<br />Push in your switches now. Be careful and hold your thumb against the hotswap sockets from the back so that they don't break out.
+![switches](switches.jpg)
 
 <br />Turn the keyboard around and put on your two middle layers.
-![]()
+![middle-layer](middle-layer.jpg)
 
 <br />Be careful! They are not symetrical. The middle layer with the two cutouts on the right also goes to the right. You can easily check this, if your middle layer leaves room for your hotswap sockets.
-![]()
+![middle-layer-cutout](middle-layer-cutout.jpg)
 
 <br />Now put on your bottom layer.
-![]()
+![bottom](bottom.jpg)
 
 <br />Screw in the bottom layer with the short M2x5mm screws.
-![]()
+![bottom-screws](bottom-screws.jpg)
 
 <br />Take out the acrylic cover and screw in the 4 M2x11mm standoffs using the remaining M2x5mm screws.
-![]()
+![acrylic-center-cover](acrylic-center-cover.jpg)
 
 <br />Place it on top of the PCB.
-![]()
+![center-cover-pcb](center-cover-pcb.jpg)
 
 <br />Screw it in from the bottom with the long M2x11mm screws.
-![]()
+![center-cover-screw](center-cover-screw.jpg)
 
 <br />Put on your encoder knob and tighten it.
-![]()
+![encoder-knob](encoder-knob.jpg)
+
+<br />Put on your rubber feet.
+![rubber-feet](rubber-feet.jpg)
 
 <br />Now you can put on your Keycaps and you are done!
-![]()
+![done](done.jpg)
