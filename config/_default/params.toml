@@ -10,7 +10,7 @@ description = "Documentation for everything related to KeebSupply."
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["og.webp"]
 ogLocale = "en_US"
 domainTLD = "docs.keeb.supply"
 titleHome = "KeebSupply Docs"
@@ -22,21 +22,18 @@ twitterCreator = ""
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "Keeb Supply Docs"
+schemaAuthor = "Keeb Supply"
+schemaAuthorGitHub = "https://github.com/0xcb-dev"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "logo.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "og.webp"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/0xcb-dev/docs.keeb.supply"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -68,13 +65,12 @@ fillImage = "1024x768 Center" # normalize image size
 footer = "Shop now on <a class=\"text-muted\" href=\"https://keeb.supply/\">KeebSupply</a> - Our <a class=\"text-muted\" href=\"https://github.com/0xcb-dev/\">GitHub</a>"
 
 # Feed
-copyRight = "Copyright (c) 2022 Burns & Kriener Keyboards GbR"
+copyRight = "Copyright (c) 2023 Burns & Kriener Keyboards GbR"
 
 # Alert
-alert = false
-alertDismissable = true
-# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+# alert = false
+# alertDismissable = true
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
