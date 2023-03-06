@@ -26,7 +26,6 @@ toc: true
 | ![encoder](encoder.jpg)                    | rotary encoder with knob   | 1        |
 | ![sockets](sockets.jpg)                    | hotswap sockets            | 40       |
 | ![sk-mini](leds.jpg)                       | SK6812mini-e LEDs          | 18       |
-| ![JST-PH]()                                | JST-PH battery connector   | 1        |
 | ![rubberfeet](feet.jpg)                    | rubber feet                | 6        |
 | ![standoff_12mm](standoffs-long.jpg)       | standoffs (M2x12mm)        | 10       |
 | ![standoff_11mm](standoffs-short.jpg)      | standoffs (M2x11mm)        | 4        |

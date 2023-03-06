@@ -68,7 +68,7 @@ If you don't want to go with MX style switches you can also ignore the switch pl
 <br />If you want you can solder in the RGB LEDs! Place the PCB in front of you, so that the side with the hotswap sockets on it is facing you. Solder in the LEDs now, facing your way! This is important because we use the LEDs as underglow LEDs. You can find instructions for that [here]({{< ref "basics/soldering/leds#sk6812-mini-e" >}}).
 ![leds](leds.jpg)
 
-<br />You can also make this board bluetooth compatible. In order to use bluetooth, you have to solder in the supplied battery connector.
+<br />You can also make this board bluetooth compatible. In order to use bluetooth, you have to solder in a battery connector.
 ![]()
 
 ### Assembly

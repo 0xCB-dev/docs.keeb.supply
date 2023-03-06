@@ -12,7 +12,7 @@ weight: 35
 
 ![logo](logo.svg)
 
-Here you can find the instructions for assembling the TOTEM.
+Here you can find the instructions for assembling the TOTEM by GEIST.
 
 The Kit comes with everything you need, but especially the controller is a bit more difficult to solder.
 
