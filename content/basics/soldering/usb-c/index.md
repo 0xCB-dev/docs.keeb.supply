@@ -25,7 +25,7 @@ Soldering the USB Port is always the most challenging part of any build! We reco
 <br>Now you can add solder to one of the big pins of the USB port. Please be patient and really only do one! ;) Just hold the soldering iron on the pin for a while and then slowly add solder. If all goes well it should flow into the hole around the pin and you should be able to see a bit of solder on the other side.
 ![usb-bottom-1soldered](usb-bottom-1soldered.jpg)
 
-<br>Now look at the top of the USB port if it sits straight in there. If it is not straight (Like on the pic to the right) you can go ahead and put the soldering iron on the joint and heat it up again. Now grab a pair of tweezers and position the USB port so that it sits straight. Don't touch it with your hands! The whole housing will get hot!
+<br>Now look at the top of the USB port if it sits straight in there. If it is not straight (Like on the pic at the bottom) you can go ahead and put the soldering iron on the joint and heat it up again. Now grab a pair of tweezers and position the USB port so that it sits straight. Don't touch it with your hands! The whole housing will get hot!
 ![usb-crooked](usb-crooked.jpg)
 
 <br>After that you can go ahead and solder the other three big pins of the USB port. Those should go the same as the first one. Just let your soldering iron rest on the joint a bit, add solder to it and let it flow into the holes around the pins.
