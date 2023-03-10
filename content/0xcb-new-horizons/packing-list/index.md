@@ -23,7 +23,7 @@ toc: true
 | ![standoff_5mm](standoff_5mm.jpg)   | standoffs (M2x5mm)                    | 6        |
 | ![standoff_12mm](standoff_12mm.jpg) | standoffs (M2x10mm)                   | 2        |
 | ![screw_4mm](screw_4mm.jpg)         | torx screws (M2x4mm)                  | 16       |
-| ![screw_12mm](screw_12mm.jpg)       | torx screws (M2x12mm)                 | 4        |
+| ![screw_12mm](screw_12mm.jpg)       | torx screws (M2x10mm)                 | 4        |
 | ![nuts](nuts.jpg)                   | nuts (M2)                             | 4        |
 | ![acrylcover](acrylcover.jpg)       | acrylic cover                         | 1        |
 | ![acrylfeet](acrylfeet.jpg)         | acrylic feet                          | 2+2      |
