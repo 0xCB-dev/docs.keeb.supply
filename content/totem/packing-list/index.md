@@ -52,6 +52,6 @@ Depending on the version, there will be different parts included in the kit.
 | ----- | -------------- | -------- |
 |       |
 |       | BLE Seeed Xiao | 2        |
-|       | power switch   | 1        |
+|       | power switch   | 2        |
 
 {{< alert icon="💡" text="To make the Ble version of the TOTEM work, you will need to buy yourself a battery." />}}
