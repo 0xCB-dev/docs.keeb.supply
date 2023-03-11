@@ -13,17 +13,45 @@ weight: 10
 toc: true
 ---
 
+## GENERAL PARTS
+
+| Image | Description     | Quantity            |
+| ----- | --------------- | ------------------- |
+|       |
+|       | PCBs            | 1 left<br />1 right |
+|       | Diodes          | 38                  |
+|       | reset button    | 2                   |
+|       | hotswap sockets | 38                  |
+
+## 3DP CASE PARTS
+
 | Image | Description               | Quantity            |
 | ----- | ------------------------- | ------------------- |
 |       |
 |       | 3D Printed Case           | 1 left<br />1 right |
-|       | PCBs                      | 1 left<br />1 right |
-|       | RP2040 Seeed Xiao         | 2                   |
-|       | Diodes                    | 38                  |
-|       | reset button              | 2                   |
-|       | TRRS jack                 | 2                   |
-|       | TRRS cable                | 1                   |
-|       | hotswap sockets           | 38                  |
 |       | M2x6mm standoffs          | 8                   |
 |       | M2x6mm countersunk screws | 16                  |
 |       | rubber feet               | 8                   |
+
+## VERSION
+
+Depending on the version, there will be different parts included in the kit.
+
+### WIRED VERSION
+
+| Image | Description       | Quantity |
+| ----- | ----------------- | -------- |
+|       |
+|       | RP2040 Seeed Xiao | 2        |
+|       | TRRS jack         | 2        |
+|       | TRRS cable        | 1        |
+
+### BLUETOOTH VERSION
+
+| Image | Description    | Quantity |
+| ----- | -------------- | -------- |
+|       |
+|       | BLE Seeed Xiao | 2        |
+|       | power switch   | 1        |
+
+{{< alert icon="💡" text="To make the Ble version of the TOTEM work, you will need to buy yourself a battery." />}}
