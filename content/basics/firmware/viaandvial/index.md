@@ -9,7 +9,7 @@ images: []
 menu:
   basics:
     parent: "firmware"
-weight: 10
+weight: 2010
 toc: true
 ---
 

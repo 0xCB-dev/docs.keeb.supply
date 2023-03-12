@@ -9,7 +9,7 @@ images: []
 menu:
   basics:
     parent: "hardware"
-weight: 10
+weight: 1010
 toc: true
 ---
 

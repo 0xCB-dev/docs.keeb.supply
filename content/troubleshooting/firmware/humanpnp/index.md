@@ -9,7 +9,7 @@ images: []
 menu:
   troubleshooting:
     parent: "firmware"
-weight: 10
+weight: 1010
 toc: true
 ---
 

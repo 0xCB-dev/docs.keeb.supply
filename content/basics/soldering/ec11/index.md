@@ -9,7 +9,7 @@ images: []
 menu:
   basics:
     parent: "soldering"
-weight: 80
+weight: 70
 toc: true
 ---
 

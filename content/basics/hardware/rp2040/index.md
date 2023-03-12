@@ -9,7 +9,7 @@ images: []
 menu:
   basics:
     parent: "hardware"
-weight: 20
+weight: 1020
 toc: true
 ---
 
@@ -44,7 +44,7 @@ The easiest way to archive this is by using a 3.3V LDO to step down the 5V from 
 ### 1.1V
 
 You might have spotted the voltage regulator in the floorplan image.
-it provides 1.1V for the cores. 
+it provides 1.1V for the cores.
 
 {{< alert icon="💡" text="Because of that it is extremely important to place 1μF capacitors directly next to their input and output!" />}}
 
