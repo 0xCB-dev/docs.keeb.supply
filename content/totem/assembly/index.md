@@ -122,7 +122,7 @@ Apply a tiny bit of solder on the bigger, outer pads on top of the PCB.
 <br />Attach the wires of the battery to the pads and solder them in.
 ![it_stings](it_stings.jpg)
 
-<br />Once you are done with the parts for the wired version you can skip to [here]({{< ref "/totem/assembly#cleaning" >}}) to continue.
+<br />Once you are done with the parts for the bluetooth version you can skip to [here]({{< ref "/totem/assembly#cleaning" >}}) to continue.
 
 ### CLEANING
 
