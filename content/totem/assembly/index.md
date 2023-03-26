@@ -65,7 +65,7 @@ Insert the button into the top of the PCB.
 
 #### MICROCONTROLLER
 
-{{< alert icon="💡" text="When you buy the kit through KeebSupply you will get preflashed controllers." />}}
+{{< alert icon="💡" text="When you buy the kit through KeebSupply you will get preflashed controllers. The controller with the yellow dot on the bottom is the controller for the left side!!! Orientation is very important here!" />}}
 
 <br />Place the microcontroller in it's place.
 Apply some flux and try to hold the iron in an angle where you touch the pads of the microcontroller and the PCB, while adding solder.
