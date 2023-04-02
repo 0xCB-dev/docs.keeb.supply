@@ -15,23 +15,24 @@ toc: true
 
 ## GENERAL PARTS
 
-| Image | Description     | Quantity            |
-| ----- | --------------- | ------------------- |
-|       |
-|       | PCBs            | 1 left<br />1 right |
-|       | Diodes          | 38                  |
-|       | reset button    | 2                   |
-|       | hotswap sockets | 38                  |
+| Image                   | Description     | Quantity            |
+| ----------------------- | --------------- | ------------------- |
+|                         |
+| ![PCB](pcb.jpg)         | PCBs            | 1 left<br />1 right |
+| ![diodes](diodes.jpg)   | Diodes          | 38                  |
+| ![reset](reset.jpg)     | reset button    | 2                   |
+| ![hotswap](hotswap.jpg) | hotswap sockets | 38                  |
 
 ## 3DP CASE PARTS
 
-| Image | Description               | Quantity            |
-| ----- | ------------------------- | ------------------- |
-|       |
-|       | 3D Printed Case           | 1 left<br />1 right |
-|       | M2x6mm standoffs          | 8                   |
-|       | M2x6mm countersunk screws | 16                  |
-|       | rubber feet               | 8                   |
+| Image                       | Description               | Quantity            |
+| --------------------------- | ------------------------- | ------------------- |
+|                             |
+| ![case](case.jpg)           | 3D Printed Case           | 1 left<br />1 right |
+| ![standoffs](standoffs.jpg) | M2x6mm standoffs          | 8                   |
+| ![screws](screws.jpg)       | M2x6mm countersunk screws | 16                  |
+| ![feet](feet.jpg)           | rubber feet               | 8                   |
+| ![inbus](inbus.jpg)         | allen key                 | 1                   |
 
 ## VERSION
 
@@ -39,19 +40,19 @@ Depending on the version, there will be different parts included in the kit.
 
 ### WIRED VERSION
 
-| Image | Description       | Quantity |
-| ----- | ----------------- | -------- |
-|       |
-|       | RP2040 Seeed Xiao | 2        |
-|       | TRRS jack         | 2        |
-|       | TRRS cable        | 1        |
+| Image                 | Description       | Quantity |
+| --------------------- | ----------------- | -------- |
+|                       |
+| ![rp2040](rp2040.jpg) | RP2040 Seeed Xiao | 2        |
+| ![trrs](trrs.jpg)     | TRRS jack         | 2        |
+| ![cable](cable.jpg)   | TRRS cable        | 1        |
 
 ### BLUETOOTH VERSION
 
-| Image | Description    | Quantity |
-| ----- | -------------- | -------- |
-|       |
-|       | BLE Seeed Xiao | 2        |
-|       | power switch   | 2        |
+| Image                 | Description    | Quantity |
+| --------------------- | -------------- | -------- |
+|                       |
+| ![ble](ble.jpg)       | BLE Seeed Xiao | 2        |
+| ![switch](switch.jpg) | power switch   | 2        |
 
 {{< alert icon="💡" text="To make the Ble version of the TOTEM work, you will need to buy yourself a battery." />}}
