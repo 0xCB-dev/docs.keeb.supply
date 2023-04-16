@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "KeebSupply"
+title = "Keeb Supply Docs"
 titleSeparator = "-"
 titleAddition = "Docs"
-description = "Documentation for everything related to KeebSupply."
+description = "Documentation for everything related to Keeb Supply."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -13,7 +13,7 @@ description = "Documentation for everything related to KeebSupply."
 images = ["og.webp"]
 ogLocale = "en_US"
 domainTLD = "docs.keeb.supply"
-titleHome = "KeebSupply Docs"
+titleHome = "Keeb Supply Docs"
 
 ## Twitter Cards
 twitterSite = ""
