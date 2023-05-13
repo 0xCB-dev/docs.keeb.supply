@@ -19,11 +19,10 @@ The short version:
 - Small keyboards are usable, fun, cute, and often less expensive.
 - Alternative layouts help reducing size and can feel more comfortable.
 
-Most of the info here is shortened and summarized from other sources. Where possible, links are provided.
-An overview of these resources can be found (here)[TODO].
+Most of the info here is shortened and summarized from other sources.
+An overview of these resources can be found (here)[https://docs.keeb.supply/basics/small_keyboards/resources].
 
-## Why use less keys?
-### Ergonomics
+### Why use less keys?
 Ergonomics is often the main motivation for people to start looking into smaller keyboards.
 With less keys, your hands have to move less, which means less strain on wrists and fingers.
 

@@ -13,20 +13,29 @@ weight: 20
 ---
 
 ## Overview
-Let's rip off the bandaid quickly: the Qwerty layout is not a good layout.
-In fact, it's a rather bad one.
+> If there is anything we should be able to agree on in keyboard layouts, it's that what is "good" is entirely subjective. People have different hands. They have different ideas of what is comfortable, and different physical limits.
+> [...]
+> Be skeptical of anyone who claims their layout to be "objectively" better than other layouts.
+> [...]
+> What matters is not how well the layout fits the metrics, it's how well the metrics fit you.
+-- *semi* in [the blog post "200 wpm - final reflection on Semimak"](https://semilin.github.io/):
+
+Let's rip off the bandaid quickly: the Qwerty layout is usually not considered a good layout.
+In fact, it's said to be a rather bad one.
 While -- contrary to popular believe -- it was not designed to slow-down the typist, it wasn't designed for touch-typing either (which was, in fact, invented after the Qwerty layout).
 Actually there doesn't seem to be any discernible reason for why keys on Qwerty are arranged the way they are.
-Qwerty achieves notoriously bad results in all common metrics used to analyze keymaps.
-It really only has one noteworthy quality: It is the standard layout used on almost every modern keyboard.
+Qwerty achieves notoriously bad results in all common metrics used to analyze keyboard layouts.
+It has one very noteworthy quality, though: It is the standard layout used on almost every modern keyboard.
 
-Obviously, we can do much better!
+If you are interested in some optimization, we can usually do much better!
+
 A general recommendation for everyone who wants to try an alternative layout (and types in English a lot) is the Colemak layout.
-It actually works quite well for German as well, and there's a decent amount of compatible keycap sets.
-The benefit of further optimization is sometimes said to be negligible compared to what Colemak offers over Qwerty.
+It performs very well in many common metrics, and there's a decent amount of compatible keycap sets.
+The benefit of further optimization is sometimes said to be negligible compared to what Colemak offers over Qwerty, so if you just want a quick solution without going into the depths, our recommendation is Colemak.
+(It actually works quite well for German, too.)
 
-This page introduces some common ideas and metrics used for optimizing keymaps.
-Some example layouts can also be found [here](TODO).
+If you're up for the fun part, this page introduces some common ideas and metrics used for optimizing keyboard layouts.
+While we will just quickly go over common optimizations here, [this Google doc](https://docs.google.com/document/d/1_a5Nzbkwyk1o0bvTctZrtgsee9jSP-6I0q3A0_9Mzm0/edit#) contains *a lot* of further information, including analyses of lots of example layouts.
 
 ## Optimization Goals
 This section is an introduction to common optimization goals.
@@ -46,6 +55,7 @@ Others prefer usage of the inner index column to be reduced as much as possible.
 #### Thumb Usage
 Something many people don't realize is that two thumbs can also press more than one large key in total.
 While thumbs are not commonly used to input letters, putting a common one such as E opposite of the Space Key is a possible approach to balance thumb usage and take some load off the other fingers.
+See also [this article on pressing `E` with the thumb](https://precondition.github.io/pressing-e-with-the-thumb).
 ### Introducing Comfortable Patterns
 #### Rolls
 A roll is like the motion when drumming your fingers on a table.
