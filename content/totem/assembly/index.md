@@ -151,5 +151,7 @@ When you are done soldering, you should clean your PCB with isopropanol or PCB c
 
 ## FINAL BUILD
 
+When you buy the Kit through KeebSuppy, the TOTEM comes preflashed with a [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}) config. The keyboard should pop right up, when plugging it in.
+
 This is how the final keyboard will probably look like.
 ![final](final.jpg)

@@ -48,7 +48,7 @@ Kailh style hotswap sockets need a special footprint to work. The holes where th
 <br />This is how the front of your PCB should look. As you can see, the socket fills out the two big holes.
 ![socket-front](socket-front.jpg)
 
-## Choc low profile
+### Choc low profile
 
 Soldering choc low profile sockets is the same as MX sockets. The orientation is not reversible tho! You need to pay close attention as to putting them in the right way in.
 ![hotswap_02](hotswap_02.jpg)
