@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   basics:
-    parent: "small_keyboards"
+    parent: "small-keyboards"
 weight: 10
 ---
 
@@ -19,7 +19,7 @@ Making the keys we have more powerful.
 
 For this, each key will serve multiple purposes.
 How exactly this is achieved best is very much a matter of personal preference.
-We show some well-liked options below.
+We will show some well-liked options below.
 
 ### Layers
 Most small keyboard users work with layers.
@@ -71,7 +71,7 @@ Combo documentations in common firmwares:
 #### Example
 An option for quick deletion combos (combo-keys given with respect to default Qwerty as an example):
 
-Press `u`+`i` to delete a character (`Backspace`), `u`+`o` to delete a word (`Ctrl`+`Backspace`), and `u`+`i`+`o` to delete the entire line (`Home`, hold `Shift`, `End` release `Shift`, `Backspace`)
+Press `u`+`i` to delete a character (`Backspace`), `u`+`o` to delete a word (`Ctrl`+`Backspace`), and `u`+`i`+`o` to delete the entire line (`Home`, hold `Shift`, `End` release `Shift`, `Backspace`).
 
 
 ### Sequences

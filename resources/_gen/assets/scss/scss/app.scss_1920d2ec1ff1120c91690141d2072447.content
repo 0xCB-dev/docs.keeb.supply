@@ -9914,11 +9914,13 @@ svg.DocSearch-Hit-Select-Icon {
   text-rendering: auto; }
 
 .katex * {
-  -ms-high-contrast-adjust: none !important;
+  -ms-high-contrast-adjust: none !important; }
+
+.katex * {
   border-color: currentColor; }
 
 .katex .katex-version::after {
-  content: "0.16.4"; }
+  content: "0.16.6"; }
 
 .katex .katex-mathml {
   /* Accessibility hack to only show to screen readers
