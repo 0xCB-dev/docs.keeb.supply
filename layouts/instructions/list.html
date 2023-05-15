@@ -7,8 +7,10 @@
 			<div class="card-list">
 				{{ range .Site.Taxonomies.categories.instructions }}
 				<div class="card my-3">
-					{{- .Scratch.Set "fillImage" "1270x620 Center" -}}
-					{{ partial "content/card-image.html" . }}
+					<div class="card-body">
+						{{- .Scratch.Set "fillImage" "1270x620 Center" -}}
+						{{ partial "content/card-image.html" . }}
+					</div>
 					<div class="card-body">
 						<a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
 					</div>

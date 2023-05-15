@@ -18,6 +18,11 @@
   transform: scale(1.025);
 }
 
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .contributors.list .card.card-terms:hover,
 .categories.list .card.card-terms:hover,
 .tags.list .card.card-terms:hover {
@@ -30,13 +35,13 @@
 .blog.single .card-body,
 .categories.list .card-body,
 .tags.list .card-body {
-  padding: 0 2rem 1rem;
+  padding: 0;
 }
 
 .contributors.list .card-terms .card-body,
 .categories.list .card-terms .card-body,
 .tags.list .card-terms .card-body {
-  padding: 1rem;
+  padding: 0;
 }
 
 .blog-header {

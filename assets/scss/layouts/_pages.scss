@@ -1,6 +1,6 @@
-.docs-content > h2[id]::before,
-.docs-content > h3[id]::before,
-.docs-content > h4[id]::before {
+.docs-content>h2[id]::before,
+.docs-content>h3[id]::before,
+.docs-content>h4[id]::before {
   display: block;
   height: 6rem;
   margin-top: -6rem;
@@ -35,6 +35,7 @@ h4:hover a {
 }
 
 @include media-breakpoint-up(md) {
+
   .edit-page,
   .last-modified {
     font-size: $font-size-base;
