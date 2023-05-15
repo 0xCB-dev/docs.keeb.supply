@@ -17,5 +17,5 @@ toc: true
 | -------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- |
 |                                        |                |                                                                                                                       |
 | ![flush-cutters](flush-cutters.webp)   | flush cutters  | You will need these to cut the wires needed for the OLED.                                                             |
-| ![soldering-iron](soldering-iron.webp) | soldering iron | We recomment a good soldering iron! Don't expect a challenge tho, the soldering on the 1337 is rather simple.         |
+| ![soldering-iron](soldering-iron.webp) | soldering iron | We recommend a good soldering iron! Don't expect a challenge though, the soldering on the 1337 is rather simple.      |
 | ![solder](solder.webp)                 | solder         | Please use high quality solder (flux core or apply flux externally) to make your life easier when soldering this kit! |

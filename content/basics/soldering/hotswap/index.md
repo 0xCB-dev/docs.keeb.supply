@@ -18,7 +18,7 @@ There are two types of sockets out there. MillMax sockets are nice, because you 
 
 ## MillMax
 
-<br>Get your bag of sockets ready and take them out. Place them all in the holes of the PCB from the top.
+Get your bag of sockets ready and take them out. Place them all in the holes of the PCB from the top.
 ![socketspcb](socketspcb.jpg)
 
 <br>Now you have to secure the sockets so that you can turn around the PCB for soldering. We always use kapton tape for that. You can also use other tapes, just make sure that they are heat resistant.
@@ -36,7 +36,7 @@ Kailh style hotswap sockets need a special footprint to work. The holes where th
 
 ### MX
 
-<br />When placing the hotswap sockets into the PCB it is important that you pay close attention to the orientation of the socket! Here you can see the right way around. As you can see the socket forms around the big hole in the center.
+When placing the hotswap sockets into the PCB it is important that you pay close attention to the orientation of the socket! Here you can see the right way around. As you can see the socket forms around the big hole in the center.
 ![socket-right](socket-right.jpg)
 
 <br />Your socket should not look like this! This is the wrong way around. You are covering two of the switch holes.That way you will not be able to put in your switch.

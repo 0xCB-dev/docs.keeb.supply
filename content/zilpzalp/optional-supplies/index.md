@@ -1,7 +1,7 @@
 ---
 title: "Optional Supplies"
-description: "These Supplies are not needed to build the ZilpZalp, but they definitely help!"
-lead: "These Supplies are not needed to build the ZilpZalp, but they definitely help!"
+description: "These Supplies are not needed to build the Zilpzalp, but they definitely help!"
+lead: "These Supplies are not needed to build the Zilpzalp, but they definitely help!"
 date: 2020-11-17T19:48:27+01:00
 lastmod: 2020-11-17T19:48:27+01:00
 draft: false

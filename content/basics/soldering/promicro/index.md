@@ -72,3 +72,17 @@ Soldering Hotswap sockets takes a bit more work. Start by just placing your cont
 
 <br>Now add solder to all of the pins. Be careful to not add too much solder so that it doesn't come out of the other side.
 ![all-soldered](all-soldered.jpg)
+
+### PCB mount
+
+You can solder some controllers directly to the PCB. Take a look if your controller has castellated holes at the sides. This makes it easy to mount it directly to the PCB. Your controller also needs to have a USB port that is not sticking out of the bottom, so that the controller can lay flat on the PCB.
+![seeed](seeed.jpg)
+
+<br>Start by adding a good amount of solder to one pad of the footprint. On this picture you can see a footprint that is specially designed for PCB mounting. The pads are larger and stick out of the sides of the controller.
+![pcbmount-1](pcbmount-1.jpg)
+
+<br>After that slide the controller onto the pad while heating up the solder with your soldering iron. If the controller does not sit straight afterwords, you can always heat up the solder again and align it.
+![pcbmount-2](pcbmount-2.jpg)
+
+<br>Once you are happy with the alignement of your controller, you can solder all the other pads.
+![pcbmount-3](pcbmount-3.jpg)
