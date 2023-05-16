@@ -16,8 +16,8 @@ toc: true
 | Image                       | Description                   | Quantity |
 | --------------------------- | ----------------------------- | -------- |
 |                             |
-| ![]()                       | PCB                           | 1        |
+| ![pcb](pcb.jpg)             | PCB                           | 1        |
 | ![seeed](seeed.jpg)         | Seeed XIAO RP2040             | 1        |
 | ![diodes](diodes.jpg)       | diodes (sot23 common cathode) | 14       |
 | ![hssockets](hssockets.jpg) | Kailh HotSwap sockets         | 28       |
-| ![]()                       | rubber feet                   | 8        |
+| ![feet](feet.jpg)           | rubber feet                   | 6        |

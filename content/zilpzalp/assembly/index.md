@@ -14,7 +14,7 @@ toc: true
 ---
 
 <br>Let's start the assembly with the PCB.
-![]()
+![zilpzalp-pcb](zilpzalp-pcb.jpg)
 
 <br>You can start by soldering on your diodes. You can find Instructions on how to solder diodes [here]({{< ref "basics/soldering/smd#diodes" >}}).
 ![zilpzalp-diodesoldered](zilpzalp-diodesoldered.jpg)
