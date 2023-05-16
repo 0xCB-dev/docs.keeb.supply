@@ -25,6 +25,7 @@ Below you'll find the small collection of resources used for creating this intro
 
 ### Firmware Features
 - [precondition's in-depth write-up on home-row mods](https://precondition.github.io/home-row-mods)
+- [Pascal Getreuer's collection of QMK tips and tricks](https://getreuer.info/posts/keyboards/index.html)
 
 #### Firmware Documentation
 - [QMK Documentation](https://docs.qmk.fm/#/)

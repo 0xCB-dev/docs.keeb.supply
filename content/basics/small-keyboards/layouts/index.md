@@ -18,7 +18,8 @@ weight: 20
 > Be skeptical of anyone who claims their layout to be "objectively" better than other layouts.
 > [...]
 > What matters is not how well the layout fits the metrics, it's how well the metrics fit you.
--- *semi* in [the blog post "200 wpm - final reflection on Semimak"](https://semilin.github.io/):
+
+-- *semi* in [the blog post "200 wpm - final reflection on Semimak"](https://semilin.github.io/posts/200-wpm---final-reflection-on-Semimak.html):
 
 Let's rip off the bandaid quickly: the Qwerty layout is usually not considered a good layout.
 In fact, it's said to be a rather bad one.
