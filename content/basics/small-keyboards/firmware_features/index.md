@@ -36,7 +36,10 @@ Layer documentations in common firmwares:
 
 #### Example
 
-[//]: # (TODO: input picture of different layers)
+In the image below, you can see an example layout with a default/base layer and an additional layer, that can be accessed by holding the `Esc` key.
+While it is held, every other key on the keyboard changes its function.
+
+![example-layer](layer_example.svg)
 
 
 ### Hold-Taps
