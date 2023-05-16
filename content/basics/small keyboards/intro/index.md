@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   basics:
-    parent: "small-keyboards"
+    parent: "small keyboards"
 weight: 5
 ---
 
@@ -20,7 +20,7 @@ The short version:
 - Alternative layouts help reducing size and can feel more comfortable.
 
 Most of the info here is shortened and summarized from other sources.
-An overview of these resources can be found [here]({{< ref "/basics/small-keyboards/resources" >}}).
+An overview of these resources can be found [here]({{< ref "/basics/small keyboards/resources" >}}).
 
 ### Why use less keys?
 Ergonomics is often the main motivation for people to start looking into smaller keyboards.

@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   basics:
-    parent: "small-keyboards"
+    parent: "small keyboards"
 weight: 100
 ---
 
