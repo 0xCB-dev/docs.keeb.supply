@@ -34,4 +34,4 @@ toc: true
 <br>Now just put on your keycaps and you are done with your Zilpzalp!
 ![zilpzalp-cover](zilpzalp-cover.jpg)
 
-<br>The Zilpzalp comes preflashed with a VIAL config. If you want to learn more about small keyboards, you can go to here.
+<br>QMK and VIAL firmwares for the Zilpzalp are available here (TODO). Also note our [Example Keymaps]({{< ref "/zilpzalp/example keymaps" >}}) for getting started. If you want to learn more about small keyboards in general, check out our [Intro to Small Keyboards]({{< ref "/basics/small keyboards/intro" >}}).
