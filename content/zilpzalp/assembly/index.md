@@ -16,6 +16,8 @@ toc: true
 <br>Let's start the assembly with the PCB.
 ![zilpzalp-pcb](zilpzalp-pcb.jpg)
 
+{{< alert icon="💡" text="If you want to make the PCB look better, you can use a black sharpie to color the edges of the PCB." />}}
+
 <br>You can start by soldering on your diodes. You can find Instructions on how to solder diodes [here]({{< ref "basics/soldering/smd#diodes" >}}).
 ![zilpzalp-diodesoldered](zilpzalp-diodesoldered.jpg)
 
@@ -34,4 +36,4 @@ toc: true
 <br>Now just put on your keycaps and you are done with your Zilpzalp!
 ![zilpzalp-cover](zilpzalp-cover.jpg)
 
-<br>QMK and VIAL firmwares for the Zilpzalp are available here (TODO). Also note our [Example Keymaps]({{< ref "/zilpzalp/example keymaps" >}}) for getting started. If you want to learn more about small keyboards in general, check out our [Intro to Small Keyboards]({{< ref "/basics/small keyboards/intro" >}}).
+<br>A VIAL firmware for the Zilpzalp is available [here](https://files.keeb.supply/firmware/Zilpzalp/). If you want to dive deaper into the firmware side of things check out the [GitHub](https://github.com/kilipan/zilpzalp). Also note our [Example Keymaps]({{< ref "/zilpzalp/example keymaps" >}}) for getting started. If you want to learn more about small keyboards in general, check out our [Intro to Small Keyboards]({{< ref "/basics/small keyboards/intro" >}}).
