@@ -17,7 +17,7 @@ toc: true
 
 Here we will show you how to solder small diodes. In this example we will use a normal double diode.
 
-Start by adding solder to one of the pads
+Start by adding solder to one of the pads.
 ![diodes-1](diodes-1.jpg)
 
 <br>Then just add your component to the pad and heat up the solder again to fix it in place.

@@ -12,4 +12,4 @@ weight: 37
 
 Here you can find the instructions for assembling the Zilpzalp.
 
-If this is your first small keyboard, feel free to check out more information about the topic here(add link pls).
+If this is your first small keyboard, feel free to check out more information about the topic in our [Intro to Small Keyboards]({{< ref "/basics/small keyboards/intro" >}}).
