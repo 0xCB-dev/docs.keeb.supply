@@ -38,6 +38,8 @@ The benefit of further optimization is sometimes said to be negligible compared 
 If you're up for the fun part, this page introduces some common ideas and metrics used for optimizing keyboard layouts.
 While we will just quickly go over common optimizations here, [this Google doc](https://docs.google.com/document/d/1_a5Nzbkwyk1o0bvTctZrtgsee9jSP-6I0q3A0_9Mzm0/edit#) contains *a lot* of further information, including analyses of lots of example layouts.
 
+<br />
+
 ## Optimization Goals
 This section is an introduction to common optimization goals.
 Keep in mind that everyone's hands are different and not everyone will want to prioritize the same goals.
@@ -57,7 +59,11 @@ Others prefer usage of the inner index column to be reduced as much as possible.
 Something many people don't realize is that two thumbs can also press more than one large key in total.
 While thumbs are not commonly used to input letters, putting a common one such as E opposite of the Space Key is a possible approach to balance thumb usage and take some load off the other fingers.
 See also [this article on pressing `E` with the thumb](https://precondition.github.io/pressing-e-with-the-thumb).
+
+<br />
+
 ### Introducing Comfortable Patterns
+
 #### Rolls
 A roll is like the motion when drumming your fingers on a table.
 Both outwards (index to pinky) and inwards (pinky to index) rolls exist.

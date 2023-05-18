@@ -21,6 +21,8 @@ For this, each key will serve multiple purposes.
 How exactly this is achieved best is very much a matter of personal preference.
 We will show some well-liked options below.
 
+<br />
+
 ### Layers
 Most small keyboard users work with layers.
 A layer is a set of behaviors for all keys of a keyboard.
@@ -41,6 +43,7 @@ While it is held, every other key on the keyboard changes its function.
 
 ![example-layer](layer_example.svg)
 
+<br />
 
 ### Hold-Taps
 Hold-tap (or tap-hold) refers to a behavior where a keypress results in different things depending on how long the key is pressed.
@@ -61,6 +64,7 @@ When held, instead it becomes one of the modifiers `Shift`, `Ctrl`, `Alt`, `Gui`
 So, for typing "Giant Moose", you'd press the following sequence of keys:
 press and hold `j`, `g`, release `j`,  `i`, `a`, `n`, `t`, `Space`, press and hold `f`, `m`, release `f`, `o`, `o`, `s`, `e`.
 
+<br />
 
 ### Combos
 Combos produce special results when pressing two (or more) keys at the same time.
@@ -76,6 +80,7 @@ An option for quick deletion combos (combo-keys given with respect to default Qw
 
 Press `u`+`i` to delete a character (`Backspace`), `u`+`o` to delete a word (`Ctrl`+`Backspace`), and `u`+`i`+`o` to delete the entire line (`Home`, hold `Shift`, `End` release `Shift`, `Backspace`).
 
+<br />
 
 ### Sequences
 Sequences are special versions of combos that allow for arbitrary sequences of keys to result in special behavior.
@@ -85,6 +90,7 @@ Special sequence documentations in common firmware is usually non-existent, as t
 #### Example
 When you type "@mail", your keyboard types out your mail address instead.
 
+<br />
 
 ### Sticky Keys
 Sticky keys and layers (a.k.a. or one-shot keys/mods/layers) work like normal keys but stay pressed until the next keypress.
@@ -103,6 +109,7 @@ Activate a layer with common symbols for a single key-press, to easily type `!`,
 Activate a one-shot layer which contains one-shot versions of all common modifier combinations.
 Then activate one-shot `Ctrl`+`Alt` from that layer and press `Del`.
 
+<br />
 
 ### Mod-Morph
 Mod-morph refers to changing what a key does depending on which modifiers are active.
@@ -115,6 +122,8 @@ Mod-morph documentations in common firmwares:
 
 #### Example
 While `Shift` is held, the `Backspace` key produces `Delete` instead.
+
+<br />
 
 ### Tap Dance
 Tap Dance refers to enabling special behavior when a key is pressed a given number of times.
