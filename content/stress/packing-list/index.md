@@ -26,14 +26,19 @@ toc: true
 
 ## case version
 
+| Image | Description              | Quantity |
+| ----- | ------------------------ | -------- |
+|       |
+| ![]() | PCB                      | 1        |
+| ![]() | 3D printed case assembly | 1        |
+| ![]() | RP2040 Zero              | 1        |
+| ![]() | Kailh HotSwap sockets    | 12       |
+| ![]() | THT buttons              | 6        |
+| ![]() | rubber caps              | 6        |
+
+The following items come preinstalled in the case assembly:
 | Image | Description                   | Quantity |
 | ----- | ----------------------------- | -------- |
-|       |
-| ![]() | PCB                           | 1        |
-| ![]() | RP2040 Zero                   | 1        |
-| ![]() | Kailh HotSwap sockets         | 12       |
-| ![]() | THT buttons                   | 6        |
-| ![]() | rubber caps                   | 6        |
 | ![]() | Rubber Feet                   | 4        |
 | ![]() | M2 x 4mm Torx screws          | 4        |
 | ![]() | M2 D3.0 x L2.0mm heat inserts | 4        |
