@@ -36,10 +36,4 @@ toc: true
 | ![]() | THT buttons              | 6        |
 | ![]() | rubber caps              | 6        |
 
-The following items come preinstalled in the case assembly:
-| Image | Description                   | Quantity |
-| ----- | ----------------------------- | -------- |
-| ![]() | Rubber Feet                   | 4        |
-| ![]() | M2 x 4mm Torx screws          | 4        |
-| ![]() | M2 D3.0 x L2.0mm heat inserts | 4        |
-| ![]() | magnets 3x3mm N35+            | 8        |
+The case assembly includes the 3D printed parts, magnets, heat inserts, and screws required for the case. Heat inserts have already been inserted into the 3D printed parts, and the magnets are securely held in place with superglue. There is no need for you to assemble the case yourself.
