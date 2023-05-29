@@ -13,27 +13,26 @@ weight: 10
 toc: true
 ---
 
-## barebones version
+<br />Depending on the version you chose to buy, different components will be included.
 
-| Image | Description           | Quantity |
-| ----- | --------------------- | -------- |
-|       |
-| ![]() | PCB                   | 1        |
-| ![]() | RP2040 Zero           | 1        |
-| ![]() | Kailh HotSwap sockets | 12       |
-| ![]() | THT buttons           | 6        |
-| ![]() | Rubber Feet           | 4        |
+## barebones version
+| Image                           | Description                                                | Quantity |
+| ------------------------------- | ---------------------------------------------------------- | -------- |
+|                                 |
+| ![pcb](pcb.jpg)                 | PCB                                                        | 1        |
+| ![rp2040](rp2040.jpg)           | RP2040 Zero                                                | 1        |
+| ![hssockets](hssockets.jpg)     | Kailh HotSwap sockets                                      | 12       |
+| ![buttonshort](buttonshort.jpg) | THT buttons (Different to the ones in the case version!!!) | 6        |
+| ![rubberfeet](rubberfeet.jpg)   | Rubber Feet                                                | 4        |
 
 ## case version
-
-| Image | Description              | Quantity |
-| ----- | ------------------------ | -------- |
-|       |
-| ![]() | PCB                      | 1        |
-| ![]() | 3D printed case assembly | 1        |
-| ![]() | RP2040 Zero              | 1        |
-| ![]() | Kailh HotSwap sockets    | 12       |
-| ![]() | THT buttons              | 6        |
-| ![]() | rubber caps              | 6        |
-
 The case assembly includes the 3D printed parts, magnets, heat inserts, and screws required for the case. Heat inserts have already been inserted into the 3D printed parts, and the magnets are securely held in place with superglue. There is no need for you to assemble the case yourself.
+| Image                         | Description                                                     | Quantity |
+| ----------------------------- | --------------------------------------------------------------- | -------- |
+|                               |
+| ![case](case.jpg)             | 3D printed case assembly                                        | 1        |
+| ![pcb](pcb.jpg)               | PCB                                                             | 1        |
+| ![rp2040](rp2040.jpg)         | RP2040 Zero                                                     | 1        |
+| ![hssockets](hssockets.jpg)   | Kailh HotSwap sockets                                           | 12       |
+| ![buttonlong](buttonlong.jpg) | THT buttons (Different to the ones in the barebones version!!!) | 6        |
+| ![rubbercaps](rubbercaps.jpg) | rubber caps                                                     | 6        |
