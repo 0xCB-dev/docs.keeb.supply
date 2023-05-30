@@ -16,16 +16,17 @@ toc: true
 ## PCB
 
 Let's start the assembly with the PCB. It does not matter if you have the barebones or case variant here.
-![]()
+![pcb](pcb.jpg)
 
 <br>You can start by soldering on your hotswap sockets. You can find Instructions on how to solder hotswap sockets [here]({{< ref "basics/soldering/hotswap#choc-low-profile" >}}).
-![]()
+![hotswap](hotswap.jpg)
+
+<br>Now solder on the 6 through hole buttons. They have an orientation, so you can't put them in the wrong way. Now just add a little bit of solder onto the back side.
+![buttons](buttons.jpg)
+{{< alert icon="💡" text="The buttons in the two different versions are different! The ones in the barebones kit are shorter than the ones in the case version. On the pictures here you will only see the long ones, but yours might be short..." />}}
 
 <br>After that you can solder on your Controller. You can lay the RP2040 Zero directly onto the PCB and solder it on there. You can find Instructions on how to solder a controller directly onto the PCB [here]({{< ref "basics/soldering/promicro#pcb-mount" >}}).
-![]()
-
-<br>Now solder on the 6 through hole buttons.
-![]()
+![controller](controller.jpg)
 
 <br>You should test your PCB now if it is fully working.
 ![]()
@@ -38,13 +39,13 @@ Skip to the next section depening on the kit you have:
 ## barebones assembly
 
 If you have the barebones kit, assembly is almost finished now. As a next step you can put in your switches.
-![]()
+![switches](switches.jp)
 
 <br>After that put on your keycaps.
-![]()
+![caps](caps.jpg)
 
 <br>Now you just have to put on your Rubber feet and your are done!
-![]()
+![rubberfeet](rubberfeet.jpg)
 
 ## case assembly
 
