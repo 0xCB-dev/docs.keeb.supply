@@ -28,10 +28,9 @@ Let's start the assembly with the PCB. It does not matter if you have the barebo
 <br>After that you can solder on your Controller. You can lay the RP2040 Zero directly onto the PCB and solder it on there. You can find Instructions on how to solder a controller directly onto the PCB [here]({{< ref "basics/soldering/promicro#pcb-mount" >}}).
 ![controller](controller.jpg)
 
-<br>You should test your PCB now if it is fully working.
-![]()
+<br>You should test your PCB now if it is fully working. The controllers come preflashed with a version of GP2040, a firmware for fightpads. Please read through the docs [here](https://gp2040-ce.info/#/) to make yourself familiar with the software.
 
-Skip to the next section depening on the kit you have:
+<br>Skip to the next section depening on the kit you have:
 <br>[barebones version]({{< ref "stress/assembly#barebones-assembly" >}})
 <br>[case version]({{< ref "stress/assembly#case-assembly" >}})
 
@@ -50,13 +49,13 @@ If you have the barebones kit, assembly is almost finished now. As a next step y
 ## case assembly
 
 <br>You can start by pushing on the small rubber keycaps for the tht buttons at the top.
-![]()
+![case-buttons](case-buttons.jpg)
 
 <br>In the case version you will have to put the switch plate between the switches and PCB. So take your top half of the case, and push in the switches through the switch plate into the PCB.
-![]()
+![case-switches](case-switches.jpg)
 
 <br>Now that your top half of the case is ready, you can just snap it onto the bottom half. Since the magnets come preinstalled, you don't have to do anything here.
-![]()
+![case-bottom](case-bottom.jpg)
 
 <br>And your Stress is finished!
-![]()
+![case-caps](case-caps.jpg)
