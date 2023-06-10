@@ -30,6 +30,8 @@ Let's start the assembly with the PCB. It does not matter if you have the barebo
 
 <br>You should test your PCB now if it is fully working. The controllers come preflashed with a version of GP2040, a firmware for fightpads. Please read through the docs [here](https://gp2040-ce.info/#/) to make yourself familiar with the software.
 
+A good tester can be found [here](https://gamepad-tester.com/).
+
 <br>Skip to the next section depening on the kit you have:
 <br>[barebones version]({{< ref "stress/assembly#barebones-assembly" >}})
 <br>[case version]({{< ref "stress/assembly#case-assembly" >}})
@@ -38,7 +40,7 @@ Let's start the assembly with the PCB. It does not matter if you have the barebo
 ## barebones assembly
 
 If you have the barebones kit, assembly is almost finished now. As a next step you can put in your switches.
-![switches](switches.jp)
+![barebones-switches](barebones-switches.jpg)
 
 <br>After that put on your keycaps.
 ![caps](caps.jpg)
