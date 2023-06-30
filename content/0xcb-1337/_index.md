@@ -1,7 +1,7 @@
 ---
 title: "0xCB 1337"
-description: "Here you can find the instructions for assembling the 0xCB 1337 macro pad."
-lead: "Here you can find the instructions for assembling the 0xCB 1337 macro pad."
+description: "Here you can find the quick start guide for the 0xCB 1337."
+lead: "Here you can find the quick start guide for the 0xCB 1337."
 date: 2022-10-01T21:35:03+02:00
 lastmod: 2022-10-01T21:35:03+02:00
 draft: false
@@ -10,8 +10,8 @@ categories: instructions
 weight: 10
 ---
 
-Here you can find the instructions for assembling the 0xCB 1337 macro pad.
+Here you can find the quick start guide for the 0xCB 1337.
 
-The PCB comes presoldered, you just need to solder some bigger components.
+This new revision of our macro pad comes completely assembled(apart from the switches and keycaps). You will not need to solder.
 
-However, if you experience any issues during assembly, don't hesitate to shoot us an e-mail or come over to our Discord server!
+Here is a little quickstart guide for you to get started using your brand new macro pad.
