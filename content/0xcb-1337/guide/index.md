@@ -55,6 +55,3 @@ One of the best features of the 1337 is of course the OLED screen.
 
 <br>A hidden feature of the 1337 is the preinstalled game we have added! Press this key combination to access the game layer.
 ![]()
-
-<br>Here you can play insert gaem here.
-![]()
