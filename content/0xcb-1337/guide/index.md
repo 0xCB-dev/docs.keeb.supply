@@ -19,12 +19,11 @@ This is how you will receive your 1337. As you can see everything is already put
 ![stop-motion-1](stop-motion-1.png)
 
 <br>The 1337 also has a hotswap PCB. So you will be able to just push your switches into the PCB.
-![stop-motion-90](stop-motion-9.png)
+![stop-motion-9](stop-motion-9.png)
 
 <br>After that you just have to push on your keycaps.
 ![stop-motion-17](stop-motion-17.png)
-
-<br>And you are done with your macro pad!!!
+And you are done with your macro pad!!!
 
 ## Software
 
@@ -45,7 +44,7 @@ The 1337 comes preinstalled with VIAL. If you have never used VIAL please read [
 ## OLED
 
 One of the best features of the 1337 is of course the OLED screen.
-![]()
+![OLED](OLED.png)
 
 <br>By default it will display things like the layer you are on and if NUM or CAPS lock are enabled.
 ![]()
