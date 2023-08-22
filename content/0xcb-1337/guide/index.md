@@ -49,8 +49,8 @@ One of the best features of the 1337 is of course the OLED screen.
 <br>By default it will display things like the layer you are on and if NUM or CAPS lock are enabled.
 ![]()
 
-<br>When CAPS lock is enabled your underglow LEDs will also turn red.
+<br>When CAPS lock is enabled your underglow LEDs will turn red.
 ![]()
 
-<br>A hidden feature of the 1337 is the preinstalled game we have added! Press this key combination to access the game layer.
+<br>A hidden feature of the 1337 is the preinstalled game we have added! Navigate to layer 4 and press the encoder knob to access the game.
 ![]()
