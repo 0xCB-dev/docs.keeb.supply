@@ -21,7 +21,7 @@ Here are the Vendors, where you can get Helios.
 
 EU:
 
-- KeebSupply ([Link](https://keeb.supply/products/0xcb-helios-cst))
+- KeebSupply ([Link](https://keeb.supply/products/0xcb-helios))
 - Keycapsss ([Link](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040))
 
 US:
@@ -32,5 +32,5 @@ US:
 1. First Version of Helios
 2. Added Castellated Pads
    1. A and B Stock were available at KeebSupply due to manufacturing issues
-3. Changed the manufacturer to be in Germany
+3. Changed the manufacturer
    1. Made controller 0,6mm wider to make it more stable. Now has the same dimentions as an Elite-C

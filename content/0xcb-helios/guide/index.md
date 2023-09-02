@@ -15,9 +15,10 @@ toc: true
 
 WIP!!!
 
-## Reset button
+## Flashing
 
 The reset button will be the first thing you have to use when getting your Helios. You can reset the board with a short click and enter the bootloader with a long (>500ms) click if the buttin. This backwards compatiblility also enables you to use reset buttons on existing keyboards for both functions.
+![reset](reset.jpg)
 
 ## ESD protection
 
@@ -29,12 +30,19 @@ Helios also supports VBUS detection for split keyboards. Read more about that he
 
 ## LEDs
 
-It features a default off red power LED that you can turn on via a jumper and a blue user LED, that you can program yourself.
+It features a default off red power LED and a blue user LED, that you can program yourself. The red power LED can be turned on by bridging this jumper:
+![jumper-1](jumper-1.jpg)
 
 ## Pin 25
 
 pls explain here
+![pin-25](pin-25.jpg)
 
-## Jumpers
+## Other Jumper PLS RENAME
 
 pls explain here
+![jumper-2](jumper-2.jpg)
+
+## Pinout
+
+![pinout](pinout.svg)
