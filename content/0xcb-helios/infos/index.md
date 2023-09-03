@@ -11,9 +11,8 @@ menu:
     parent: "0xcb-helios"
 weight: 20
 toc: true
+mermaid: true
 ---
-
-WIP!!!
 
 ## Vendors
 
@@ -28,9 +27,39 @@ US:
 - RingerKeys ([Link](https://ringerkeys.com/products/0xcb-helios))
 
 ## Changelog
+```mermaid
+gantt
+    title Helios Roadmap
+    todayMarker off
+    dateFormat  YYYY-MM-DD
+    axisFormat %d.%m.%Y
+    section v1.0
+    dev                         :2022-07-28, 20w
+    R1 [KS]                     :13w
+    R2 [KS, RK, KC]             :25w
+    section v1.0 (CST)
+    dev                         :2023-04-28  , 2023-09-09
+    R3 A stock [KS, RK and KC]  :active,2023-09-09  , 40w
+    R3 B stock [KS]             :active,2023-09-09  , 40w
+    hotfix                      :active, 2023-07-10 , 60d
+    R4 (planned)                :crit,50w
+```
 
-1. First Version of Helios
-2. Added Castellated Pads
-   1. A and B Stock were available at KeebSupply due to manufacturing issues
-3. Changed the manufacturer
-   1. Made controller 0,6mm wider to make it more stable. Now has the same dimentions as an Elite-C
+---
+* v1.0 [First version of Helios]
+  * Round 1
+    * Supplied A stock to KeebSupply
+  * Round 2
+    * Supplied A stock to KeebSupply
+    * Supplied A stock RingerKeys
+    * Supplied A stock Keycapsss
+---
+
+* v1.0 (CST) [Added castellated pads]
+  * Round 3
+    * Supplied A and B stock to KeebSupply due to manufacturing issues
+    * Supplied A stock RingerKeys
+    * Supplied A stock Keycapsss
+  * Round 4 [improved manufacturability of the castellated pads]
+    * planned
+---
