@@ -28,21 +28,24 @@ US:
 
 ## Changelog
 ```mermaid
+
+
+
 gantt
     title Helios Roadmap
     todayMarker off
     dateFormat  YYYY-MM-DD
     axisFormat %d.%m.%Y
     section v1.0
-    dev                         :2022-07-28, 20w
-    R1 [KS]                     :13w
-    R2 [KS, RK, KC]             :25w
+    dev                         :2022-07-28, 22w
+    R1 [KS]                     :2022-12-28, 2023-02-26
+    R2 [KS, RK, KC]             :2023-02-26, 2023-07-02
     section v1.0 (CST)
-    dev                         :2023-04-28  , 2023-09-09
-    R3 A stock [KS, RK and KC]  :active,2023-09-09  , 40w
-    R3 B stock [KS]             :active,2023-09-09  , 40w
+    dev                         :2023-04-28 , 2023-09-09
+    R3 A stock [KS, RK and KC]  :active,2023-09-09  , 30w
+    R3 B stock [KS]             :active,2023-09-09  , 30w
     hotfix                      :active, 2023-07-10 , 60d
-    R4 (planned)                :crit,50w
+    R4 (planned)                :crit, 2023-11-01, 30w
 ```
 
 ---
@@ -51,15 +54,16 @@ gantt
     * Supplied A stock to KeebSupply
   * Round 2
     * Supplied A stock to KeebSupply
-    * Supplied A stock RingerKeys
-    * Supplied A stock Keycapsss
+    * Supplied A stock to RingerKeys
+    * Supplied A stock to Keycapsss
 ---
 
 * v1.0 (CST) [Added castellated pads]
   * Round 3
-    * Supplied A and B stock to KeebSupply due to manufacturing issues
-    * Supplied A stock RingerKeys
-    * Supplied A stock Keycapsss
+    * Supplied A stock to KeebSupply
+    * Supplied B stock to KeebSupply due to manufacturing issues
+    * Supplied A stock to RingerKeys
+    * Supplied A stock to Keycapsss
   * Round 4 [improved manufacturability of the castellated pads]
     * planned
 ---

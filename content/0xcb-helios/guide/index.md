@@ -19,7 +19,7 @@ The reset button will be the first thing you have to use when getting your Helio
 
 ## ESD protection
 
-Helios has an ESD protection chip onboard. This way your controller is protected against electrostatic discharge. The D+ and D- pads can also be used while maintaining ESD protection.
+Helios has an ESD protection chip onboard. This way your controller is protected against electrostatic discharge. The D+ and D- pads can also be used while maintaining ESD protection using [this]({{< ref "/0xcb-helios/guide#vbus-jumper" >}}) jumper.
 
 ## Split capability
 
@@ -48,7 +48,7 @@ If you cut the bridge and solder the top and middle pad the 5V pin will now be c
 
 ### Alternate functions
 
-each pin on the rp2040 serves multiple purposes - enabling extremely flexible I/O:
+Each pin on the rp2040 serves multiple purposes - enabling extremely flexible I/O:
 
 | GPIO | F1       | F2        | F3       | F4     | F5  | F6   | F7   | F8           | F9            |
 | ---- | -------- | --------- | -------- | ------ | --- | ---- | ---- | ------------ | ------------- |
