@@ -27,7 +27,7 @@ toc: true
 <br>After that you just have to solder on your Controller. You can lay the Seeed XIAO directly onto the PCB and solder it on there. You can find Instructions on how to solder a controller directly onto the PCB [here]({{< ref "basics/soldering/promicro#pcb-mount" >}}).
 ![zilpzalp-controller](zilpzalp-controller.jpg)
 
-<br>You can put on your rubber feet where ever you want on the PCB.
+<br>You can put on your rubber feet where ever you want on the PCB. You will have to cut the rubber feet to make them fit onto the PCB.
 ![zilpzalp-rubberfeet](zilpzalp-rubberfeet.jpg)
 
 <br>After that put in your switches. If you soldered on the hotswap sockets, you can just push them in, otherwise you will have to solder them in.
