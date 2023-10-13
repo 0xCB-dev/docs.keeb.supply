@@ -1,7 +1,7 @@
 ---
 title: "Flashing Controllers"
 description: "How to flash differeny types of controllers."
-lead: "How to flash differeny types of controllers."
+lead: "How to flash different types of controllers."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
