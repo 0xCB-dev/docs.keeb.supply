@@ -1,5 +1,5 @@
 ---
-title : "Information"
+title: "Information"
 description: ""
 lead: ""
 date: 2020-10-06T08:48:45+00:00
@@ -23,10 +23,13 @@ EU:
 - KeebSupply ([Link](https://keeb.supply/products/0xcb-helios))
 - Keycapsss ([Link](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040))
 
-US:
-- RingerKeys ([Link](https://ringerkeys.com/products/0xcb-helios))
+Worldwide:
+
+- US: RingerKeys ([Link](https://ringerkeys.com/products/0xcb-helios))
+- Canada: RNDKBD ([Link](https://rndkbd.com/products/0xcb-helios-microcontroller))
 
 ## Changelog
+
 ```mermaid
 
 
@@ -49,21 +52,24 @@ gantt
 ```
 
 ---
-* v1.0 [First version of Helios]
-  * Round 1
-    * Supplied A stock to KeebSupply
-  * Round 2
-    * Supplied A stock to KeebSupply
-    * Supplied A stock to RingerKeys
-    * Supplied A stock to Keycapsss
+
+- v1.0 [First version of Helios]
+  - Round 1
+    - Supplied A stock to KeebSupply
+  - Round 2
+    - Supplied A stock to KeebSupply
+    - Supplied A stock to RingerKeys
+    - Supplied A stock to Keycapsss
+
 ---
 
-* v1.0 (CST) [Added castellated pads]
-  * Round 3
-    * Supplied A stock to KeebSupply
-    * Supplied B stock to KeebSupply due to manufacturing issues
-    * Supplied A stock to RingerKeys
-    * Supplied A stock to Keycapsss
-  * Round 4 [improved manufacturability of the castellated pads]
-    * planned
+- v1.0 (CST) [Added castellated pads]
+  - Round 3
+    - Supplied A stock to KeebSupply
+    - Supplied B stock to KeebSupply due to manufacturing issues
+    - Supplied A stock to RingerKeys
+    - Supplied A stock to Keycapsss
+  - Round 4 [improved manufacturability of the castellated pads]
+    - planned
+
 ---
