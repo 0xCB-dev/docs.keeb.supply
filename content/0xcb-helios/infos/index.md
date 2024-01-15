@@ -41,14 +41,14 @@ gantt
     axisFormat %d.%m.%Y
     section v1.0
     dev                         :2022-07-28, 22w
-    R1 [KS]                     :2022-12-28, 2023-02-26
-    R2 [KS, RK, KC]             :2023-02-26, 2023-07-02
+    R1                          :2022-12-28, 2023-02-26
+    R2                          :2023-02-26, 2023-07-02
     section v1.0 (CST)
-    dev                         :2023-04-28 , 2023-09-09
-    R3 A stock [KS, RK and KC]  :active,2023-09-09  , 30w
-    R3 B stock [KS]             :active,2023-09-09  , 30w
-    hotfix                      :active, 2023-07-10 , 60d
-    R4 (planned)                :crit, 2023-11-01, 30w
+    dev                         :2023-04-28, 2023-09-09
+    R3 A stock                  :2023-09-09, 2023-11-10
+    R3 B stock                  :2023-09-09, 2023-11-25
+    hotfix                      :2023-07-10, 60d
+    R4                          :active, 2023-11-06, 20w
 ```
 
 ---
@@ -70,6 +70,8 @@ gantt
     - Supplied A stock to RingerKeys
     - Supplied A stock to Keycapsss
   - Round 4 [improved manufacturability of the castellated pads]
-    - planned
+    - Supplied A stock to KeebSupply
+    - Supplied A stock to Keycapsss
+    - Supplied A stock to RNDKBD
 
 ---
