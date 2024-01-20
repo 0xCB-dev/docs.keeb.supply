@@ -20,8 +20,8 @@ Here are the Vendors, where you can get Miao.
 
 EU:
 
-- KeebSupply ([Link](https://keeb.supply/products/0xcb-helios))
+- KeebSupply ([Link](https://keeb.supply/products/miao))
 
 US:
 
-- KiserDesign ([Link]())
+- KiserDesign (coming soon ...)
