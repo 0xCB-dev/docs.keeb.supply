@@ -16,7 +16,8 @@ toc: true
 ## General information
 
 Miao is a [Xiao](https://www.seeedstudio.com/xiao-series-page) compatible microntroller developed by [kilipan](https://github.com/kilipan/miao). It uses a [ch552t](https://www.wch-ic.com/products/CH552.html) chip, which is very handy and cost efficient, including:
--  Built-in 16KB Code Flash, 1KB XRAM and internal 256B iRAM
+
+- Built-in 16KB Code Flash, 1KB XRAM and internal 256B iRAM
 - Built-in USB controller and USB transceiver
 - 2 full-duplex UARTs
 - SPI
@@ -28,11 +29,11 @@ FAK uses nickel to write configurations which makes things way simpler and less 
 
 ## Xiao compatability
 
-Miao is Pin compatible to the Xiao, jthere are even additional pins at the top. Underneath you can find 2 pads to reset - just like the xiao.
+Miao is Pin compatible to the Xiao, there are even additional pins at the top. Underneath you can find 2 pads to reset - just like the xiao.
 
 ## Flashing
-by semickolon
-For flasing you use wchisp and to build the firmware (and also flash) you can follow the getting started [guide for FAK](https://github.com/semickolon/fak?tab=readme-ov-file#getting-started)
+
+For flashing you use wchisp and to build the firmware (and also flash) you can follow the getting started [guide for FAK](https://github.com/semickolon/fak?tab=readme-ov-file#getting-started).
 
 ## ESD protection
 
@@ -45,16 +46,16 @@ FAK handles the halves independently which makes configuring them [very easy](ht
 ## Jumpers
 
 There are two solder jumpers onboard.
-They configure the bus output and the LED funtion - please consult the Pinout for help.
+They configure the bus output and the LED function - please consult the Pinout for help.
 
 ### Bus
 
-You can choose between UART and SPI mode for the botton right pin.
+You can choose between UART and SPI mode for the bottom right pin.
 
 ### LED
 
 You can choose between a power LED and a user LED.
-the user LED is adressed by pin 3.3.
+The user LED is adressed by pin 3.3.
 
 ## Pinout
 
