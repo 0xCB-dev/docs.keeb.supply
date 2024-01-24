@@ -27,6 +27,8 @@ toc: true
 <br>After that you just have to solder on your Controller. You can lay the Seeed XIAO directly onto the PCB and solder it on there. You can find Instructions on how to solder a controller directly onto the PCB [here]({{< ref "basics/soldering/promicro#pcb-mount" >}}).
 ![zilpzalp-controller](zilpzalp-controller.jpg)
 
+{{< alert icon="💡" text="If you use the [Miao]({{< ref "/miao/guide" >}}) you have to set the lower right pin to `RX` by bridging the bottom and middle pad on the left jumper pads. See [here]({{< ref "/miao/guide/#pinout" >}}) for the pinout schematics." />}})
+
 <br>You can put on your rubber feet where ever you want on the PCB. You will have to cut the rubber feet to make them fit onto the PCB.
 ![zilpzalp-rubberfeet](zilpzalp-rubberfeet.jpg)
 
@@ -37,5 +39,3 @@ toc: true
 ![zilpzalp-cover](zilpzalp-cover.jpg)
 
 <br>A VIAL firmware for the Zilpzalp is available [here](https://files.keeb.supply/firmware/Zilpzalp/). If you want to dive deaper into the firmware side of things check out the [GitHub](https://github.com/kilipan/zilpzalp). Also note our [Example Keymaps]({{< ref "/zilpzalp/example keymaps" >}}) for getting started. If you want to learn more about small keyboards in general, check out our [Intro to Small Keyboards]({{< ref "/basics/small keyboards/intro" >}}).
-
-{{< alert icon="💡" text="If you use the [Miao]({{< ref "/miao/guide" >}}) you have to set the lower right pin to `RX` by bridging the bottom and middle pad of the left jumper pads. See [here]({{< ref "/miao/guide/#pinout" >}})." />}})
