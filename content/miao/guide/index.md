@@ -35,6 +35,18 @@ Miao is Pin compatible to the Xiao, there are even additional pins at the top. U
 
 For flashing you use wchisp and to build the firmware (and also flash) you can follow the getting started [guide for FAK](https://github.com/semickolon/fak?tab=readme-ov-file#getting-started).
 
+If you have troubles flashing the firmware as a regular user on Linux, you might need an additional `udev` rule to get access to the bootloader:
+
+1. Create a file named `50-wchisp.rules` in the folder `/etc/udev/rules.d/`.
+2. Write the following content in that file:  
+```
+# file: /etc/udev/rules.d/50-wchisp.rules
+# WCH ISP bootloader
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="4348", ATTRS{idProduct}=="55e0", GROUP="uucp", MODE="0666"
+```
+3. Add yourself to the group `uucp`.
+4. Log out as a user and log back in. This is necessary to enable the group and reload the `udev` rules.
+
 ## ESD protection
 
 To avoid acidentially shocking your Miao while plugging it in theres an onboard ESD protection to ensure longevity!
