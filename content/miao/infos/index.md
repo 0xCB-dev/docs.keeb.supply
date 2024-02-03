@@ -24,4 +24,4 @@ EU:
 
 US:
 
-- KiserDesign (coming soon ...)
+- KiserDesign ([Link](https://www.kiserdesigns.com/product/miao))
