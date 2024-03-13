@@ -49,7 +49,7 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="4348", ATTRS{idProduct}=="55e0", GROUP="uuc
 
 ## ESD protection
 
-To avoid acidentially shocking your Miao while plugging it in theres an onboard ESD protection to ensure longevity!
+To avoid accidentally shocking your Miao while plugging it in there's an onboard ESD protection circuit to ensure longevity!
 
 ## Split capability
 
