@@ -15,14 +15,14 @@ toc: true
 
 ## Kit
 
-| Image             | Description   | Quantity |
-| ----------------- | ------------- | -------- |
-|                   |
-| ![PCB]()          | PCB           | 2        |
-| ![rubber feet]()  | Rubber Feet   | 8        |
-| ![reset button]() | Reset Buttons | 2        |
-| ![trrs jack]()    | TRRS jack     | 2        |
-| ![trrs cable]()   | TRRS cable    | 1        |
+| Image                      | Description   | Quantity |
+| -------------------------- | ------------- | -------- |
+|                            |
+| ![PCB](pcb.png)            | PCB           | 2        |
+| ![rubber feet](feet.png)   | Rubber Feet   | 8        |
+| ![reset button](reset.png) | Reset Buttons | 2        |
+| ![trrs jack](trrs.jpg)     | TRRS jack     | 2        |
+| ![trrs cable](cable.jpg)   | TRRS cable    | 1        |
 
 ## Case
 
@@ -30,5 +30,5 @@ These components are only included, if you buy the case together with the kit.
 | Image | Description | Quantity |
 | ----------- | ------------------------------------------- | -------- |
 | |
-| ![case]() | 3DP-Case with heat set inserts preinstalled | 2 |
+| ![case](case.png) | 3DP-Case with heat set inserts preinstalled | 2 |
 | ![screws]() | Screws | 8 |

@@ -26,12 +26,12 @@ All of the steps below need to be done on the right and left half of the board.
 #### Reset Buttons
 
 Solder on the reset buttons.
-![reset buttons]()
+![reset buttons](reset-pcb.png)
 
 #### TRRS Jacks
 
 Solder on the TRRS Jacks.
-![reset buttons]()
+![reset buttons](trrs.png)
 
 #### Controller
 
@@ -51,7 +51,7 @@ Please solder in the headers for the controller. You can find instructions for t
 ![headers]()
 
 <br>If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you, the USB port should go to the top of the PCB. You should not see the components of the micro controller, when it is sitting in the PCB.
-![controller]()
+![controller](helios.png)
 
 <br>When you have your controller soldered in, it is good practice to do a [matrix test]({{< ref "/basics/firmware/viaandvial#matrix-testing" >}}). Since DASBOB is a split keyboard, you need to plug in the two halves together using the TRRS Cable.
 {{< alert icon="💡" text="Do not hotplug the TRRS Cable, when your controllers are plugged into your PC. This can and will damage the board. Always unplug the keyboard from the PC, before plugging the TRRS Cable in." />}}
@@ -69,6 +69,6 @@ You can solder in HotSwap Sockets. You can find instructions for that [here]({{<
 #### Buzzer
 
 <br>The PCB also supports a buzzer. You can find information on speakers [here]({{< ref "/basics/hardware/speakers" >}}). The speaker is located underneath the controllers. There are two buzzer footprints, but only one buzzer will work at a time.
-![buzzer]()
+![buzzer](buzzer.png)
 
 <br>This is everything you need to solder for now!
