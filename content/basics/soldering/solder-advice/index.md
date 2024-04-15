@@ -13,7 +13,7 @@ weight: 10
 toc: true
 ---
 
-If you are completly new to soldering you might also like this [awesome guide by adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and this [more in depth tutorial by Kylar Mack](https://kylarmack.com/blogs/news/how-to-solder-metal) (thank's for the recommendation Brendan!)
+If you are completly new to soldering you might also like this [awesome guide by adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and this [more in depth tutorial by Kylar Mack](https://kylarmack.com/blogs/news/how-to-solder-metal) (thank's for the recommendation Brendan!).
 
 ## Safety first
 
