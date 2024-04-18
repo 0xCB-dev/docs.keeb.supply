@@ -33,6 +33,11 @@ Solder on the reset buttons.
 Solder on the TRRS Jacks.
 ![reset buttons](trrs.png)
 
+#### Jumper
+
+There is a jumper located below the controller. You will have to solder the wired or bluetooth jumper depending if you use a wired or wireless microcontroller.
+![jumper](jumper.png)
+
 #### Controller
 
 Before soldering the controllers onto the PCB we should get your controller flashed.
