@@ -26,7 +26,7 @@ toc: true
 
 ## Case
 
-These components are only included, if you buy the case together with the kit.
+These components are only included if you buy the case.
 | Image | Description | Quantity |
 | ----------- | ------------------------------------------- | -------- |
 | |
