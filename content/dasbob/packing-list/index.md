@@ -31,4 +31,4 @@ These components are only included if you buy the case.
 | ----------- | ------------------------------------------- | -------- |
 | |
 | ![case](case.png) | 3DP-Case with heat set inserts preinstalled | 2 |
-| ![screws]() | Screws | 8 |
+| ![screws](dasbob-screws.png) | Screws | 8 |
