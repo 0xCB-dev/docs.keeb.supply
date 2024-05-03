@@ -21,7 +21,7 @@ There are a few things you absolutely need to solder and a few which are optiona
 
 All of the steps below need to be done on the right and left half of the board.
 
-{{< alert icon="💡" text="The reset buttons, trrs jacks and controllers all go on the top side of the keyboard. That is the site, where the HotSwap sockets are NOT on." />}}
+{{< alert icon="💡" text="The reset buttons, trrs jacks and controllers all go on the top side of the keyboard. That is the side, where the HotSwap sockets are NOT on." />}}
 
 #### Reset Buttons
 
