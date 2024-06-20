@@ -24,7 +24,7 @@ toc: true
 | M2x3mm screws                | 4        |
 | Polycarbonate case           | 1        |
 | M3x8mm screws                | 3        |
-| 123mm x 130mm x 3.5mm o-ring | 1        |
+| 178mm x 185mm x 3.5mm o-ring | 1        |
 | PCB                          | 1        |
 | POM Plate                    | 1        |
 
