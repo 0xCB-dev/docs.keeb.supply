@@ -1,5 +1,5 @@
 ---
-title : "Quick Start Guide"
+title: "Quick Start Guide"
 description: ""
 lead: ""
 date: 2020-10-06T08:48:45+00:00
@@ -12,34 +12,37 @@ menu:
 weight: 10
 toc: true
 ---
+
 ## Flashing
 
 The reset button will be the first thing you have to use when getting your Gemini. You can reset the board with a short click and enter the bootloader with a long (>500ms) click of the button.
-![reset](reset.png)
+![reset-button](reset-button.png)
 
 ## ESD protection
 
 Gemini has an ESD protection chip onboard. This way your controller is protected against electrostatic discharge. The D+ and D- pads can also be used while maintaining ESD protection by using all 4 pads under the usb port to connect an external usb port.
-![pads](pads.png)
+![ESD](ESD.png)
 
 ## Split capability
 
 Gemini also supports VBUS detection for split keyboards by connecting the jumper and sensing on GP19. Read more about that [here](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_split_keyboard.md).
-![jumper](jumper.png)
+![VBUS](VBUS.png)
 
 ## LEDs
 
 It features a aRGB LED, that you can program yourself. It's connected to the 3.3V to 5V signal levelshifter ([SN74LVC1T45](https://www.ti.com/product/SN74LVC1T45)) to improve stability and longevity of the LEDs.
 If you want to disable the onboard LED and just control the LEDs conneted to GP16 you skip the first LED in firmware.
 (RP2040.GP16 -> levelshifter -> onboard LED -> Gemini.GP16)
-![RGB](rgb.png)
+![LED](LED.png)
 
 ## Pinout
 
 ### Top
+
 ![top-pinout](top-pinout.png)
 
 ### Bottom
+
 ![bottom-pinout](bottom-pinout.png)
 
 ### Alternate functions
