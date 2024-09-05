@@ -25,7 +25,7 @@ Gemini has an ESD protection chip onboard. This way your controller is protected
 
 ## Split capability
 
-Gemini also supports VBUS detection for split keyboards by connecting the jumper and sensing on GP19. Read more about that [here](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_split_keyboard.md).
+Gemini also supports VBUS detection for split keyboards by connecting the jumper and sensing on GP19. Read more about that [here](https://github.com/qmk/qmk_firmware/blob/master/docs/features/split_keyboard.md).
 ![VBUS](VBUS.png)
 
 ## LEDs
