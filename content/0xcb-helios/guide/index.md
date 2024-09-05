@@ -23,7 +23,7 @@ Helios has an ESD protection chip onboard. This way your controller is protected
 
 ## Split capability
 
-Helios also supports VBUS detection for split keyboards. Read more about that [here](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_split_keyboard.md).
+Helios also supports VBUS detection for split keyboards. Read more about that [here](https://github.com/qmk/qmk_firmware/blob/master/docs/features/split_keyboard.md).
 
 ## LEDs
 
