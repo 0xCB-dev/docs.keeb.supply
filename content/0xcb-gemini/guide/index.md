@@ -1,5 +1,5 @@
 ---
-title : "Quick Start Guide"
+title: "Quick Start Guide"
 description: ""
 lead: ""
 date: 2020-10-06T08:48:45+00:00
@@ -7,44 +7,43 @@ lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
 menu:
-  0xcb-helios:
-    parent: "0xcb-helios"
+  0xcb-gemini:
+    parent: "0xcb-gemini"
 weight: 10
 toc: true
 ---
+
 ## Flashing
 
-The reset button will be the first thing you have to use when getting your Helios. You can reset the board with a short click and enter the bootloader with a long (>500ms) click of the button. This backwards compatiblility also enables you to use reset buttons on existing keyboards for both functions.
-![reset](reset.jpg)
+The reset button will be the first thing you have to use when getting your Gemini. You can reset the board with a short click and enter the bootloader with a long (>500ms) click of the button.
+![reset-button](reset-button.png)
 
 ## ESD protection
 
-Helios has an ESD protection chip onboard. This way your controller is protected against electrostatic discharge. The D+ and D- pads can also be used while maintaining ESD protection using [this]({{< ref "/0xcb-helios/guide#vbus-jumper" >}}) jumper.
+Gemini has an ESD protection chip onboard. This way your controller is protected against electrostatic discharge. The D+ and D- pads can also be used while maintaining ESD protection by using all 4 pads under the usb port to connect an external usb port.
+![ESD](ESD.png)
 
 ## Split capability
 
-Helios also supports VBUS detection for split keyboards. Read more about that [here](https://github.com/qmk/qmk_firmware/blob/master/docs/features/split_keyboard.md).
+Gemini also supports VBUS detection for split keyboards by connecting the jumper and sensing on GP19. Read more about that [here](https://github.com/qmk/qmk_firmware/blob/master/docs/features/split_keyboard.md).
+![VBUS](VBUS.png)
 
 ## LEDs
 
-It features a default off red power LED and a blue user LED, that you can program yourself. The red power LED can be turned on by bridging this jumper:
-![jumper-1](jumper-1.jpg)
-
-## Pin 25
-
-This special pin is level shifted to 5V.
-It features a directional logic level shifter capable of 420 Mbps ([SN74LVC1T45](https://www.ti.com/product/SN74LVC1T45)) making it perfect for driving the digitial in of adressable RGB LEDs with 5V signals - this improves stability and longevity of the LEDs.
-![pin-25](pin-25.jpg)
-
-## VBUS Jumper
-
-This jumper lets you switch between RAW 5V and VBUS 5V.
-If you cut the bridge and solder the top and middle pad the 5V pin will now be connected to VBUS and thus before the fuse and schottky diode. This enables you to connect an external usb port and still profit from Helios' onboard protection.
-![jumper-2](jumper-2.jpg)
+It features a aRGB LED, that you can program yourself. It's connected to the 3.3V to 5V signal levelshifter ([SN74LVC1T45](https://www.ti.com/product/SN74LVC1T45)) to improve stability and longevity of the LEDs.
+If you want to disable the onboard LED and just control the LEDs conneted to GP16 you skip the first LED in firmware.
+(RP2040.GP16 -> levelshifter -> onboard LED -> Gemini.GP16)
+![LED](LED.png)
 
 ## Pinout
 
-![pinout](pinout.png)
+### Top
+
+![top-pinout](top-pinout.png)
+
+### Bottom
+
+![bottom-pinout](bottom-pinout.png)
 
 ### Alternate functions
 
