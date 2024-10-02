@@ -15,14 +15,14 @@ toc: true
 
 ## Soldering
 
-There are a few things you absolutely need to solder and a few which are optional. If you do not have experience with soldering, please referr to this [Quick Start guide]({{< ref "/basics/soldering/solder-advice" >}}).
+There are a few things you absolutely need to solder and a few which are optional. If you do not have experience with soldering, please refer to this [quick start guide]({{< ref "/basics/soldering/solder-advice" >}}).
 
 ### Required
 
 #### Diodes
 
 Start with soldering all of the diodes in. If you have not soldered diodes before, you can find instructions [here]({{< ref "/basics/soldering/smd#diodes" >}}).
-{{< alert icon="💡" text="The Diodes in the instructions have 3 legs, the diodes for the Endgame only have 2. The Pad that is shaped like an arrow corresponds with the small line on the diode itself." />}}
+{{< alert icon="💡" text="The diodes in the instructions have 3 legs, the diodes for the Endgame only have 2. The pad that is shaped like an arrow corresponds with the small line on the diode itself." />}}
 ![pcb-diodes](pcb-diode.png)
 
 #### Controller
@@ -50,7 +50,7 @@ If all of the keys are working properly, you can go ahead and continue with the 
 #### HotSwap Sockets
 
 You can solder in HotSwap Sockets. You can find instructions for that [here]({{< ref "/basics/soldering/hotswap#choc-low-profile" >}}).
-{{< alert icon="💡" text="If you decide to not solder in the hot swap sockets, you will need to solder in the switches later!" />}}
+{{< alert icon="💡" text="If you decide to not solder in the HotSwap sockets, you will need to solder in the switches later!" />}}
 ![hs-sockets](pcb-hs-socket.png)
 
 #### Buzzer
