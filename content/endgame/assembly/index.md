@@ -55,7 +55,7 @@ You can solder in HotSwap Sockets. You can find instructions for that [here]({{<
 
 #### Buzzer
 
-The PCB also supports a buzzer. You can find information on speakers [here]({{< ref "/basics/hardware/speakers" >}}). The speaker is located underneath the controllers. There are two buzzer footprints, but only one buzzer will work at a time.
+The PCB also supports a buzzer. You can find information on speakers [here]({{< ref "/basics/hardware/speakers" >}}).
 ![buzzer](buzzer.png)
 
 <br>This is everything you need to solder for now!
