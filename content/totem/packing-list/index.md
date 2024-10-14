@@ -18,7 +18,7 @@ toc: true
 | Image                   | Description                | Quantity            |
 | ----------------------- | -------------------------- | ------------------- |
 |                         |
-| ![PCB](pcb.jpg)         | PCBs (Diodes presoldered!) | 1 left<br />1 right |
+| ![PCB](pcb-new.png)     | PCBs (Diodes presoldered!) | 1 left<br />1 right |
 | ![reset](reset.jpg)     | reset button               | 2                   |
 | ![hotswap](hotswap.jpg) | hotswap sockets            | 38                  |
 
