@@ -1,5 +1,5 @@
 ---
-title : "PACKING LIST"
+title: "PACKING LIST"
 description: "These parts should all be included in your TOTEM!"
 lead: "These parts should all be included in your TOTEM!"
 date: 2020-10-06T08:48:45+00:00
@@ -15,13 +15,12 @@ toc: true
 
 ## GENERAL PARTS
 
-| Image                   | Description     | Quantity            |
-| ----------------------- | --------------- | ------------------- |
+| Image                   | Description                | Quantity            |
+| ----------------------- | -------------------------- | ------------------- |
 |                         |
-| ![PCB](pcb.jpg)         | PCBs            | 1 left<br />1 right |
-| ![diodes](diodes.jpg)   | Diodes          | 38                  |
-| ![reset](reset.jpg)     | reset button    | 2                   |
-| ![hotswap](hotswap.jpg) | hotswap sockets | 38                  |
+| ![PCB](pcb.jpg)         | PCBs (Diodes presoldered!) | 1 left<br />1 right |
+| ![reset](reset.jpg)     | reset button               | 2                   |
+| ![hotswap](hotswap.jpg) | hotswap sockets            | 38                  |
 
 ## 3DP CASE PARTS
 

@@ -1,5 +1,5 @@
 ---
-title : "ASSEMBLY"
+title: "ASSEMBLY"
 description: ""
 lead: ""
 date: 2020-10-06T08:48:45+00:00
@@ -19,21 +19,6 @@ Here is an overview of where and on which side each component needs to be solder
 ![overview](overview.png)
 
 ### GENERAL
-
-#### DIODES
-
-The diodes needs to be soldered on the top of the PCB. Pay attention to their orientation: They have a small line on one side, which should be on the side the arrow on the PCB is facing to.<br />
-![diodes](diodes.png)
-
-<br />Apply a small amount of solder on one pad.
-![diode_01](diode_01.jpg)
-
-<br />Then use tweezers to place the diode on the pads and reheat the solder to secure the diode.
-![diode_02](diode_02.jpg)
-
-Now you can add solder to the second pad.
-
-{{< alert icon="💡" text="There is one diode that isn't located in the grid. Take a look at the two outermost switches. There you will find one extra diode. Don't forget that one!" />}}
 
 #### HOTSWAP SOCKETS
 
