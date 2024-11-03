@@ -29,6 +29,23 @@ The controller will reboot and enter the bootloader mode automatically - you wil
 
 Now you can take your keyboardfirmware.u2f and copy it to that drive. It will unmount and reboot itself and if flashing succeeded you now have a working keyboard - if not you can just repeat and try again (remember: It can't be bricked so you are very unlikely to break something).
 
+## WCH
+
+WCH chips are low-cost integrated circuits (ICs) that use [FAK firmware](https://github.com/semickolon/fak-config). The easiest way to get started with FAK is by using [GitHub Codespaces](https://github.com/semickolon/fak-config?tab=readme-ov-file#github-codespace) to compile and download your `.ihx` firmware file.
+
+### Setting up WCHISP
+
+1. Download the latest WCHISP release from [here](https://github.com/ch32-rs/wchisp).
+2. Extract the archive and move the firmware `.ihx` file into the same folder as WCHISP.
+
+### Entering Bootloader Mode
+
+Most WCH boards have a *boot* and a *reset* button. Hold the *boot* button while plugging in the board, then run `wchisp info` to see your chip information.
+
+### Flashing Firmware
+
+Run `wchisp flash ./firmware.ihx` (adjust for your firmware file name). Once complete, unplug and replug the board.
+
 ## AVR (Atmega)
 
 ### Using QMK Toolbox
