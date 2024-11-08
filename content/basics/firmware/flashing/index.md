@@ -31,20 +31,21 @@ Now you can take your keyboardfirmware.u2f and copy it to that drive. It will un
 
 ## WCH
 
-WCH chips are low-cost integrated circuits (ICs) that use [FAK firmware](https://github.com/semickolon/fak-config). The easiest way to get started with FAK is by using [GitHub Codespaces](https://github.com/semickolon/fak-config?tab=readme-ov-file#github-codespace) to compile and download your `.ihx` firmware file.
+WCH chips are low-cost integrated circuits (ICs) that use [FAK firmware](https://github.com/semickolon/fak-config). Getting your Firmware onto your board consist of two different steps. You will use GitHub Codespaces to create your firmware, and after that WCHISP to flash said firmware onto your controller.
 
 ### Setting up WCHISP
 
-1. Download the latest WCHISP release from [here](https://github.com/ch32-rs/wchisp).
-2. Extract the archive and move the firmware `.ihx` file into the same folder as WCHISP.
+Download the latest WCHISP release from [here](https://github.com/ch32-rs/wchisp). You can also find great instructions on what the tool does and how it works over there.
 
-### Entering Bootloader Mode
+### Setting up Codespaces
 
-Most WCH boards have a *boot* and a *reset* button. Hold the *boot* button while plugging in the board, then run `wchisp info` to see your chip information.
+Afterwards you will have to use [GitHub Codespaces](https://github.com/features/codespaces) to compile and download your `.ihx` firmware file. You can find instructions on how to set up a Codespace [here](https://github.com/semickolon/fak-config?tab=readme-ov-file#github-codespace).
 
 ### Flashing Firmware
 
-Run `wchisp flash ./firmware.ihx` (adjust for your firmware file name). Once complete, unplug and replug the board.
+1. Extract the archive and move the firmware `.ihx` file into the same folder as WCHISP.
+2. Enter the bootloader mode. Most WCH boards have a _boot_ and a _reset_ button. Hold the _boot_ button while plugging in the board, then run `wchisp info` to see your chip information.
+3. Run `wchisp flash ./firmware.ihx` (adjust for your firmware file name). Once complete, unplug and replug the board.
 
 ## AVR (Atmega)
 
