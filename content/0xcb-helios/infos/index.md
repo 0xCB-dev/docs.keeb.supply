@@ -48,7 +48,8 @@ gantt
     R3 A stock                  :2023-09-09, 2023-11-10
     R3 B stock                  :2023-09-09, 2023-11-25
     hotfix                      :2023-07-10, 60d
-    R4                          :active, 2023-11-06, 20w
+    R4                          :2023-11-06, 2024-08-25
+    R5                          :2024-08-25, 2024-12-30
 ```
 
 ---
@@ -73,5 +74,9 @@ gantt
     - Supplied A stock to KeebSupply
     - Supplied A stock to Keycapsss
     - Supplied A stock to RNDKBD
+  - Round 5 [Added Purple and White Helios options]
+    - Supplied A stock to KeebSupply
+    - Supplied A stock to Keycapsss
+    - Supplied A stock to RingerKeys
 
 ---
