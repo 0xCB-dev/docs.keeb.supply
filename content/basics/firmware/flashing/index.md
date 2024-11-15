@@ -15,23 +15,23 @@ toc: true
 
 ## RP2040
 
-The RP2040 has a u2f bootloader in ROM (etched into the die) meaning it cant be bricked or overwritten which is great news.
+The RP2040 has a u2f bootloader in ROM (etched into the die) meaning it can't be bricked or overwritten which is great news.
 
-### enter bootloader mode
+### Enter bootloader mode
 
-To get RP2040 boards into botloader mode you have to disable the flash on startup. You can acomplish this on [Helios](https://keeb.supply/products/0xcb-helios) by using the reset button / reset pin and pushing it / pulling it to GND for over 500ms (while it's plugged into a PC of course).
+To get RP2040 boards into bootloader mode you have to disable the flash on startup. You can accomplish this on [Helios](https://keeb.supply/products/0xcb-helios) by using the reset button / reset pin and pushing it / pulling it to GND for over 500ms (while it's plugged into a PC of course).
 
-For other Boards the method varies, but on the [Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) for example you can hold the BOOTSEL button while pluggin it in and it should also enter the bootloader.
+The method varies for other boards, but on the [Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) for example you can hold the BOOTSEL button while plugging it in and it should also enter the bootloader.
 
-The controller will reboot and enter the bootloader mode automatically - you will see a flash drive pop up on you PC called **RPI-RP2**
+The controller should reboot and enter the bootloader mode automatically - you will see a flash drive pop up on you PC called **RPI-RP2**
 
-### copy firmware
+### Copy firmware
 
-Now you can take your keyboardfirmware.u2f and copy it to that drive. It will unmount and reboot itself and if flashing succeeded you now have a working keyboard - if not you can just repeat and try again (remember: It can't be bricked so you are very unlikely to break something).
+You can take your `keyboardfirmware.u2f` file and copy it to the mounted drive. It will unmount and reboot itself. If the firmware flashing process succeeded, you will have a working keyboard. If not, please repeat the procedure. Since the bootloader is edged into ROM, it can't be bricked. You are very unlikely to break something.
 
 ## WCH
 
-WCH chips are low-cost integrated circuits (ICs) that use [FAK firmware](https://github.com/semickolon/fak-config). Getting your Firmware onto your board consist of two different steps. You will use GitHub Codespaces to create your firmware, and after that WCHISP to flash said firmware onto your controller.
+WCH chips are low-cost integrated circuits (ICs) that use [FAK firmware](https://github.com/semickolon/fak-config). Getting your firmware onto your board consists of two different steps. You will use GitHub Codespaces to create your firmware, and after that WCHISP to flash said firmware onto your controller.
 
 ### Setting up WCHISP
 
