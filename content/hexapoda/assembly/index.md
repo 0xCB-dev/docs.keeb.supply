@@ -26,7 +26,7 @@ The only part that you need to solder for the Hexapoda are the HotSwap sockets. 
 
 ## Software
 
-When you buy the Hexapoda kit through KeebSupply you will receive an almost fully soldered PCB. The PCB features a controller that is running [FAK](https://github.com/semickolon/fak-config). Since the Hexapoda has such a unique layout, we decided to not preflash the controllers with any firmware and layout. You will have to do that yourself. Instructions on that can be found [here]({{< ref "/basics/firmware/flashing#wch" >}}).
+When you buy the Hexapoda kit through KeebSupply you will receive an almost fully soldered PCB. The PCB features a controller that is running [FAK](https://github.com/semickolon/fak-config). Since the Hexapoda has such a unique layout, we decided to not preflash the controllers with any firmware and layout. You will have to do that yourself. Instructions on that can be found [here]({{< ref "/basics/firmware/flashing#wch" >}}). An example for a keymap can be found [here](https://github.com/ThePurox/fak-config/tree/main/keyboards/hexapoda).
 ![hexapoda-controller](hexapoda-controller.png)
 
 <br>When you have your keyboard flashed, it is good practice to do a matrix test with a [keytester](https://www.keyboardtester.com/tester.html). Use tweezers or other metallic objects for this and short the pads of each key.
@@ -40,6 +40,7 @@ If all of the keys are working properly, you can go ahead and continue with the 
 ![screw-in-case](hexapoda-screw.png)
 
 Place the rubber feet onto your PCB or if you use a case onto your 3D-Printed case.
+You can customize how bouncy you want your Hexapoda to be. There are three stages of bounciness, set by how many rubber feet you install. It is the most bouncy, when you only install the feet on the bottom row and the outer feet on the top row of the board. If you feel your keyboard tilting to the side when pressing the outermost key, you should install the rubber feet in the outer most places. If you now fell your board tilting away from you when you hit the top row of keys, install the final two rubber feet.
 ![feet](hexapoda-feet.png)
 
 <br>After that push in the switches.
@@ -48,4 +49,4 @@ Place the rubber feet onto your PCB or if you use a case onto your 3D-Printed ca
 <br>Then put on your keycaps.
 ![caps](hexapoda-caps.png)
 
-<br>After that your Hexatana is done!
+<br>After that your Hexaopda is done!
