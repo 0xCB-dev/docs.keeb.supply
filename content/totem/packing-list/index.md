@@ -55,4 +55,4 @@ Depending on the version, there will be different parts included in the kit.
 | ![switch](switch.jpg) | power switch   | 2        |
 
 {{< alert icon="💡" text="To make the Ble version of the TOTEM work, you will need to buy yourself a battery." />}}
-<br />If you don't have one already, try [this one](https://www.ebay.de/itm/165589271463).
+<br />If you don't have one already, try [this one](https://www.ebay.de/itm/233974438926).
