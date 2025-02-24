@@ -27,17 +27,10 @@ Start with soldering all of the diodes in. If you have not soldered diodes befor
 
 #### Controller
 
-Before soldering the controllers onto the PCB we should get your controller flashed.
+If you have bought the kit through KeebSupply, you will receive one 0xCB Gemini controller which is preflashed with the default <a href="https://files.keeb.supply/firmware/ENDGAME/" >firmware<a>.
 ![gemini](gemini.png)
 
-<br>You can find the firmware <a href="https://files.keeb.supply/firmware/ENDGAME/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}). Included in the kit is a RP2040 Gemini.<br>
-
-<br> Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
-![vial](vial.png)
-
-If it does you have successfully flashed your controller.
-
-<br>If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#pcb-mount" >}}). When you have the PCB in front of you, the USB port should sit in the cutout and the side without the USB port should be on the same side as the HotSwap sockets.
+<br>You can now solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#pcb-mount" >}}). When you have the PCB in front of you, the USB port should sit in the cutout and the side without the USB port should be on the same side as the HotSwap sockets.
 ![controller](pcb-controller.png)
 
 <br>When you have your controller soldered in, it is good practice to do a [matrix test]({{< ref "/basics/firmware/viaandvial#matrix-testing" >}}) in VIAL. Use tweezers or other metallic objects for this and short the pads of each key.
