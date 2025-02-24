@@ -1,5 +1,5 @@
 ---
-title : "Assembly"
+title: "Assembly"
 description: ""
 lead: ""
 date: 2020-10-06T08:48:45+00:00
@@ -25,17 +25,16 @@ Let's start the assembly with the PCB. It does not matter if you have the barebo
 ![buttons](buttons.jpg)
 {{< alert icon="💡" text="The buttons in the two different versions are different! The ones in the barebones kit are shorter than the ones in the case version. On the pictures here you will only see the long ones, but yours might be short..." />}}
 
-<br>After that you can solder on your Controller. You can lay the RP2040 Zero directly onto the PCB and solder it on there. You can find Instructions on how to solder a controller directly onto the PCB [here]({{< ref "basics/soldering/promicro#pcb-mount" >}}).
+<br>After that you can solder on your Controller. You can lay the Waveshare Zero compatible controller directly onto the PCB and solder it on there. You can find Instructions on how to solder a controller directly onto the PCB [here]({{< ref "basics/soldering/promicro#pcb-mount" >}}).
 ![controller](controller.jpg)
 
-<br>You should test your PCB now if it is fully working. The controllers come preflashed with a version of GP2040, a firmware for fightpads. Please read through the docs [here](https://gp2040-ce.info/#/) to make yourself familiar with the software.
+<br>You should test your PCB now if it is fully working. You need to flash the controllers with a version of GP2040, a firmware for fightpads, that you can find [here](https://files.keeb.supply/firmware/Stress/). Please read through the docs [here](https://gp2040-ce.info/#/) to make yourself familiar with the software.
 
 A good tester can be found [here](https://gamepad-tester.com/).
 
 <br>Skip to the next section depening on the kit you have:
 <br>[barebones version]({{< ref "stress/assembly#barebones-assembly" >}})
 <br>[case version]({{< ref "stress/assembly#case-assembly" >}})
-
 
 ## barebones assembly
 
