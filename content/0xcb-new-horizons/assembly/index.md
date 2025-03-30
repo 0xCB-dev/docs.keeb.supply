@@ -79,7 +79,7 @@ Let's start assembling the bottom plate with the acrylic feet. Place the feet on
 <br>Now just add the rubber feet onto the acryl feet and at the bottom onto the PCB and you are done.
 ![rubberfeet](rubberfeetplaced.jpg)
 
-If you don't want a typing angel you can also just leave the acryl feet so that you have a 0 degree typing angle.
+If you don't want a typing angle, you can just leave the acrylic feet off. This will give you a 0 degree typing angle.
 
 ### PCB assembly
 
