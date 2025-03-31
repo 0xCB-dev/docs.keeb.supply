@@ -96,7 +96,7 @@ Apply a tiny bit of solder on the bigger, outer pads on top of the PCB.
 
 {{< alert icon="💡" text="Be incredibly careful when working with batteries! Don't let the leads touch each other!" />}}
 
-<br />You probably need to shorten the cables and tin them, since the length needs to be pretty short, to fit.
+<br />You probably need to shorten the cables of the 751517 lithium polymer battery and tin them, since the length needs to be pretty short, to fit.
 ![battery_01](battery_01.jpg)
 
 {{< alert icon="💡" text="Before attaching the battery in any way to the PCB set the the power switch to off (right on both sides)." />}}
