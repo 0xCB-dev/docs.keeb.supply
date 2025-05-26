@@ -15,14 +15,15 @@ toc: true
 
 ## Kit
 
-| Image                      | Description   | Quantity |
-| -------------------------- | ------------- | -------- |
-|                            |
-| ![PCB](pcb.png)            | PCB           | 2        |
-| ![rubber feet](feet.png)   | Rubber Feet   | 8        |
-| ![reset button](reset.png) | Reset Buttons | 2        |
-| ![trrs jack](trrs.jpg)     | TRRS jack     | 2        |
-| ![trrs cable](cable.jpg)   | TRRS cable    | 1        |
+| Image                         | Description     | Quantity |
+| ----------------------------- | --------------- | -------- |
+|                               |
+| ![PCB](pcb.png)               | PCB             | 2        |
+| ![rubber feet](feet.png)      | Rubber Feet     | 8        |
+| ![reset button](reset.png)    | Reset Buttons   | 2        |
+| ![hs-sockets](HS-sockets.png) | HotSwap Sockets | 40       |
+| ![trrs jack](trrs.jpg)        | TRRS jack       | 2        |
+| ![trrs cable](cable.jpg)      | TRRS cable      | 1        |
 
 ## Case
 
