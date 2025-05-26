@@ -61,7 +61,7 @@ Soldering these sockets is pretty easy and straight forward. Start by placing th
 Soldering Hotswap sockets takes a bit more work. Start by just placing your controller ontop of the headers. Be aware of the pinout and the orientation of the controller!
 ![controller-notsoldered](controller-notsoldered.jpg)
 
-<br>After that stick a diode leg into one of the holes of the controller. You can also use [these](https://www.mouser.de/ProductDetail/575-3320000150000030) MillMax pins that.
+<br>After that stick a diode leg into one of the holes of the controller. You can also use [these](https://keeb.supply/products/millmax-pins) MillMax pins that are more sturdy and will last longer.
 ![diode](diode.jpg)
 
 <br>Clip off that diode flush with the top of the controller.
