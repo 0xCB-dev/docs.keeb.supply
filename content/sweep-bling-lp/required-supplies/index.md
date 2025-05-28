@@ -17,7 +17,7 @@ toc: true
 | -------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 |                                        |                                          |                                                                                                                        |
 | ![helios](helios.png)                  | 2 x ProMicro compatible micro controller | You will need to supply your own micro controllers. You can use a Helios for wired or a Nice!Nano for wireless builds. |
-| ![ic-socket]()                         | IC Sockets                               | You will need one IC Socket strip. This board will not work with solder headers!                                       |
-| ![millmax-pins]()                      | MillMax Pins                             | To use the IC Sockets you will need MillMax Pins.                                                                      |
+| ![ic-socket](ic-socket.png)            | 2 x IC Sockets                           | You will need one IC Socket strip per side. This board will not work with solder headers!                              |
+| ![millmax-pins](millmax.png)           | MillMax Pins                             | To use the IC Sockets you will need MillMax Pins.                                                                      |
 | ![soldering-iron](soldering-iron.webp) | soldering iron                           | We recommend a good soldering iron!                                                                                    |
 | ![solder](solder.webp)                 | solder                                   | Please use high quality solder (flux core or apply flux externally) to make your life easier when soldering this kit!  |

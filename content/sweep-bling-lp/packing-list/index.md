@@ -43,5 +43,5 @@ Depending on the version, there will be different parts included in the kit.
 |                             |
 | ![switch](slide-switch.png) | Slide Switch | 2        |
 
-{{< alert icon="💡" text="To make the Ble version of the Sweep work, you will need to buy yourself a 751517 lithium polymer battery." />}}
-<br />If you don't have one already, try [this one](https://www.ebay.de/itm/233974438926).
+{{< alert icon="💡" text="To make the Ble version of the Sweep work, you will need to buy yourself a 301535 lithium polymer battery." />}}
+<br />If you don't have one already, try [this one](https://ebay.us/m/YSgT9k).

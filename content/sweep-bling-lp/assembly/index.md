@@ -51,19 +51,18 @@ Next solder on the standoffs for your controller. You need to use IC sockets wit
 
 #### Batteries
 
-Solder in the batteries on the marked pins at the top.
+If you bought the battery that we suggested, the fit will be quite tight. It's easiest if you slide it in from the top, since pushing it down will not work. Solder in the batteries on the marked pins at the top.
 ![batteries](battery-pcb.png)
 
 #### Controller
 
 Before soldering the controllers onto the PCB we should get your controller flashed.
-![pluto]()
+![nice!nano](nice!nano.png)
 
-Depending on which controller you use you will have to go about flashing them differently. You can find the firmware <a href="https://files.keeb.supply/firmware/DASBOB/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
-![qmk]()
+Depending on which controller you use you will have to go about flashing them differently. You can find the firmware <a href="https://files.keeb.supply/firmware/sweep-bling-lp/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Solder the controller to the headers now. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you, the USB port should go to the top of the PCB. You should not see the components of the controller, when it is sitting on the PCB.
-![controller]()
+![nice!nano-pcb](nice!nano-pcb.png)
 
 You can now skip to the [Final Assembly]({{< ref "/sweep-bling-lp/assembly#final-assembly" >}}) to continue.
 
@@ -89,7 +88,7 @@ Before soldering the controllers onto the PCB we should get your controller flas
 You can find the firmware <a href="https://files.keeb.supply/firmware/sweep-bling-lp/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
-![vial]()
+![vial](sweep-vial.png)
 
 If it does you have successfully flashed your controller.
 
@@ -98,7 +97,7 @@ If your controller is working, you can solder it in. Instructions on how to do t
 
 When you have your controller soldered in, it is good practice to do a [matrix test]({{< ref "/basics/firmware/viaandvial#matrix-testing" >}}). Since the Sweep is a split keyboard, you need to plug in the two halves together using the TRRS cable.
 {{< alert icon="💡" text="Do not hotplug the TRRS cable, when your controllers are plugged into your PC. This can and will damage the board. Always unplug the keyboard from the PC, before plugging the TRRS cable in/out." />}}
-![matrix]()
+![matrix](sweep-matrix.png)
 
 You can now continue reading the Final Assembly to proceed.
 
@@ -114,4 +113,4 @@ As a last step put on your keycaps.
 ![caps](caps-pcb.png)
 
 And your Sweep keyboard is done!
-![dasbob-full-board]()
+![sweep-full-board](sweep-16-9.png)
