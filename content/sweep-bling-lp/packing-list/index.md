@@ -22,7 +22,7 @@ These Parts are included in both versions of the kit.
 | ![PCB](sweep-pcb.png) | PCB | 2 |
 | ![rubber feet](feet.png) | Rubber Feet | 8 |
 | ![reset button](omron-b3u.png) | Reset Buttons | 2 |
-| ![hs-sockets](HS-sockets.png) | HotSwap Sockets | 35 |
+| ![hs-sockets](HS-sockets.png) | Hotswap Sockets | 35 |
 
 ## VERSION
 
@@ -43,5 +43,5 @@ Depending on the version, there will be different parts included in the kit.
 |                             |
 | ![switch](slide-switch.png) | Slide Switch | 2        |
 
-{{< alert icon="💡" text="To make the Ble version of the Sweep work, you will need to buy yourself a 301535 lithium polymer battery." />}}
+{{< alert icon="💡" text="To make the wireless version of the Sweep work, you will need to buy yourself a 301535 lithium polymer battery." />}}
 <br />If you don't have one already, try [this one](https://ebay.us/m/YSgT9k).

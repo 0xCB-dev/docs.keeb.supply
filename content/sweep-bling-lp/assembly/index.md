@@ -15,7 +15,7 @@ toc: true
 
 ## Soldering
 
-If you do not have experience with soldering, please referr to this [Quick Start guide]({{< ref "/basics/soldering/solder-advice" >}}).
+If you do not have experience with soldering, please refer to this [Quick Start guide]({{< ref "/basics/soldering/solder-advice" >}}).
 {{< alert icon="💡" text="All of the following steps need to be executed on both halves of the keyboard. This will not be pointed out every time again in the following instructions." />}}
 
 ### General Assembly
@@ -27,7 +27,7 @@ First we will solder the parts that are the same on both the wired and wireless 
 Solder on the reset buttons.
 ![reset button](reset-pcb.png)
 
-#### HotSwap Sockets
+#### Hotswap Sockets
 
 Solder on the hotswap sockets. You can find instructions for that [here]({{< ref "/basics/soldering/hotswap#choc-low-profile" >}}).
 ![hs-sockets](hs-sockets-pcb.png)
