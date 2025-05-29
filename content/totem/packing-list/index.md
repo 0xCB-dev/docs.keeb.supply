@@ -28,8 +28,8 @@ toc: true
 | --------------------------- | ------------------------- | ------------------- |
 |                             |
 | ![case](case.jpg)           | 3D Printed Case           | 1 left<br />1 right |
-| ![standoffs](standoffs.jpg) | M2x6mm standoffs          | 8                   |
-| ![screws](screws.jpg)       | M2x6mm countersunk screws | 16                  |
+| ![standoffs](standoffs.jpg) | M2x9mm standoffs          | 8                   |
+| ![screws](screws.jpg)       | M2x5mm countersunk screws | 16                  |
 | ![feet](feet.jpg)           | rubber feet               | 8                   |
 | ![inbus](inbus.jpg)         | allen key                 | 1                   |
 

@@ -15,7 +15,7 @@ toc: true
 
 ## Soldering
 
-There are a few things you absolutely need to solder and a few which are optional. If you do not have experience with soldering, please referr to this [Quick Start guide]({{< ref "/basics/soldering/solder-advice" >}}).
+There are a few things you absolutely need to solder and a few which are optional. If you do not have experience with soldering, please refer to this [Quick Start guide]({{< ref "/basics/soldering/solder-advice" >}}).
 
 ### Required
 
