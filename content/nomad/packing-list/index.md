@@ -19,14 +19,14 @@ These Parts are included in both versions of the kit.
 | Image | Description | Quantity |
 | ----------------------------- | --------------- | -------- |
 | |
-| ![PCB]() | reversible PCB | 2 |
-| ![case]() | 3D Printed Case | 2 |
-| ![acrylic-cover]() | Acrylic Cover | 2 |
-| ![standoffs]() | M2x12mm Standoffs | 8 |
-| ![screws]() | M2x5mm Flathead Screws | 16 |
+| ![PCB](pcb.png) | reversible PCB | 2 |
+| ![case](case.png) | 3D Printed Case | 2 |
+| ![acrylic-cover](acrylic.png) | Acrylic Cover | 2 |
+| ![standoffs](standoffs.png) | M2x12mm Standoffs | 8 |
+| ![screws](screws.png) | M2x5mm Flathead Screws | 16 |
 | ![rubber feet](feet.png) | Rubber Feet | 8 |
+| ![trrs-cable](cable.png) | TRRS jack | 2 |
 | ![reset button](reset.png) | Reset Buttons | 2 |
 | ![trrs jack](trrs.png) | TRRS jack | 2 |
-| ![trrs-cable](cable.jpg) | TRRS jack | 2 |
 | ![hs-sockets](HS-sockets.png) | Hotswap Sockets | 70 |
-| ![diodes]() | Diodes | 70 |
+| ![diodes](diodes.png) | Diodes | 70 |

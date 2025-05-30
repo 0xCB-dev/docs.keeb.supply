@@ -34,7 +34,7 @@ Depending on the version, there will be different parts included in the kit.
 | ------------------------ | ----------- | -------- |
 |                          |
 | ![trrs jack](trrs.png)   | TRRS jack   | 2        |
-| ![trrs cable](cable.jpg) | TRRS cable  | 1        |
+| ![trrs cable](cable.png) | TRRS cable  | 1        |
 
 ### BLUETOOTH VERSION
 
