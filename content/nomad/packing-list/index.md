@@ -25,7 +25,7 @@ These Parts are included in both versions of the kit.
 | ![standoffs](standoffs.png) | M2x12mm Standoffs | 8 |
 | ![screws](screws.png) | M2x5mm Flathead Screws | 16 |
 | ![rubber feet](feet.png) | Rubber Feet | 8 |
-| ![trrs-cable](cable.png) | TRRS jack | 2 |
+| ![trrs-cable](cable.png) | TRRS Cable | 1 |
 | ![reset button](reset.png) | Reset Buttons | 2 |
 | ![trrs jack](trrs.png) | TRRS jack | 2 |
 | ![hs-sockets](HS-sockets.png) | Hotswap Sockets | 70 |
