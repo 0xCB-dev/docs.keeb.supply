@@ -21,8 +21,7 @@ There are a few things you absolutely need to solder and a few which are optiona
 
 #### Diodes
 
-Start with soldering all of the diodes in. If you have not soldered diodes before, you can find instructions [here]({{< ref "/basics/soldering/smd#diodes" >}}).
-{{< alert icon="💡" text="The diodes in the instructions have 3 legs, the diodes for the Endgame only have 2. The pad that is shaped like an arrow corresponds with the small line on the diode itself." />}}
+Start with soldering all of the diodes in. If you have not soldered diodes before, you can find instructions [here]({{< ref "/basics/soldering/smd#single-diodes" >}}).
 ![pcb-diodes](pcb-diode.png)
 
 #### Controller

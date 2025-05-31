@@ -1,5 +1,5 @@
 ---
-title : "Assembly"
+title: "Assembly"
 description: ""
 lead: ""
 date: 2020-10-06T08:48:45+00:00
@@ -18,7 +18,7 @@ toc: true
 
 {{< alert icon="💡" text="If you want to make the PCB look better, you can use a black sharpie to color the edges of the PCB." />}}
 
-<br>You can start by soldering on your diodes. You can find Instructions on how to solder diodes [here]({{< ref "basics/soldering/smd#diodes" >}}).
+<br>You can start by soldering on your diodes. You can find Instructions on how to solder diodes [here]({{< ref "basics/soldering/smd#double-diodes" >}}).
 ![zilpzalp-diodesoldered](zilpzalp-diodesoldered.jpg)
 
 <br>After that you can solder on your hotswap sockets. These are optional, as you can also solder in the switches, but sockets are included in the kit from KeebSupply. You can find Instructions on how to solder hotswap sockets [here]({{< ref "basics/soldering/hotswap#choc-low-profile" >}}).
