@@ -42,7 +42,7 @@ Solder the hotswap sockets onto the back of the PCB. You can find instructions f
 
 ### Diodes
 
-Solder the diodes to the same side as the hotswap sockets. Read through [here]({{< ref "/basics/soldering/smd#diodes" >}}) if you have not done that before.
+Solder the diodes to the same side as the hotswap sockets. Read through [here]({{< ref "/basics/soldering/smd#single-diodes" >}}) if you have not done that before.
 ![diodes](diodes-pcb.png)
 
 ### Controller Standoffs
