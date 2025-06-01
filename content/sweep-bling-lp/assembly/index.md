@@ -59,7 +59,7 @@ If you bought the battery that we suggested, the fit will be quite tight. It's e
 Before soldering the controllers onto the PCB we should get your controller flashed.
 ![nice!nano](nice!nano.png)
 
-Depending on which controller you use you will have to go about flashing them differently. You can find the firmware <a href="https://files.keeb.supply/firmware/sweep-bling-lp/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
+Depending on which controller you use you will have to go about flashing them differently. You'll have to set up a ZMK user repo to build your firmware. Intructions on how to do that are available <a href="https://zmk.dev/docs/user-setup" >here<a>. During the <a href="https://zmk.dev/docs/user-setup#keyboard-selection" >keyboard selection step<a> select the Cradio/Sweep. And instructions on how to flash a controller are available [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Solder the controller to the headers now. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you, the USB port should go to the top of the PCB. You should not see the components of the controller, when it is sitting on the PCB.
 ![nice!nano-pcb](nice!nano-pcb.png)
@@ -85,7 +85,7 @@ Next solder on the standoffs for your controller. You need to use IC sockets wit
 Before soldering the controllers onto the PCB we should get your controller flashed.
 ![helios](helios.png)
 
-You can find the firmware <a href="https://files.keeb.supply/firmware/sweep-bling-lp/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
+You can find the firmware <a href="https://files.keeb.supply/firmware/sweep-bling/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
 ![vial](sweep-vial.png)
