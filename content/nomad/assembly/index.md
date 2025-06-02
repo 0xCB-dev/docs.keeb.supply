@@ -59,7 +59,7 @@ Before soldering the controllers onto the PCB we should get your controller flas
 You can find the firmware <a href="https://files.keeb.supply/firmware/nomad/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
-![vial]()
+![vial](vial.png)
 
 If it does you have successfully flashed your controller.
 
@@ -68,7 +68,7 @@ If your controller is working, you can solder it in. Instructions on how to do t
 
 When you have your controller soldered in, it is good practice to do a [matrix test]({{< ref "/basics/firmware/viaandvial#matrix-testing" >}}). Since the Nomad is a split keyboard, you need to plug in the two halves together using the TRRS cable.
 {{< alert icon="💡" text="Do not hotplug the TRRS cable, when your controllers are plugged into your PC. This can and will damage the board. Always unplug the keyboard from the PC, before plugging the TRRS cable in/out." />}}
-![matrix]()
+![matrix](matrix.png)
 
 ## Final Assembly
 
@@ -91,4 +91,4 @@ Put on keycaps.
 ![caps](keycaps-pcb.png)
 
 And your Nomad keyboard is done!
-![sweep-full-board]()
+![nomad-full-board](cover.png)
