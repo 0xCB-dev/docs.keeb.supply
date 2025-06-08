@@ -13,9 +13,6 @@ weight: 10
 toc: true
 ---
 
-## General Parts
-
-These Parts are included in both versions of the kit.
 | Image | Description | Quantity |
 | ----------------------------- | --------------- | -------- |
 | |
