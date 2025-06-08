@@ -56,7 +56,7 @@ Next solder the standoffs for your controller. They go on the same side as the T
 Before soldering the controllers onto the PCB we should get your controller flashed.
 ![helios](helios.png)
 
-You can find the firmware <a href="https://files.keeb.supply/firmware/nomad/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
+You can find the firmware <a href="https://files.keeb.supply/firmware/Nomad/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
 ![vial](vial.png)
