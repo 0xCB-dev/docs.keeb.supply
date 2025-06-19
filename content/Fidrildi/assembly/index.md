@@ -26,8 +26,8 @@ You can find the firmware <a href="https://files.keeb.supply/firmware/fidrildi/"
 Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
 ![fidrildi-vial](fidrildi-vial.png)
 
-<br>If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you, the controller should go to the top of the PCB. You should see the components of the controller, when it is sitting on the PCB. You should not see any other electronic components on that side.
-{{< alert icon="💡" text="For the LEDs to work you need to solder in the extra pin 25 on the Helios! Please make sure the one pin that is inside of the outer row is soldered as well." />}}
+<br>If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you, the controller should go to the top of the PCB. You should see the components of the controller, when it is sitting on the PCB. You should not see any electronic components of the PCB itself.
+{{< alert icon="💡" text="For the LEDs to work you need to solder in the extra pin 25 on the Helios! Please make sure the one inside pin on the bottom left of the controller is soldered as well." />}}
 ![helios-pcb](helios-pcb.png)
 
 <br>When you have your controller soldered in, it is good practice to do a [matrix test]({{< ref "/basics/firmware/viaandvial#matrix-testing" >}}) with some tweezers.
@@ -49,7 +49,7 @@ Start by putting on the rubber feet. We provide 6 feet which you should place in
 <br>Put the acrylic middle layer onto the plate from the bottom.
 ![caps](acryl-stack.png)
 
-<br>After that push the PCB onto the switch and acrylic stack. Make sure the PCB is laying against the acrylic with the side the controller is on.
+<br>After that push the PCB onto the switch and acrylic stack. Make sure the PCB is lying against the acrylic with the side the controller is on.
 ![caps](final-stack.png)
 
 <br>Put on your preferred keycaps and your Fiðrildi is done!
