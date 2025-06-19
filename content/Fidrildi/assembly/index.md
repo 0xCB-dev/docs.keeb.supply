@@ -20,7 +20,6 @@ There are only a few components that need to be soldered for this kit since it c
 ### Controller
 
 Before soldering the controller onto the PCB you should check if the correct firmware is on there.
-{{< alert icon="💡" text="If you have bought the kit on KeebSupply your controller will come preflashed." />}}
 
 You can find the firmware <a href="https://files.keeb.supply/firmware/fidrildi/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).
 

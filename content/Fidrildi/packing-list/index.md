@@ -13,12 +13,11 @@ weight: 10
 toc: true
 ---
 
-| Image                         | Description            | Quantity |
-| ----------------------------- | ---------------------- | -------- |
-|                               |
-| ![PCB](pcb.png)               | PCB                    | 1        |
-| ![Plate](plate.png)           | Plate                  | 1        |
-| ![Acryl middle layer]()       | Acrylic middle layer   | 1        |
-| ![Helios](helios.png)         | Helios Microcontroller | 1        |
-| ![hs-sockets](HS-sockets.png) | Choc HotSwap sockets   | 35       |
-| ![rubber-feet](feet.png)      | Rubber Feet            | 6        |
+| Image                            | Description                                      | Quantity |
+| -------------------------------- | ------------------------------------------------ | -------- |
+|                                  |
+| ![PCB](pcb.png)                  | PCB assembled with Diodes, LEDs and reset button | 1        |
+| ![Plate](plate.png)              | Plate                                            | 1        |
+| ![Acryl middle layer](acryl.png) | Acrylic middle layer                             | 1        |
+| ![hs-sockets](HS-sockets.png)    | Choc HotSwap sockets                             | 35       |
+| ![rubber-feet](feet.png)         | Rubber Feet                                      | 6        |
