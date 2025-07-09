@@ -45,3 +45,6 @@ The Re-gret kit on KeebSupply is available in a wireless and wired version. Depe
 | ![slide-switch](slide.png)                  | Slide switch          | 1        |
 | ![battery-connector](battery-connector.png) | JST battery connector | 1        |
 | ![pogopins](pogo.png)                       | one extra PogoPin     | 1        |
+
+{{< alert icon="💡" text="To build the wireless version you'll additionaly need a 401015 lithium polymer battery." />}}
+<br />If you don't have one already, try [this one](https://www.ebay.de/itm/255510046348?var=555462939782).

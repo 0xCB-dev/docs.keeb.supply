@@ -91,8 +91,10 @@ To get power to the controller you need to solder the other pogo pin as well.
 
 #### Battery connector
 
+{{< alert icon="💡" text="Make sure the polarity of the 401015 battery matches: the '+' contact on the PCB has to connect to the red lead. Be incredibly careful when working with batteries! Don't let the contacts touch each other when switching the connector polarity!" />}}
+
 Solder the battery connector to the front of the PCB. After you have soldered the connector you can plug in the battery and tug it into the space underneath the controller.
-{{< alert icon="💡" text="Please check the polarity of the battery and PCB. If the polarities are not the same, change them accordingly." />}}
+{{< alert icon="💡" text="Please double check the polarity of the battery and PCB. If the polarities are not the same, change them accordingly." />}}
 ![battery connector](pcb-battery.png)
 
 #### Controller
