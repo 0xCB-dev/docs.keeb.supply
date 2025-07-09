@@ -32,7 +32,7 @@ The Re-gret kit on KeebSupply is available in a wireless and wired version. Depe
 | ![shift-register](shift-register.png) | Shift register                                     | 1        |
 | ![IC-Sockets](ic-sockets.png)         | IC sockets                                         | 2        |
 | ![millmaxpins](millmax.png)           | MillMax pins                                       | 14       |
-| ![pogopins](pogo.png)                 | PogoPin                                            | 1        |
+| ![pogopins](pogo.png)                 | Pogo pin                                           | 1        |
 | ![reset-button](reset.png)            | Reset button                                       | 1        |
 | ![diodes](diodes.png)                 | Diodes                                             | 40       |
 | ![hs-sockets](HS-sockets.png)         | Choc HotSwap sockets                               | 35       |
@@ -44,7 +44,7 @@ The Re-gret kit on KeebSupply is available in a wireless and wired version. Depe
 |                                             |
 | ![slide-switch](slide.png)                  | Slide switch          | 1        |
 | ![battery-connector](battery-connector.png) | JST battery connector | 1        |
-| ![pogopins](pogo.png)                       | one extra PogoPin     | 1        |
+| ![pogopins](pogo.png)                       | Extra pogo pin        | 1        |
 
 {{< alert icon="💡" text="To build the wireless version you'll additionaly need a 401015 lithium polymer battery." />}}
 <br />If you don't have one already, try [this one](https://www.ebay.de/itm/255510046348?var=555462939782).

@@ -15,9 +15,9 @@ toc: true
 
 ## Soldering
 
-Depending on if you bought a wireless or wired version there will be different things that you need to solder. We'll start with what's the same between the versions and end with the differences.
+Depending on if you bought a wireless or wired version there will be different things that you need to solder. We'll start with the steps that are the same for both versions, then cover the differences.
 
-### Both versions
+### Both Versions
 
 #### Shift Register
 
@@ -26,7 +26,7 @@ The first component to solder is the shift register. This component has tiny pin
 
 #### Reset Button
 
-Solder on the reset button next.
+Solder the reset button next.
 ![reset button](pcb-reset.png)
 
 #### HotSwap Sockets
@@ -38,7 +38,7 @@ Solder the HotSwap sockets next. You can find instructions for that [here]({{< r
 
 #### Diodes
 
-Solder the diodes next. Read through [here]({{< ref "/basics/soldering/smd#single-diodes" >}}) if you have not done that before.
+Solder the diodes next. Read through [here]({{< ref "/basics/soldering/smd#single-diodes" >}}) if you have not done this before.
 ![reset button](pcb-diodes.png)
 
 #### Pogo Pin
@@ -48,7 +48,7 @@ Solder the top pogo pin that is marked as RST on the back next. Stick it through
 
 #### Controller Standoffs
 
-Next solder on the standoffs for your controller. You need to use IC sockets with MillMax pins for this board. Read through [here]({{< ref "/basics/soldering/promicro#header-pins" >}}) if you have not done that before.
+Next solder the standoffs for your controller. You need to use IC sockets with MillMax pins for this board. Read through [here]({{< ref "/basics/soldering/promicro#header-pins" >}}) if you have not done that before.
 ![standoffs](pcb-ic-sockets.png)
 
 Please skip to [this part]({{< ref "/re-gret/assembly#wireless" >}}) now if you are building a wireless Re-gret.
@@ -89,11 +89,11 @@ You will need to solder in the slide switch to be able to power the keyboard on 
 To get power to the controller you need to solder the other pogo pin as well.
 ![pogo pin 2](pcb-pogo2.png)
 
-#### Battery connector
+#### Battery Connector
 
-{{< alert icon="💡" text="Make sure the polarity of the 401015 battery matches: the '+' contact on the PCB has to connect to the red lead. Be incredibly careful when working with batteries! Don't let the contacts touch each other when switching the connector polarity!" />}}
+{{< alert icon="💡" text="Ensure the polarity of the 401015 battery: The '+' contact on the PCB has to connect to the red wire. Be incredibly careful when working with batteries! Don't let the contacts touch each other when switching the connector polarity!" />}}
 
-Solder the battery connector to the front of the PCB. After you have soldered the connector you can plug in the battery and tug it into the space underneath the controller.
+Solder the battery connector to the front of the PCB. After you have soldered the connector you can plug in the battery and tuck it into the space underneath the controller.
 {{< alert icon="💡" text="Please double check the polarity of the battery and PCB. If the polarities are not the same, change them accordingly." />}}
 ![battery connector](pcb-battery.png)
 
@@ -101,7 +101,7 @@ Solder the battery connector to the front of the PCB. After you have soldered th
 
 Before soldering the controller onto the PCB you should check if the correct firmware is on there.
 
-The board comes with a precompiled zmk firmware found <a href="https://files.keeb.supply/firmware/Re-gret/" >here<a> based on the official Re-Gret ZMK module. You'll have to set up a ZMK user repo to modify your keymap. Intructions on how to do that are available <a href="https://zmk.dev/docs/user-setup" >here<a>. After that configure the Re-gret ZMK module following <a href="https://github.com/rschenk/zmk-keyboard-re-gret" >this<a>. And instructions on how to flash a controller are available [here]({{< ref "/basics/firmware/flashing" >}}).<br>
+The board comes with a precompiled zmk firmware found <a href="https://files.keeb.supply/firmware/Re-gret/" >here<a>, which is based on the official Re-Gret ZMK module. You'll have to set up a ZMK user repo to modify your keymap. Intructions on how to do that are available <a href="https://zmk.dev/docs/user-setup" >here<a>. After that configure the Re-gret ZMK module following <a href="https://github.com/rschenk/zmk-keyboard-re-gret" >this<a>. Instructions on how to flash a controller are available [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Solder the controller to the headers now using the MillMax pins. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#ic-hotswap-sockets" >}}). When you have the PCB in front of you, the USB port should go to the top of the PCB. You should see the metal shield of the controller, when it is sitting on the PCB.
 ![seeed-ble-pcb](pcb-nrf.png)
