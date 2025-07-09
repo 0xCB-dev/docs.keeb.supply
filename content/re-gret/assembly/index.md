@@ -62,16 +62,16 @@ All of the steps in this paragraph need to be done when assembling the wired var
 
 Before soldering the controller onto the PCB you should check if the correct firmware is on there.
 
-You can find the firmware <a href="https://files.keeb.supply/firmware/re-gret/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).
+You can find the VIAL firmware <a href="https://files.keeb.supply/firmware/Re-gret/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).
 
 Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
-![re-gret-vial]()
+![re-gret-vial](re-gret-vial.png)
 
 <br>If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#ic-hotswap-sockets" >}}).
 ![seeed-pcb](pcb-rp2040.png)
 
 <br>When you have your controller soldered in, it is good practice to do a [matrix test]({{< ref "/basics/firmware/viaandvial#matrix-testing" >}}) with some tweezers.
-![re-gret-matrix]()
+![re-gret-matrix](re-gret-matrix.png)
 
 You can now skip to the [final assembly]({{< ref "/re-gret/assembly#final-assembly" >}}) to continue.
 
@@ -99,7 +99,7 @@ Solder the battery connector to the front of the PCB. After you have soldered th
 
 Before soldering the controller onto the PCB you should check if the correct firmware is on there.
 
-Depending on which controller you use you will have to go about flashing them differently. You'll have to set up a ZMK user repo to build your firmware. Intructions on how to do that are available <a href="https://zmk.dev/docs/user-setup" >here<a>. After that configure the Re-gret ZMK module following <a href="https://github.com/rschenk/zmk-keyboard-re-gret" >this<a>. And instructions on how to flash a controller are available [here]({{< ref "/basics/firmware/flashing" >}}).<br>
+The board comes with a precompiled zmk firmware found <a href="https://files.keeb.supply/firmware/Re-gret/" >here<a> based on the official Re-Gret ZMK module. You'll have to set up a ZMK user repo to modify your keymap. Intructions on how to do that are available <a href="https://zmk.dev/docs/user-setup" >here<a>. After that configure the Re-gret ZMK module following <a href="https://github.com/rschenk/zmk-keyboard-re-gret" >this<a>. And instructions on how to flash a controller are available [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Solder the controller to the headers now using the MillMax pins. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#ic-hotswap-sockets" >}}). When you have the PCB in front of you, the USB port should go to the top of the PCB. You should see the metal shield of the controller, when it is sitting on the PCB.
 ![seeed-ble-pcb](pcb-nrf.png)
