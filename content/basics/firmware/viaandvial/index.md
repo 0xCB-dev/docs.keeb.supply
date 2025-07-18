@@ -58,7 +58,7 @@ One aspect favoring VIA right now is, that its userbase is currently larger, mak
 
 - make sure your board has a VIA firmware [flashed]({{< relref "flashing" >}}) ready made ones are available [here](https://www.caniusevia.com/docs/download_firmware)
 
-- download VIAL [here](https://github.com/the-via/releases/releases) - there is also a web version available [here](https://usevia.app/#/)
+- download VIA [here](https://github.com/the-via/releases/releases) - there is also a web version available [here](https://usevia.app/#/)
 
 - your board will show up and display it's current mapping
 
