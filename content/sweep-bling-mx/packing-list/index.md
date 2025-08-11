@@ -20,7 +20,7 @@ These Parts are included in both versions of the kit.
 | ----------------------------- | --------------- | -------- |
 | |
 | ![Switch Plate](switch-plates.png) | Switch Plate | 2 |
-| ![PCB](sweep-pcb.png) | PCB | 2 |
+| ![PCB](pcb.png) | PCB | 2 |
 | ![Bottom Plate](bottom-plates.png) | Bottom Plate | 2 |
 | ![rubber feet](feet.png) | Rubber Feet | 8 |
 | ![reset button](omron-b3u.png) | Reset Buttons | 2 |

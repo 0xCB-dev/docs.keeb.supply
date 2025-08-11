@@ -16,8 +16,8 @@ toc: true
 ## Soldering
 
 If you do not have experience with soldering, please refer to this [Quick Start guide]({{< ref "/basics/soldering/solder-advice" >}}).
-{{< alert icon="💡" text="All of the following steps need to be executed on both halves of the keyboard. This will not be pointed out every time again in the following instructions." />}}
 {{< alert icon="💡" text="Since the PCBs are reversible, make sure that you are soldering on different sides right from the beginning!" />}}
+{{< alert icon="💡" text="All of the following steps need to be executed on both halves of the keyboard. This will not be pointed out every time again in the following instructions." />}}
 
 ### General Assembly
 
