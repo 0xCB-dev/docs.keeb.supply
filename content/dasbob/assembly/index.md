@@ -52,6 +52,7 @@ Before soldering the controllers onto the PCB we should get your controller flas
 If it does you have successfully flashed your controller.
 
 <br>If your controller is working, you can solder it in. Instructions on how to do that can be found [here]({{< ref "/basics/soldering/promicro#promicro" >}}). When you have the PCB in front of you, the USB port should go to the top of the PCB. You should not see the components of the micro controller, when it is sitting in the PCB.
+{{< alert icon="💡" text="The top two through holes, labelled + and -, are for batteries. If you are using your DASBOB with a wired connection, please do not solder these to the controller." />}}
 ![controller](helios.png)
 
 <br>When you have your controller soldered in, it is good practice to do a [matrix test]({{< ref "/basics/firmware/viaandvial#matrix-testing" >}}). Since DASBOB is a split keyboard, you need to plug in the two halves together using the TRRS Cable.
