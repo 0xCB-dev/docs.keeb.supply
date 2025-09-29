@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Keeb Supply Docs"
+title = "KeebSupply Docs"
 titleSeparator = "-"
 titleAddition = "Docs"
-description = "Documentation for everything related to Keeb Supply."
+description = "Documentation for everything related to KeebSupply."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -13,7 +13,7 @@ description = "Documentation for everything related to Keeb Supply."
 images = ["og.webp"]
 ogLocale = "en_US"
 domainTLD = "docs.keeb.supply"
-titleHome = "Keeb Supply Docs"
+titleHome = "KeebSupply Docs"
 
 ## Twitter Cards
 twitterSite = ""
@@ -22,8 +22,8 @@ twitterCreator = ""
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Keeb Supply Docs"
-schemaAuthor = "Keeb Supply"
+schemaName = "KeebSupply Docs"
+schemaAuthor = "KeebSupply"
 schemaAuthorGitHub = "https://github.com/0xcb-dev"
 schemaLocale = "en-US"
 schemaLogo = "logo.png"
