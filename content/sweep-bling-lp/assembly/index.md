@@ -85,7 +85,7 @@ Next solder on the standoffs for your controller. You need to use IC sockets wit
 Before soldering the controllers onto the PCB we should get your controller flashed.
 ![helios](helios.png)
 
-You can find the firmware <a href="https://files.keeb.supply/firmware/sweep-bling/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
+You can find the firmware <a href="https://files.keeb.supply/firmware/Sweep-bling/" >here<a>. And instructions on how to flash a controller [here]({{< ref "/basics/firmware/flashing" >}}).<br>
 
 Plug in your controller now and see if it pops up in [VIAL]({{< ref "/basics/firmware/viaandvial#VIAL" >}}).
 ![vial](sweep-vial.png)
