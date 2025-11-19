@@ -21,9 +21,9 @@ These little Piezo speakers are a great and fun addition to any keyboard.
 
 ## Firmware
 
-You can use them to play click sounds per key press, or play melodies on startup / shutdown of you keeb - please check the [QMK docs](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_audio.md) for a full guide with examples.
+You can use them to play click sounds per key press, or play melodies on startup / shutdown of you keeb - please check the [QMK docs](https://github.com/qmk/qmk_firmware/blob/master/docs/features/audio.md) for a full guide with examples.
 
-One more advanced feature is outputting [MIDI](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_midi.md).
+One more advanced feature is outputting [MIDI](https://github.com/qmk/qmk_firmware/blob/master/docs/features/midi.md).
 
 ## Soldering
 
