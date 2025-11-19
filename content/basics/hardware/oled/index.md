@@ -23,7 +23,7 @@ They are available in multiple sizes and aspect ratios - the most common ones ar
 
 ## Firmware
 
-As always the [QMK docs](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_oled_driver.md) have a full guide with examples to get you started.
+As always the [QMK docs](https://github.com/qmk/qmk_firmware/blob/master/docs/features/oled_driver.md) have a full guide with examples to get you started.
 
 You can take this repo as a reference for the [Bongo Cat](https://github.com/nwii/oledbongocat).
 
