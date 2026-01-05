@@ -25,6 +25,9 @@ toc: true
 | ![screws](screws.png)           | M2 x 3 mm countersunk screws                                      | 16                  |
 | ![rubber feet](feet-rubber.png) | Rubber Feet                                                       | 8                   |
 
+
+{{< alert icon="💡" text="To make the Forager work, you will need to buy two 401230 lithium polymer batteries. <br />If you don't have some already, try <a href='https://www.ebay.de/itm/127224424773'>this one</a>." />}}
+
 ## Tenting kit
 
 | Image                     | Description                                                       | Quantity |
@@ -32,5 +35,3 @@ toc: true
 |                           |
 | ![tenting feet](feet.png) | MJF Leg with magnets, alignment pins and rubber feet preinstalled | 4        |
 
-{{< alert icon="💡" text="To make the Forager work, you will need to buy yourself a 401230 lithium polymer battery." />}}
-<br />If you don't have one already, try [this one](https://www.ebay.de/itm/127224424773).
