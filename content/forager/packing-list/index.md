@@ -15,14 +15,15 @@ toc: true
 
 ## Kit parts
 
-| Image                      | Description                                                       | Quantity            |
-| -------------------------- | ----------------------------------------------------------------- | ------------------- |
-|                            |
-| ![PCB](pcbs.png)           | PCBs (Diodes, threaded inserts and battery connector presoldered) | 1 left<br />1 right |
-| ![case](case.png)          | 3D-Printed MJF Case (Magnets and light pipe preinstalled)         | 1                   |
-| ![seeed](ble.jpg)          | Seeed XIAO wireless controller                                    | 2                   |
-| ![hotswap](HS-sockets.png) | hotswap sockets                                                   | 34                  |
-| ![screws](screws.png)      | M2 x 3 mm countersunk screws                                      | 16                  |
+| Image                           | Description                                                       | Quantity            |
+| ------------------------------- | ----------------------------------------------------------------- | ------------------- |
+|                                 |
+| ![PCB](pcbs.png)                | PCBs (Diodes, threaded inserts and battery connector presoldered) | 1 left<br />1 right |
+| ![case](case.png)               | 3D-Printed MJF Case (Magnets and light pipe preinstalled)         | 1                   |
+| ![seeed](ble.jpg)               | Seeed XIAO wireless controller                                    | 2                   |
+| ![hotswap](HS-sockets.png)      | hotswap sockets                                                   | 34                  |
+| ![screws](screws.png)           | M2 x 3 mm countersunk screws                                      | 16                  |
+| ![rubber feet](feet-rubber.png) | Rubber Feet                                                       | 8                   |
 
 ## Tenting kit
 

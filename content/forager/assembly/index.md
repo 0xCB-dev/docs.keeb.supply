@@ -29,7 +29,7 @@ Solder on the hotswap sockets. You can find instructions for that [here]({{< ref
 <br>After that you just have to solder on your controller. You can lay the Seeed XIAO directly onto the PCB and solder it on there. You can find instructions on how to solder a controller directly onto the PCB [here]({{< ref "basics/soldering/promicro#pcb-mount" >}}).
 ![microcontroller](pcb-controller.png)
 
-{{< alert icon="💡" text="Don't forget to solder the BT+ connection on the underside of the Xiao!." />}}
+{{< alert icon="💡" text="Don't forget to solder the circled BT+ connection on the underside of the Xiao!." />}}
 ![backpins](pcb-controller-bat.png)
 
 ### Battery
@@ -41,7 +41,7 @@ For the Forager you can either use the ez mate push connector to easily connect 
 <br />You probably need to shorten the cables of the 401230 lithium polymer battery and tin them if you decide to solder it, since the length needs to be pretty short, to fit.
 ![battery_01](battery.png)
 
-<br />You can see which cable needs to go in which eye by the silkscreen. Red is + / black is -.
+<br />You can see which cable needs to go onto which pad by the silkscreen. Red is + / black is -.
 ![batt_face](pcb-battery-pins.png)
 
 <br />Attach the wires of the battery to the pads and solder them in.
