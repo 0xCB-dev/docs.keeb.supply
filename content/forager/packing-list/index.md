@@ -26,7 +26,7 @@ toc: true
 | ![rubber feet](feet-rubber.png) | Rubber Feet                                                       | 8                   |
 
 
-{{< alert icon="💡" text="To make the Forager work, you will need to buy two 401230 lithium polymer batteries. <br />If you don't have some already, try <a href='https://www.ebay.de/itm/127224424773'>this one</a>." />}}
+{{< alert icon="💡" text="To make the Forager work, you will need to buy yourself two 401230 lithium polymer batteries.<br />If you don't have them already, try <a href='https://www.ebay.de/itm/127224424773'>these</a>." />}}
 
 ## Tenting kit
 
