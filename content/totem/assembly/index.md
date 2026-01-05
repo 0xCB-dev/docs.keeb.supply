@@ -22,7 +22,7 @@ Here is an overview of where and on which side each component needs to be solder
 
 #### HOTSWAP SOCKETS
 
-Here you can apply the same technique as used for the diodes: Apply some solder on one of the pads first.
+Apply some solder on one of the pads first.
 ![hotswap_01](hotswap_01.jpg)
 
 <br />Then place the switch socket in the silk screen markings. The orientation matters here too. Especially if you plan on using the case.
