@@ -5,7 +5,7 @@ lead: "Here you can find the instructions for assembling the Forager"
 date: 2022-10-01T21:35:03+02:00
 lastmod: 2022-10-01T21:35:03+02:00
 draft: false
-images: [cover.jpg]
+images: [case-cover.png]
 categories: instructions
 weight: 35
 ---
