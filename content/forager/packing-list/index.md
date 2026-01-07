@@ -22,9 +22,8 @@ toc: true
 | ![case](case.png)               | 3D-Printed MJF Case (Magnets and light pipe preinstalled)         | 1                   |
 | ![seeed](ble.jpg)               | Seeed XIAO wireless controller                                    | 2                   |
 | ![hotswap](HS-sockets.png)      | hotswap sockets                                                   | 34                  |
-| ![screws](screws.png)           | M2 x 3 mm countersunk screws                                      | 16                  |
+| ![screws](screws.png)           | M2 x 3 mm countersunk screws                                      | 18                  |
 | ![rubber feet](feet-rubber.png) | Rubber Feet                                                       | 8                   |
-
 
 {{< alert icon="💡" text="To make the Forager work, you will need to buy yourself two 401230 lithium polymer batteries.<br />If you don't have them already, try <a href='https://www.ebay.de/itm/127224424773'>these</a>." />}}
 
@@ -34,4 +33,3 @@ toc: true
 | ------------------------- | ----------------------------------------------------------------- | -------- |
 |                           |
 | ![tenting feet](feet.png) | MJF Leg with magnets, alignment pins and rubber feet preinstalled | 4        |
-
