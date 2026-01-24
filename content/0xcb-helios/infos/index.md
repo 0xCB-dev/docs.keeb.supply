@@ -50,6 +50,9 @@ gantt
     hotfix                      :2023-07-10, 60d
     R4                          :2023-11-06, 2024-08-25
     R5                          :2024-08-25, 2024-12-30
+    R6                          :2024-12-30, 2025-07-09
+    R7                          :2025-07-09, 2026-01-24
+    R8                          :2026-01-24, 30d
 ```
 
 ---
@@ -74,9 +77,18 @@ gantt
     - Supplied A stock to KeebSupply
     - Supplied A stock to Keycapsss
     - Supplied A stock to RNDKBD
-  - Round 5 [Added Purple and White Helios options]
+  - Round 5 [Added purple and white Helios options]
     - Supplied A stock to KeebSupply
     - Supplied A stock to Keycapsss
     - Supplied A stock to RingerKeys
-
+  - Round 6 [More black units]
+    - Supplied A stock to KeebSupply
+    - Supplied A stock to Keycapsss
+    - Supplied A stock to RingerKeys
+    - Supplied A stock to RNDKBD
+  - Round 7 [Way more black units]
+    - Supplied A stock to KeebSupply
+    - Supplied A stock to Keycapsss
+  - Round 8 [More purple and white units]
+    - Supplied A stock to KeebSupply
 ---
