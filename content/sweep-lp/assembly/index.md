@@ -7,8 +7,8 @@ lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
 menu:
-  sweep-bling-mx:
-    parent: "sweep-bling-mx"
+  sweep-lp:
+    parent: "sweep-lp"
 weight: 40
 toc: true
 ---
@@ -16,12 +16,11 @@ toc: true
 ## Soldering
 
 If you do not have experience with soldering, please refer to this [Quick Start guide]({{< ref "/basics/soldering/solder-advice" >}}).
-{{< alert icon="💡" text="Since the PCBs are reversible, make sure that you are soldering on different sides right from the beginning!" />}}
 {{< alert icon="💡" text="All of the following steps need to be executed on both halves of the keyboard. This will not be pointed out every time again in the following instructions." />}}
 
 ### General Assembly
 
-First we will solder the parts that are the same on both the wired and wireless variants.
+First we will solder the parts that are the same regardless of Choc switch type and wired/wireless connectivity.
 
 #### Reset Buttons
 
@@ -30,20 +29,16 @@ Solder the reset buttons.
 
 #### Hotswap Sockets
 
-Turn over the PCB and solder on the hotswap sockets. You can find instructions for that [here]({{< ref "/basics/soldering/hotswap#choc-low-profile" >}}).
+Solder the hotswap sockets. You can find instructions for that [here]({{< ref "/basics/soldering/hotswap#choc-low-profile" >}}).
+<br>Skip this step if you're building the Choc V2 version.
 ![hs-sockets](hs-sockets-pcb.png)
 
-#### Solder Jumper
-
-Solder the jumpers around the controller area on each half. make sure to solder the jumpers on the side the hotswap sockets are on.
-![jumper](jumper-pcb.png)
-
-Please skip to [this part]({{< ref "#wireless" >}}) now if you are building a wireless Sweep.
+<br>Please skip to [this part]({{< ref "#wireless" >}}) now if you are building a wireless Sweep.
 <br>Please skip to [this part]({{< ref "#wired" >}}) now if you are building a wired Sweep.
 
 ### Wireless
 
-All of the steps in this paragraph need to be done when assembling the wireless variant of the Sweep.
+All of the steps in this paragraph need to be done when assembling a wireless variant of the Sweep.
 
 #### Slide Switch
 
@@ -74,7 +69,7 @@ You can now skip to the [Final Assembly]({{< ref "#final-assembly" >}}) to conti
 
 ### Wired
 
-All of the steps in this paragraph need to be done when assembling the wired variant of the Sweep.
+All of the steps in this paragraph need to be done when assembling a wired variant of the Sweep.
 
 #### TRRS Jacks
 
@@ -83,7 +78,7 @@ You will need to solder in the TRRS jacks.
 
 #### Controller Standoffs
 
-Next solder on the standoffs for your controller. Read through [here]({{< ref "/basics/soldering/promicro" >}}) if you have not done that before.
+Next solder on the standoffs for your controller. You need to use IC sockets with MillMax pins for this board. Read through [here]({{< ref "/basics/soldering/promicro#ic-hotswap-sockets" >}}) if you have not done that before.
 ![standoffs](wired-sockets.png)
 
 #### Controller
@@ -109,20 +104,33 @@ You can now continue reading the Final Assembly to proceed.
 
 ## Final Assembly
 
-Screw the standoffs into the switch plates.
-![switch-plates](switch-plate-and-standoff.png)
+Start by putting on the rubber feet. We provide 4 feet per side which you can place wherever you want.
+![feet](rubber-feet-pcb.png)
 
-After that push the switches through the switch plate into the PCB.
-![switches](switch-assembly.png)
+<br>Please skip to [this part]({{< ref "#choc-v1" >}}) now if you are building a Choc V1 Sweep.
+<br>Please skip to [this part]({{< ref "#choc-v2" >}}) now if you are building a Choc V2 Sweep.
 
-Place the bottom plates onto the standoffs and screw them in from the bottom.
-![bottom](bottom-plate-screws.png)
+### Choc V1
 
-After that push the switches through the switch plate into the PCB.
-![feet](bottom-plate-feet.png)
+After that push in the switches.
+![switches](switches-pcb.png)
 
 As a last step put on your keycaps.
-![caps](caps.png)
+![caps](caps-pcb.png)
 
 And your Sweep keyboard is done!
-![sweep-full-board](cover.png)
+![sweep-full-board](sweep-16-9.png)
+
+### Choc V2
+
+After that you can push the switches through the plate and through the 3D-printed riser into the PCB.
+![switches](v2-plate-stack.png)
+
+Solder the switches now.
+![switches](v2-solder.png)
+
+As a last step put on your keycaps.
+![caps](v2-caps.png)
+
+And your Sweep keyboard is done!
+![sweep-full-board](v2-done.png)
