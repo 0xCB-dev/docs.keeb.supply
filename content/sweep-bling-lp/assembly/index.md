@@ -20,24 +20,25 @@ If you do not have experience with soldering, please refer to this [Quick Start 
 
 ### General Assembly
 
-First we will solder the parts that are the same on both the wired and wireless variants.
+First we will solder the parts that are the same regardless of Choc switch type and wired/wireless connectivity.
 
 #### Reset Buttons
 
-Solder on the reset buttons.
+Solder the reset buttons.
 ![reset button](reset-pcb.png)
 
 #### Hotswap Sockets
 
-Solder on the hotswap sockets. You can find instructions for that [here]({{< ref "/basics/soldering/hotswap#choc-low-profile" >}}).
+Solder the hotswap sockets. You can find instructions for that [here]({{< ref "/basics/soldering/hotswap#choc-low-profile" >}}).
+<br>Skip this step if you're building the Choc V2 version.
 ![hs-sockets](hs-sockets-pcb.png)
 
-Please skip to [this part]({{< ref "/sweep-bling-lp/assembly#wireless" >}}) now if you are building a wireless Sweep.
+<br>Please skip to [this part]({{< ref "/sweep-bling-lp/assembly#wireless" >}}) now if you are building a wireless Sweep.
 <br>Please skip to [this part]({{< ref "/sweep-bling-lp/assembly#wired" >}}) now if you are building a wired Sweep.
 
 ### Wireless
 
-All of the steps in this paragraph need to be done when assembling the wireless variant of the Sweep.
+All of the steps in this paragraph need to be done when assembling a wireless variant of the Sweep.
 
 #### Slide Switch
 
@@ -68,7 +69,7 @@ You can now skip to the [Final Assembly]({{< ref "/sweep-bling-lp/assembly#final
 
 ### Wired
 
-All of the steps in this paragraph need to be done when assembling the wired variant of the Sweep.
+All of the steps in this paragraph need to be done when assembling a wired variant of the Sweep.
 
 #### TRRS Jacks
 
@@ -106,6 +107,11 @@ You can now continue reading the Final Assembly to proceed.
 Start by putting on the rubber feet. We provide 4 feet per side which you can place wherever you want.
 ![feet](rubber-feet-pcb.png)
 
+<br>Please skip to [this part]({{< ref "/sweep-bling-lp/assembly#choc-v1" >}}) now if you are building a Choc V1 Sweep.
+<br>Please skip to [this part]({{< ref "/sweep-bling-lp/assembly#choc-v2" >}}) now if you are building a Choc V2 Sweep.
+
+### Choc V1
+
 After that push in the switches.
 ![switches](switches-pcb.png)
 
@@ -114,3 +120,17 @@ As a last step put on your keycaps.
 
 And your Sweep keyboard is done!
 ![sweep-full-board](sweep-16-9.png)
+
+### Choc V2
+
+After that you can push the switches through the plate and through the 3D-printed riser into the PCB.
+![switches](v2-plate-stack.png)
+
+Solder the switches now.
+![switches](v2-solder.png)
+
+As a last step put on your keycaps.
+![caps](v2-caps.png)
+
+And your Sweep keyboard is done!
+![sweep-full-board](v2-done.png)

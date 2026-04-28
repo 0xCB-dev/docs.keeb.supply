@@ -15,7 +15,7 @@ toc: true
 
 ## General Parts
 
-These Parts are included in both versions of the kit.
+These parts are included in both versions of the kit.
 | Image | Description | Quantity |
 | ----------------------------- | --------------- | -------- |
 | |
@@ -28,11 +28,11 @@ These Parts are included in both versions of the kit.
 | ![screws](screws.png) | M2x4mm Screws | 16 |
 | ![standoffs](standoffs.png) | M2x8mm Standoffs | 8 |
 
-## VERSION
+## Version
 
 Depending on the version, there will be different parts included in the kit.
 
-### WIRED VERSION
+### Wired Version
 
 | Image                    | Description | Quantity |
 | ------------------------ | ----------- | -------- |
@@ -40,7 +40,7 @@ Depending on the version, there will be different parts included in the kit.
 | ![trrs jack](trrs.png)   | TRRS jack   | 2        |
 | ![trrs cable](cable.png) | TRRS cable  | 1        |
 
-### BLUETOOTH VERSION
+### Bluetooth Version
 
 | Image                       | Description  | Quantity |
 | --------------------------- | ------------ | -------- |

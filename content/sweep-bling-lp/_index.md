@@ -10,4 +10,4 @@ categories: instructions
 weight: 11
 ---
 
-Here you can find the instructions for assembling the Sweep Bling LP.
+Here you can find the instructions for assembling the Sweep Bling LP in the Choc V1 and V2 version.

@@ -25,7 +25,7 @@ First we will solder the parts that are the same on both the wired and wireless 
 
 #### Reset Buttons
 
-Solder on the reset buttons.
+Solder the reset buttons.
 ![reset button](reset-pcb.png)
 
 #### Hotswap Sockets
