@@ -54,4 +54,4 @@ Depending on the version, there will be different parts included in the kit.
 | ![ble](ble.jpg)       | BLE Seeed Xiao | 2        |
 | ![switch](switch.jpg) | power switch   | 2        |
 
-{{< alert icon="💡" text="To make the BLE version of the TOTEM work, you will need to buy yourself two 751517 lithium polymer batteries.<br />If you don't have them already, try <a href='https://www.ebay.de/itm/233974438926'>these</a>." />}}
+{{< alert icon="💡" text="To make the BLE version of the TOTEM work, you will need to buy yourself two 751517 lithium polymer batteries.<br />If you don't have them already, try <a href='https://link.keeb.supply/lipo/751517'>these</a>." />}}

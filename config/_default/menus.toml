@@ -63,5 +63,5 @@
 
 [[footer]]
   name = "Legal Notice and Privacy Policy"
-  url = "/privacy-policy/"
+  url = "https://keeb.supply/legal"
   weight = 10

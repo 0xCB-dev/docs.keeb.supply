@@ -57,4 +57,4 @@ Depending on the version, there will be different parts included in the kit.
 |                             |
 | ![switch](slide-switch.png) | Slide Switch | 2        |
 
-{{< alert icon="💡" text="To make the wireless version of the Sweep work, you will need to buy yourself two 301225 lithium polymer batteries.<br />If you don't have them already, try <a href='https://www.ebay.de/itm/225583445158'>these</a>." />}}
+{{< alert icon="💡" text="To make the wireless version of the Sweep work, you will need to buy yourself two 301225 lithium polymer batteries.<br />If you don't have them already, try <a href='https://link.keeb.supply/lipo/301225'>these</a>." />}}
