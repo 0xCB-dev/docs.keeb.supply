@@ -4,9 +4,15 @@
   <style>
     .kb-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-template-columns: 1fr;
       gap: 1.5rem;
       padding: 0 1rem 2rem;
+    }
+    @media (min-width: 600px) {
+      .kb-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 900px) {
+      .kb-grid { grid-template-columns: repeat(3, 1fr); }
     }
     .kb-card {
       position: relative;
@@ -65,42 +71,38 @@
     }
   </style>
 
-  <div class="row justify-content-center">
-    <div class="col-12">
-      <h1 class="kb-page-title">{{ .Title }}</h1>
-      {{ with .Content }}<div class="text-center mb-4">{{ . }}</div>{{ end }}
-      <div class="kb-grid">
-        {{ range .Sections.ByWeight }}
-          {{ $cover := .Resources.GetMatch "{*.webp,*.jpg,*.jpeg,*.png}" }}
-          {{ if $cover }}
-            {{ $img := $cover.Resize "600x450 webp" }}
-            {{ $lqip := $cover.Resize "20x webp q20" }}
-            <a href="{{ .RelPermalink }}" class="kb-card">
-              <img
-                class="blur-up-lqip"
-                src="data:{{ $lqip.MediaType }};base64,{{ $lqip.Content | base64Encode }}"
-                aria-hidden="true"
-                alt="">
-              <img
-                src="{{ $img.RelPermalink }}"
-                alt="{{ .Title }}"
-                class="blur-up">
-              <div class="kb-card-label">
-                <span>{{ .Title }}</span>
-                <span class="arrow">→</span>
-              </div>
-            </a>
-          {{ else }}
-            <a href="{{ .RelPermalink }}" class="kb-card" style="background:#1a1a2e; display:flex; align-items:center; justify-content:center;">
-              <div class="kb-card-label" style="position:static; background:none; justify-content:center;">
-                <span>{{ .Title }}</span>
-                <span class="arrow" style="margin-left:.5rem;">→</span>
-              </div>
-            </a>
-          {{ end }}
-        {{ end }}
-      </div>
-    </div>
+  <h1 class="kb-page-title">{{ .Title }}</h1>
+  {{ with .Content }}<div class="text-center mb-4">{{ . }}</div>{{ end }}
+  <div class="kb-grid">
+    {{ range .Sections.ByWeight }}
+      {{ $cover := .Resources.GetMatch "{*.webp,*.jpg,*.jpeg,*.png}" }}
+      {{ if $cover }}
+        {{ $img := $cover.Resize "600x450 webp" }}
+        {{ $lqip := $cover.Resize "20x webp q20" }}
+        <a href="{{ .RelPermalink }}" class="kb-card">
+          <img
+            class="blur-up-lqip"
+            src="data:{{ $lqip.MediaType }};base64,{{ $lqip.Content | base64Encode }}"
+            aria-hidden="true"
+            alt="">
+          <img
+            src="{{ $img.RelPermalink }}"
+            alt="{{ .Title }}"
+            class="blur-up">
+          <div class="kb-card-label">
+            <span>{{ .Title }}</span>
+            <span class="arrow">→</span>
+          </div>
+        </a>
+      {{ else }}
+        <a href="{{ .RelPermalink }}" class="kb-card" style="background:#1a1a2e; display:flex; align-items:center; justify-content:center;">
+          <div class="kb-card-label" style="position:static; background:none; justify-content:center;">
+            <span>{{ .Title }}</span>
+            <span class="arrow" style="margin-left:.5rem;">→</span>
+          </div>
+        </a>
+      {{ end }}
+    {{ end }}
   </div>
 
 {{ else }}
