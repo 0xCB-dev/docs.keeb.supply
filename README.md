@@ -98,6 +98,18 @@ Theme partials are overridden by placing files at the same path under `layouts/_
 | `main/docs-navigation.html` | Scopes prev/next page navigation to `.CurrentSection.RegularPages` so arrows stay within the same keyboard's pages instead of jumping across the whole instructions section |
 | `sidebar/section-menu.html` | Custom sidebar logic for the instructions section: when inside a keyboard (e.g. `/instructions/forager/`) only that keyboard's pages are shown; at the `/instructions/` root all keyboards are listed. Other sections (basics, troubleshooting) use default Doks behaviour |
 
+### Blur-up image loading
+
+All images use a LQIP (low-quality image placeholder) blur-up effect instead of plain lazy loading:
+
+- A tiny 20×px webp at q20 is generated at build time and embedded as an inline base64 `src`
+- The full image is loaded in the background via an `IntersectionObserver` (with a 200px root margin) and swapped in once ready, transitioning from blurred to sharp
+- Content images (markdown `![...]()`) are handled by a render hook override at `layouts/_markup/render-image.html`
+- Instructions grid cards are handled directly in `layouts/instructions/list.html`
+- The tiny webp placeholders are cached in `resources/_gen/images/` and committed so Cloudflare Pages doesn't regenerate them on every build
+
+SVGs and GIFs are excluded from LQIP processing and keep their original behaviour.
+
 ### Custom output formats
 Two extra output formats are enabled beyond the Doks defaults:
 - **`markdown`** — each page is also rendered as raw markdown (at `<page>/index.md`)

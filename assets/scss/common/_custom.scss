@@ -1,3 +1,13 @@
+// Blur-up effect — placeholder loads instantly, real image fades in sharp
+img.blur-up {
+    filter: blur(8px);
+    transition: filter 0.4s ease;
+}
+
+img.blur-up.loaded {
+    filter: blur(0);
+}
+
 // Brand pink for active/hovered sidebar links in light mode ($primary/teal is the theme default)
 .section-nav li.active a,
 .section-nav a:hover,

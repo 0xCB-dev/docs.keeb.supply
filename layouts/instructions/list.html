@@ -74,8 +74,13 @@
           {{ $cover := .Resources.GetMatch "{*.webp,*.jpg,*.jpeg,*.png}" }}
           {{ if $cover }}
             {{ $img := $cover.Resize "600x450 webp" }}
+            {{ $lqip := $cover.Resize "20x webp q20" }}
             <a href="{{ .RelPermalink }}" class="kb-card">
-              <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+              <img
+                src="data:{{ $lqip.MediaType }};base64,{{ $lqip.Content | base64Encode }}"
+                data-src="{{ $img.RelPermalink }}"
+                alt="{{ .Title }}"
+                class="blur-up">
               <div class="kb-card-label">
                 <span>{{ .Title }}</span>
                 <span class="arrow">→</span>

@@ -21,6 +21,7 @@ copyRight = "Copyright (c) 2026 Burns & Kriener GbR"
 [outputs]
   home = ["html", "rss", "sitemap", "searchIndex", "llms"]
   page = ["html", "markdown"]
+  404 = ["html"]
   section = ["html", "rss", "sitemap"]
   term = ["html", "rss", "sitemap"]
 
