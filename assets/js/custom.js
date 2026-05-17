@@ -1,7 +1,9 @@
 // Blur-up: swap base64 placeholder for real image when in viewport
-const blurUps = document.querySelectorAll('img.blur-up[data-src]');
+document.addEventListener('DOMContentLoaded', () => {
+    const blurUps = document.querySelectorAll('img.blur-up[data-src]');
 
-if (blurUps.length) {
+    if (!blurUps.length) return;
+
     const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach((entry) => {
@@ -20,4 +22,4 @@ if (blurUps.length) {
     );
 
     blurUps.forEach((img) => observer.observe(img));
-}
+});
