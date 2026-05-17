@@ -28,13 +28,13 @@
       height: 100%;
       object-fit: cover;
       display: block;
-      transition: opacity 0.2s ease;
     }
-    .kb-card:hover img {
+    .kb-card.loaded:hover img.blur-up {
       opacity: 0.85;
     }
     .kb-card-label {
       position: absolute;
+      z-index: 3;
       bottom: 0;
       left: 0;
       right: 0;
@@ -77,8 +77,12 @@
             {{ $lqip := $cover.Resize "20x webp q20" }}
             <a href="{{ .RelPermalink }}" class="kb-card">
               <img
+                class="blur-up-lqip"
                 src="data:{{ $lqip.MediaType }};base64,{{ $lqip.Content | base64Encode }}"
-                data-src="{{ $img.RelPermalink }}"
+                aria-hidden="true"
+                alt="">
+              <img
+                src="{{ $img.RelPermalink }}"
                 alt="{{ .Title }}"
                 class="blur-up">
               <div class="kb-card-label">

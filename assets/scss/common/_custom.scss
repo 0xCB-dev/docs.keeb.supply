@@ -1,14 +1,41 @@
-// Blur-up effect — placeholder loads instantly, real image fades in sharp
-img.blur-up {
+// LQIP blur-up: blurred placeholder fades out as the real image fades in — no src swap
+.blur-up-wrap {
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+// Absolutely-positioned blurred LQIP; scale(1.1) hides blur bleed at edges
+// JS fades opacity to 0 then sets display:none so the filter layer stops compositing
+.blur-up-lqip {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     filter: blur(8px);
-    transition: filter 0.4s ease;
+    transform: scale(1.1);
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    z-index: 1;
+}
+
+img.blur-up {
+    display: block;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    filter: none; // override theme's .blur-up { filter: blur(5px) } which expects lazysizes
+    transition: opacity 0.4s ease;
 }
 
 img.blur-up.loaded {
-    filter: blur(0);
+    opacity: 1;
 }
 
-// Brand pink for active/hovered sidebar links in light mode ($primary/teal is the theme default)
+// Brand pink for active/hovered sidebar + TOC links
+// #toc a.active in the theme has ID-level specificity and compiles to $primary (teal), so !important needed
+#toc a.active,
 .section-nav li.active a,
 .section-nav a:hover,
 .section-nav a:active {

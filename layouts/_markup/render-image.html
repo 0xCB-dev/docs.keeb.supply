@@ -67,12 +67,23 @@
   {{- $r = $r.Resize (printf "%dx%d webp" $r.Width $r.Height) }}
 {{- end }}
 
-{{- if and $r (ne $r.MediaType.SubType "svg") }}
-  {{- if $processable }}
-    {{- $lqip := $r.Resize "20x webp q20" }}
+{{- if and $r (eq $r.MediaType.SubType "svg") }}
 <img
+  src="{{ $r.RelPermalink }}"
+  alt="{{ .PlainText }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  id="{{ $id }}"
+  class="img-fluid"
+>
+{{- else if $processable }}
+    {{- $lqip := $r.Resize "20x webp q20" }}
+<span class="blur-up-wrap"><img
+  class="blur-up-lqip"
   src="data:{{ $lqip.MediaType }};base64,{{ $lqip.Content | base64Encode }}"
-  data-src="{{ $r.RelPermalink }}"
+  aria-hidden="true"
+  alt=""
+><img
+  src="{{ $r.RelPermalink }}"
   width="{{ string $r.Width }}"
   height="{{ string $r.Height }}"
   decoding="{{ site.Params.thulite_images.defaults.decoding }}"
@@ -80,8 +91,8 @@
   {{- with .Title }} title="{{ . }}"{{ end }}
   id="{{ $id }}"
   class="blur-up"
->
-  {{- else }}
+></span>
+{{- else if $r }}
 <img
   src="{{ $r.RelPermalink }}"
   decoding="{{ site.Params.thulite_images.defaults.decoding }}"
@@ -90,7 +101,5 @@
   alt="{{ .PlainText }}"
   {{- with .Title }} title="{{ . }}"{{ end }}
   id="{{ $id }}"
-  class="markdown-svg"
 >
-  {{- end }}
 {{- end }}

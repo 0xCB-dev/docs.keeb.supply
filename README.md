@@ -67,7 +67,7 @@ Brand colours and font overrides live in `assets/scss/common/`:
 ## Differences from the default Doks starter
 
 ### Font
-Default Doks ships Jost. This site uses **Atkinson Hyperlegible** (`@fontsource/atkinson-hyperlegible`), self-hosted via a Hugo module mount. The Jost font files are excluded from the build via `excludeFiles` in `config/_default/module.toml`.
+Default Doks ships Jost. This site uses **Atkinson Hyperlegible** (`@fontsource/atkinson-hyperlegible`), self-hosted via a Hugo module mount. The Jost font files are excluded from the build via `files = ["! fonts/vendor/jost/**"]` on the doks-core static mount in `config/_default/module.toml`. The Atkinson woff2 files are preloaded in a `layouts/_partials/head/resource-hints.html` override.
 
 ### Brand colours
 Two custom colours replace the Doks defaults throughout:
@@ -100,15 +100,15 @@ Theme partials are overridden by placing files at the same path under `layouts/_
 
 ### Blur-up image loading
 
-All images use a LQIP (low-quality image placeholder) blur-up effect instead of plain lazy loading:
+All non-SVG, non-GIF images use a two-image LQIP (low-quality image placeholder) crossfade instead of plain loading:
 
-- A tiny 20×px webp at q20 is generated at build time and embedded as an inline base64 `src`
-- The full image is loaded in the background via an `IntersectionObserver` (with a 200px root margin) and swapped in once ready, transitioning from blurred to sharp
-- Content images (markdown `![...]()`) are handled by a render hook override at `layouts/_markup/render-image.html`
-- Instructions grid cards are handled directly in `layouts/instructions/list.html`
-- The tiny webp placeholders are cached in `resources/_gen/images/` and committed so Cloudflare Pages doesn't regenerate them on every build
-
-SVGs and GIFs are excluded from LQIP processing and keep their original behaviour.
+- A tiny 20×px webp at q20 is generated at build time and embedded as an inline base64 `src` on an absolutely-positioned `img.blur-up-lqip` element
+- The real full-resolution image is a sibling `img.blur-up` in the same `span.blur-up-wrap` wrapper, starting at `opacity: 0`
+- When the real image loads, `blur-up.js` (loaded with `defer`) fades the LQIP out and the real image in via `opacity` transitions — no `src` swap, no layout shift
+- The LQIP has `filter: blur(8px)` and `transform: scale(1.1)` (to hide blur edge bleed); `overflow: hidden` on the wrapper clips the overflow. After the fade the LQIP is removed from the render tree via `display: none` so the blur compositing layer stops affecting neighbouring elements
+- The theme has its own `.blur-up { filter: blur(5px) }` class (for lazysizes) — overridden with `filter: none` on `img.blur-up` since we don't use lazysizes
+- Content images (markdown `![...]()`) are handled by a render hook at `layouts/_markup/render-image.html`; instruction grid cards are handled in `layouts/instructions/list.html`
+- `blur-up`, `blur-up-lqip`, `blur-up-wrap`, and `loaded` are all safelisted in `config/postcss.config.js` so PurgeCSS doesn't strip them in production
 
 ### Custom output formats
 Two extra output formats are enabled beyond the Doks defaults:
