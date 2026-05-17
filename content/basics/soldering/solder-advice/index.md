@@ -1,16 +1,19 @@
 ---
 title: "Soldering advice"
 description: "Here's some general soldering advice for you to get started!"
-lead: "Here's some general soldering advice for you to get started!"
+summary: "Here's some general soldering advice for you to get started!"
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "soldering"
-weight: 10
+weight: 200
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 If you are completly new to soldering you might also like this [awesome guide by adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and this [more in depth tutorial by Kylar Mack](https://kylarmack.com/blogs/news/how-to-solder-metal) (thank's for the recommendation Brendan!).
@@ -20,7 +23,9 @@ If you are completly new to soldering you might also like this [awesome guide by
 - wear eye protection when soldering
   - flux sometimes sputters and you don't want 350°C acid in you eye.
   - When using flush cutters the waste is nearly accelerated to earth escape velocity
-    {{< alert icon="💡" text="keep the diode legs for hotswapping microcontrollers" />}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+keep the diode legs for hotswapping microcontrollers
+{{< /callout >}}
 - extract the solderfume (its really, really bad for your health)
 - use lead free solder (lead...)
 
@@ -30,7 +35,9 @@ Try to avoid cheap solder and flux as most of the time they will make your life 
 
 Use some fine tipped soldering iron and not a gutter soldering iron
 
-{{< alert icon="💡" text="If you are willing to invest / need a new soldering iron anyway, we can recommend the Pinecil V2 (We use them all the time and couldn't be happier)" />}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+If you are willing to invest / need a new soldering iron anyway, we can recommend the Pinecil V2 (We use them all the time and couldn't be happier)
+{{< /callout >}}
 
 Flushcutters are dope!
 

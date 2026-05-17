@@ -1,0 +1,43 @@
+// Brand pink for active/hovered sidebar links in light mode ($primary/teal is the theme default)
+.section-nav li.active a,
+.section-nav a:hover,
+.section-nav a:active {
+    color: $brand-pink !important;
+}
+
+// Brand pink for links inside all callout types, both modes
+.callout .callout-body a {
+    color: $brand-pink !important;
+}
+
+// KeebSupply brand header bar (banderole) — teal → pink in all modes
+// Unconditional so it wins over the theme's dark mode override in _header.scss
+.header-bar {
+    border-image-source: linear-gradient(83.21deg, $brand-teal 0%, $brand-pink 100%);
+    border-image-slice: 1;
+}
+
+@include color-mode(dark) {
+    .header-bar {
+        border-image-source: linear-gradient(83.21deg, $brand-teal 0%, $brand-pink 100%);
+        border-image-slice: 1;
+    }
+
+    // Override Bootstrap's link CSS custom properties (covers plain <a> tags with no extra class)
+    --bs-link-color: #{$link-color-dark};
+    --bs-link-color-rgb: #{red($link-color-dark)}, #{green($link-color-dark)}, #{blue($link-color-dark)};
+    --bs-link-hover-color: #{$link-color-dark};
+    --bs-link-hover-color-rgb: #{red($link-color-dark)}, #{green($link-color-dark)}, #{blue($link-color-dark)};
+
+    // --sl-color-text-accent is now handled via --sl-color-accent-high on :root in _variables-custom.scss
+
+    // Headings inside <a> inherit the link colour rather than the white heading override
+    a h1,
+    a h2,
+    a h3,
+    a h4,
+    a h5,
+    a h6 {
+        color: $link-color-dark;
+    }
+}

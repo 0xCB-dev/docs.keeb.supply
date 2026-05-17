@@ -1,7 +1,9 @@
-node_modules
-public
+.env
 .netlify
 .hugo_build.lock
+node_modules
+public
+.wrangler
 
 # macOS
 **/._*

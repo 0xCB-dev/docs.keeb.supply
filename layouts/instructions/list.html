@@ -1,23 +1,129 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-	<div class="col-md-12 col-lg-10 col-xl-8">
-		<article>
-			<h1 class="text-center">{{ .Title }}</h1>
-			<div class="text-center">{{ .Content }}</div>
-			<div class="card-list">
-				{{ range .Site.Taxonomies.categories.instructions }}
-				<div class="card my-3">
-					<div class="card-body">
-						{{- .Scratch.Set "fillImage" "1270x620 Center" -}}
-						{{ partial "content/card-image.html" . }}
-					</div>
-					<div class="card-body">
-						<a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
-					</div>
-				</div>
-				{{ end }}
-			</div>
-		</article>
-	</div>
-</div>
+{{ if .Sections }}
+  {{/* ── Root /instructions/ page: modern image grid, no sidebar ── */}}
+  <style>
+    .kb-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 0 1rem 2rem;
+    }
+    .kb-card {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #111;
+      aspect-ratio: 4 / 3;
+      display: block;
+      text-decoration: none;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .kb-card:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.55);
+    }
+    .kb-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity 0.2s ease;
+    }
+    .kb-card:hover img {
+      opacity: 0.85;
+    }
+    .kb-card-label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 2rem 1rem 0.9rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.82) 0%, transparent 100%);
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .kb-card-label .arrow {
+      opacity: 0.7;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      flex-shrink: 0;
+    }
+    .kb-card:hover .kb-card-label .arrow {
+      transform: translateX(4px);
+      opacity: 1;
+    }
+    .kb-page-title {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+  </style>
+
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h1 class="kb-page-title">{{ .Title }}</h1>
+      {{ with .Content }}<div class="text-center mb-4">{{ . }}</div>{{ end }}
+      <div class="kb-grid">
+        {{ range .Sections.ByWeight }}
+          {{ $cover := .Resources.GetMatch "{*.webp,*.jpg,*.jpeg,*.png}" }}
+          {{ if $cover }}
+            {{ $img := $cover.Resize "600x450 webp" }}
+            <a href="{{ .RelPermalink }}" class="kb-card">
+              <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+              <div class="kb-card-label">
+                <span>{{ .Title }}</span>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+          {{ else }}
+            <a href="{{ .RelPermalink }}" class="kb-card" style="background:#1a1a2e; display:flex; align-items:center; justify-content:center;">
+              <div class="kb-card-label" style="position:static; background:none; justify-content:center;">
+                <span>{{ .Title }}</span>
+                <span class="arrow" style="margin-left:.5rem;">→</span>
+              </div>
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+{{ else }}
+  {{/* ── Keyboard section page (e.g. /instructions/0xcb-1337/) ── */}}
+  <div class="row flex-xl-nowrap">
+    {{ if (in site.Params.doks.sectionNav .Section) -}}
+    <div class="col-lg-5 col-xl-4 docs-sidebar{{ if ne site.Params.doks.navbarSticky true }} docs-sidebar-top{{ end }}{{ if site.Params.doks.headerBar }} docs-sidebar-offset{{ end }} d-none d-lg-block">
+      {{ if site.Params.doks.sectionSwitcher -}}
+        {{ partial "sidebar/section-switcher.html" . }}
+      {{ end -}}
+      {{ partial "sidebar/section-menu.html" . }}
+    </div>
+    {{ end -}}
+    <main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.summary }}<p class="lead">{{ . | safeHTML }}</p>{{ end }}
+      {{ with .Content }}{{ . }}{{ end }}
+
+      {{ if .Pages }}
+      <div class="card-list mt-4">
+        {{ range .Pages.ByWeight }}
+          <div class="card my-3">
+            <div class="card-body">
+              <a class="stretched-link" href="{{ .RelPermalink }}">{{ .Title }} →</a>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ partial "main/docs-navigation.html" . }}
+    </main>
+  </div>
+{{ end }}
 {{ end }}

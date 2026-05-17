@@ -1,15 +1,19 @@
 ---
 title: "Resources"
 description: "Further reading on small keyboards, keymaps, and firmware-features."
-lead: "Further reading on small keyboards, keymaps, and firmware-features."
+summary: "Further reading on small keyboards, keymaps, and firmware-features."
 date: 2022-05-09T22:24:00+01:00
 lastmod: 2022-05-09T22:24:00+01:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "small keyboards"
-weight: 100
+weight: 130
+
+toc: true
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 ## Overview

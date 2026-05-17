@@ -1,9 +1,18 @@
 ---
 title: "Small Keyboards"
-description: "Basics about Small Keyboards."
-lead: "Basics about Small Keyboards."
-date: 2023-05-09T22:33:03+02:00
-lastmod: 2023-05-09T22:33:03+02:00
+description: "Basics about small keyboards."
+summary: "Basics about small keyboards."
+date: 2022-10-01T21:17:03+02:00
+lastmod: 2022-10-01T21:17:03+02:00
 draft: false
-images: []
+weight: 4
+toc: true
+params:
+  sidebar:
+    collapsed: true
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---

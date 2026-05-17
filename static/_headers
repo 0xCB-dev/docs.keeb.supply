@@ -1,3 +1,24 @@
-# see cloudflare pages docs
-https://:docs-keeb-supply.pages.dev/*
+# Cloudflare Pages custom headers
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+# Suppress indexing on the Pages preview domain
+https://:project.pages.dev/*
   X-Robots-Tag: noindex
+
+# Security + cache headers for all routes on the production domain
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin
+  Permissions-Policy: geolocation=(self), microphone=(), camera=()
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000
+
+# HTML pages must revalidate (fingerprinted assets can cache forever)
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate

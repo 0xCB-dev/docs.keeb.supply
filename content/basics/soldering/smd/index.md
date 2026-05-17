@@ -1,16 +1,19 @@
 ---
 title: "SMD components"
 description: "How to solder different kinds of SMD components."
-lead: "How to solder different kinds of SMD components."
+summary: "How to solder different kinds of SMD components."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "soldering"
-weight: 21
+weight: 215
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 ## Diodes

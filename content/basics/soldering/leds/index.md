@@ -1,16 +1,19 @@
 ---
 title: "LEDs"
 description: "How to solder different types of LEDs."
-lead: "How to solder different types of LEDs."
+summary: "How to solder different types of LEDs."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "soldering"
-weight: 40
+weight: 230
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 ## SK6812 Mini-E

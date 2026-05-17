@@ -1,16 +1,19 @@
 ---
 title: "Through Hole Components"
 description: "How to solder general through hole components."
-lead: "How to solder general through hole components."
+summary: "How to solder general through hole components."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "soldering"
-weight: 20
+weight: 210
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 <br>For most through hole components you have to bend the legs first! Just look at the distance the holes on the pcb are apart and bend the components accordingly by hand.

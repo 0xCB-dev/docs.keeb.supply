@@ -1,0 +1,9 @@
+shamefullyHoist: true
+
+allowBuilds:
+  esbuild: true
+  hugo-extended: true
+  sharp: true
+  workerd: true
+blockExoticSubdeps: true
+minimumReleaseAge: 4320 # 3 days

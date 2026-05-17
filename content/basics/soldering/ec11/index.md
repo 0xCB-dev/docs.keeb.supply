@@ -1,16 +1,19 @@
 ---
 title: "Rotary Encoders"
 description: "How to solder a rotary encoder."
-lead: "How to solder a rotary encoder."
+summary: "How to solder a rotary encoder."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "soldering"
-weight: 70
+weight: 260
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 <br>Soldering an Encoder is just as easy as soldering your switches!
