@@ -1,6 +1,6 @@
 name = "docs-keeb-supply"
 pages_build_output_dir = "public"
-compatibility_date = "2026-05-16"
+compatibility_date = "2026-05-15"
 
 [vars]
 NODE_VERSION = "24.13.1"

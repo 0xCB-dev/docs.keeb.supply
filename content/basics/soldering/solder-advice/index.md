@@ -23,9 +23,11 @@ If you are completly new to soldering you might also like this [awesome guide by
 - wear eye protection when soldering
   - flux sometimes sputters and you don't want 350°C acid in you eye.
   - When using flush cutters the waste is nearly accelerated to earth escape velocity
+
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 keep the diode legs for hotswapping microcontrollers
 {{< /callout >}}
+
 - extract the solderfume (its really, really bad for your health)
 - use lead free solder (lead...)
 

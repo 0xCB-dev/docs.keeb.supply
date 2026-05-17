@@ -98,7 +98,7 @@
 [[mounts]]
   source = "node_modules/@thulite/doks-core/static"
   target = "static"
-  excludeFiles = ["fonts/vendor/jost/**"]
+  files = ["! fonts/vendor/jost/**"]
 
 [[mounts]]
   source = "static"
