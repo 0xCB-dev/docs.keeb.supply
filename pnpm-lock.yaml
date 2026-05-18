@@ -29,6 +29,9 @@ importers:
       '@thulite/seo':
         specifier: ^2.4.3
         version: 2.4.3
+      glightbox:
+        specifier: ^3.3.1
+        version: 3.3.1
       thulite:
         specifier: ^2.6.5
         version: 2.6.5
@@ -1221,6 +1224,9 @@ packages:
   get-caller-file@2.0.5:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
+
+  glightbox@3.3.1:
+    resolution: {integrity: sha512-nXoKfJRnQTDaAFAw5799hjpfAAHx5aLvOLG0SIGudeMCwtHgO3P2/avNYapJ+SL4UEZxO2YNBPtq6pzMhSx42g==}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -2892,6 +2898,8 @@ snapshots:
   gensync@1.0.0-beta.2: {}
 
   get-caller-file@2.0.5: {}
+
+  glightbox@3.3.1: {}
 
   glob-parent@5.1.2:
     dependencies:

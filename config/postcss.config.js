@@ -23,6 +23,7 @@ const purgecss = purgeCSSPlugin({
         'type'
     ],
     safelist: [
+        /^g(lightbox|overlay|container|loader|slider|slide|inner|close|prev|next|desc|photo|video|iframe|inline|map|player|thumb|current|open|closing|dragging|disabled)/,
         'active',
         'btn-clipboard', // clipboards.js
         'clipboard', // clipboards.js

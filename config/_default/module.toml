@@ -91,6 +91,10 @@
   target = "static/fonts/vendor/atkinson-hyperlegible"
 
 [[mounts]]
+  source = "node_modules/glightbox/dist/css"
+  target = "assets/vendor/glightbox"
+
+[[mounts]]
   source = "assets"
   target = "assets"
 
