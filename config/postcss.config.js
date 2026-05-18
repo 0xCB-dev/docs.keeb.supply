@@ -1,45 +1,62 @@
-const autoprefixer = require('autoprefixer');
-const purgecss = require('@fullhuman/postcss-purgecss');
-const whitelister = require('purgecss-whitelister');
+import autoprefixer from 'autoprefixer';
+import purgeCSSPlugin from '@fullhuman/postcss-purgecss';
 
-module.exports = {
-  plugins: [
-    autoprefixer(),
-    purgecss({
-      content: [
-        './layouts/**/*.html',
-        './content/**/*.md',
-      ],
-      safelist: [
+const purgecss = purgeCSSPlugin({
+    content: ['./hugo_stats.json'],
+    defaultExtractor: (content) => {
+        const els = JSON.parse(content).htmlElements;
+        return [...(els.tags || []), ...(els.classes || []), ...(els.ids || [])];
+    },
+    dynamicAttributes: [
+        'aria-expanded',
+        'data-bs-popper',
+        'data-bs-target',
+        'data-bs-theme',
+        'data-dark-mode',
+        'data-global-alert',
+        'data-pane', // tabs.js
+        'data-popper-placement',
+        'data-sizes',
+        'data-toggle-tab', // tabs.js
+        'id',
+        'size',
+        'type'
+    ],
+    safelist: [
+        /^g(lightbox|overlay|container|loader|slider|slide|inner|close|prev|next|desc|photo|video|iframe|inline|map|player|thumb|current|open|closing|dragging|disabled)/,
+        'active',
+        'btn-clipboard', // clipboards.js
+        'clipboard', // clipboards.js
+        'disabled',
+        'hidden',
+        'modal-backdrop', // search-modal.js
+        'selected', // search-modal.js
+        'show',
+        'img-fluid',
+        'blur-up',
+        'blur-up-lqip',
+        'blur-up-wrap',
+        'loaded',
+        'lazyload',
         'lazyloaded',
-        'table',
-        'thead',
-        'tbody',
-        'tr',
-        'th',
-        'td',
-        'h5',
         'alert-link',
-        'container-xxl',
+        'container-fw ',
+        'container-lg',
         'container-fluid',
         'offcanvas-backdrop',
-        'img-fluid',
-        'lazyload',
-        'blur-up',
         'figcaption',
-        ...whitelister([
-          './assets/scss/components/_alerts.scss',
-          './assets/scss/components/_buttons.scss',
-          './assets/scss/components/_code.scss',
-          './assets/scss/components/_diagrams.scss',
-          './assets/scss/components/_syntax.scss',
-          './assets/scss/components/_search.scss',
-          './assets/scss/common/_dark.scss',
-          './node_modules/@docsearch/css/dist/style.css',
-          './node_modules/bootstrap/scss/_dropdown.scss',
-          './node_modules/katex/dist/katex.css',
-        ]),
-      ],
-    }),
-  ],
-}
+        'dt',
+        'dd',
+        'showing',
+        'hiding',
+        'page-item',
+        'page-link',
+        'not-content',
+        'copy',
+        'btn-copy'
+    ]
+});
+
+export default {
+    plugins: [autoprefixer(), ...(process.env.HUGO_ENVIRONMENT === 'production' ? [purgecss] : [])]
+};

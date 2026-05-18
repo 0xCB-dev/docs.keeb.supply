@@ -1,16 +1,19 @@
 ---
 title: "Flashing Controllers"
 description: "How to flash different types of controllers."
-lead: "How to flash different types of controllers."
+summary: "How to flash different types of controllers."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "firmware"
-weight: 2020
+weight: 410
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 ## RP2040

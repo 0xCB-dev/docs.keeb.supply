@@ -1,16 +1,19 @@
 ---
 title: "VIAL and VIA"
 description: "Basics about VIAL and VIA."
-lead: "Basics about VIAL and VIA."
+summary: "Basics about VIAL and VIA."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "firmware"
-weight: 2010
+weight: 400
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 ## VIAL
@@ -35,7 +38,9 @@ You also don't have to submit your keyboard.json to a central GitHub repository,
 
 - from here you can explore the numerous features VIAL offers - see VIALs manual for a [full explanation](https://get.vial.today/manual/first-use.html)
 
-{{< alert icon="💡" text="For some features you have to unlock the keyboard by holding the specified keys shown to you in a dialogue - this is done for security reasons - please see matrix testing below for an example" />}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+For some features you have to unlock the keyboard by holding the specified keys shown to you in a dialogue - this is done for security reasons - please see matrix testing below for an example
+{{< /callout >}}
 
 ### Firmware
 
@@ -70,7 +75,9 @@ One aspect favoring VIA right now is, that its userbase is currently larger, mak
 
 If your board has no VIA firmware available yet, or you'd like to enable/disable specific features, you can port you keyboard with these [instructions](https://www.caniusevia.com/docs/specification).
 
-{{< alert icon="💡" text="Keep in mind that it takes some time until your keyboard.json is accepted into the VIA repo, thus your board won't be recognised by VIA - in the meantime you can load your JSON manually via the design tab (enable able in the setting)" />}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+Keep in mind that it takes some time until your keyboard.json is accepted into the VIA repo, thus your board won't be recognised by VIA - in the meantime you can load your JSON manually via the design tab (enable able in the setting)
+{{< /callout >}}
 
 ## Matrix Testing
 
@@ -86,7 +93,9 @@ This is the best feature to ensure your PCB is fully functional even before sold
 
 - test every key and check if every position works
 
-{{< alert icon="💡" text="use tweezers on a bare PCB - just connect the two switch pins of the switch with the tweezer tips (make sure they are conductive)" />}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+use tweezers on a bare PCB - just connect the two switch pins of the switch with the tweezer tips (make sure they are conductive)
+{{< /callout >}}
 
 ### VIA
 
@@ -98,4 +107,6 @@ This is the best feature to ensure your PCB is fully functional even before sold
 
 - test every key and check if every position works
 
-{{< alert icon="💡" text="use tweezers on a bare PCB - just connect the two switch pins of the switch with the tweezer tips (make sure they are conductive)" />}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+use tweezers on a bare PCB - just connect the two switch pins of the switch with the tweezer tips (make sure they are conductive)
+{{< /callout >}}

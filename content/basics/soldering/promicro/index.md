@@ -1,16 +1,19 @@
 ---
 title: "ProMicro Controllers"
 description: "How to solder ProMicro style controllers."
-lead: "How to solder ProMicro style controllers."
+summary: "How to solder ProMicro style controllers."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "soldering"
-weight: 60
+weight: 250
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 ## Header Pins

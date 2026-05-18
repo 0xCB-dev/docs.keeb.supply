@@ -1,21 +1,27 @@
 ---
 title: "Introduction to Small Keyboards"
 description: "Why and how to use small keyboards."
-lead: "Why and how to use small keyboards."
+summary: "Why and how to use small keyboards."
 date: 2022-05-09T22:24:00+01:00
 lastmod: 2022-05-09T22:24:00+01:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "small keyboards"
-weight: 5
+weight: 100
+
+toc: true
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 ## Overview
+
 This is an introduction on how and why to use small form-factor keyboards, some possible ergonomic optimizations, and a short introduction to layout optimization.
 
 The short version:
+
 - Small keyboards are usable, fun, cute, and often less expensive.
 - Alternative layouts help reducing size and can feel more comfortable.
 
@@ -23,6 +29,7 @@ Most of the info here is shortened and summarized from other sources.
 An overview of these resources can be found [here]({{< ref "/basics/small keyboards/resources" >}}).
 
 ### Why use less keys?
+
 Ergonomics is often the main motivation for people to start looking into smaller keyboards.
 With less keys, your hands have to move less, which means less strain on wrists and fingers.
 
@@ -32,10 +39,10 @@ The resulting layouts usually have 36 to 42 keys, such that each finger is respo
 This not only improves travel distance for each finger and the whole hand, it also makes touch typing much easier!
 
 Other benefits of smaller form factors include:
+
 - more deskspace
 - less expensive due to the reduced amount of needed materials
 - more fun and more ~~street~~ nerd credibility!
-
 
 <!-- ## Table of Contents -->
 <!-- - small keyboards -->

@@ -1,20 +1,22 @@
 ---
 title: "USB-C Ports"
 description: "How to solder a through hole USB-C port."
-lead: "How to solder a through hole USB-C port."
+summary: "How to solder a through hole USB-C port."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "soldering"
-weight: 30
+weight: 220
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 Soldering the USB Port is always the most challenging part of any build! We recommend starting your keyboard soldering with this, because it is easiest when no other component is in the PCB.
-
 
 <br>Start by placing the USB Port in the PCB on the side, that has all the printing for the components on it. It should go in super easy. If you need to use any kind of force you are doing it wrong! Just let it slide in there.
 ![usb-start](usb-start.jpg)

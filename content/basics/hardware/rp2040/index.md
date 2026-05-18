@@ -1,16 +1,19 @@
 ---
 title: "RP2040"
 description: "Everything about RP2040 controllers."
-lead: "Everything about RP2040 controllers."
+summary: "Everything about RP2040 controllers."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "hardware"
-weight: 1020
+weight: 310
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 ## Overview
@@ -46,7 +49,9 @@ The easiest way to archive this is by using a 3.3V LDO to step down the 5V from 
 You might have spotted the voltage regulator in the floorplan image.
 it provides 1.1V for the cores.
 
-{{< alert icon="💡" text="Because of that it is extremely important to place 1μF capacitors directly next to their input and output!" />}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+Because of that it is extremely important to place 1μF capacitors directly next to their input and output!
+{{< /callout >}}
 
 ## Flash
 
@@ -73,7 +78,9 @@ For hand soldering:
 ## Bootloader
 
 The RP2040 comes with a bootloader etched into ROM (Read Only Memory).
-{{< alert icon="💡" text="This means that you can not brick it!" />}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+This means that you can not brick it!
+{{< /callout >}}
 
 After that, a second-stage bootloader takes over and runs code from the flash.
 

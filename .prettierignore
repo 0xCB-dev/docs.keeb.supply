@@ -1,0 +1,15 @@
+*.html
+*.ico
+*.png
+*.jp*g
+*.webp
+*.toml
+*.*ignore
+*.svg
+*.xml
+LICENSE
+.gitkeep
+*.woff*
+_headers
+_redirects
+resources

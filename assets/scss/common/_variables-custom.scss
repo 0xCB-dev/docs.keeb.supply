@@ -1,0 +1,28 @@
+// KeebSupply brand colours
+$brand-teal: #00556a;
+$brand-pink: #d32e9d;
+
+// Body font
+$font-family-sans-serif: "Atkinson Hyperlegible", ui-sans-serif, system-ui, sans-serif;
+
+// Light-mode accent (active nav, buttons)
+$primary: $brand-teal;
+
+// Light-mode links — same pink as dark mode
+$link-color: $brand-pink;
+$link-hover-color: $brand-pink;
+
+// Dark-mode accent
+$link-color-dark: $brand-pink;
+$button-color-dark: $brand-pink;
+$focus-color-dark: $brand-pink;
+$navbar-dark-hover-color: $brand-pink;
+$navbar-dark-active-color: $brand-pink;
+
+// Starlight accent tokens — cascade to --sl-color-text-accent (sidebar active links etc.)
+// Official Doks pattern: set on :root rather than patching --sl-color-text-accent directly
+:root,
+::backdrop {
+    --sl-color-accent: #{$brand-teal};
+    --sl-color-accent-high: #{$brand-pink};
+}

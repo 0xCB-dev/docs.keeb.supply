@@ -1,0 +1,11 @@
+name = "docs-keeb-supply"
+pages_build_output_dir = "public"
+compatibility_date = "2026-05-15"
+
+[vars]
+NODE_VERSION = "24.13.1"
+PNPM_VERSION = "11.1.2"
+
+[env.production.vars]
+NODE_VERSION = "24.13.1"
+PNPM_VERSION = "11.1.2"

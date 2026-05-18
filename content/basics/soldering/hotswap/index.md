@@ -1,20 +1,22 @@
 ---
 title: "HotSwap Sockets"
 description: "How to solder different kinds of hotswap sockets."
-lead: "How to solder different kinds of hotswap sockets."
+summary: "How to solder different kinds of hotswap sockets."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
-images: []
-menu:
-  basics:
-    parent: "soldering"
-weight: 50
+weight: 240
 toc: true
+
+params:
+  seo:
+    title: ""
+    description: ""
+    canonical: ""
+    robots: ""
 ---
 
 There are two types of sockets out there. MillMax sockets are nice, because you can solder them into a PCB that only supports solder switches. For Kailh style sockets, you need a special footprint or PCB that supports them.
-
 
 ## MillMax
 
