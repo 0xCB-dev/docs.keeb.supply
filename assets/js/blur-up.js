@@ -1,4 +1,4 @@
-document.querySelectorAll('img.blur-up').forEach((img) => {
+function initBlurUp(img) {
     const wrap = img.closest('.blur-up-wrap') || img.closest('.kb-card');
     const lqip = wrap ? wrap.querySelector('.blur-up-lqip') : null;
 
@@ -17,4 +17,16 @@ document.querySelectorAll('img.blur-up').forEach((img) => {
     } else {
         img.addEventListener('load', markLoaded, { once: true });
     }
-});
+}
+
+document.querySelectorAll('img.blur-up').forEach(initBlurUp);
+
+new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+        for (const node of mutation.addedNodes) {
+            if (node.nodeType !== 1) continue;
+            if (node.matches('img.blur-up')) initBlurUp(node);
+            node.querySelectorAll('img.blur-up').forEach(initBlurUp);
+        }
+    }
+}).observe(document.body, { childList: true, subtree: true });
