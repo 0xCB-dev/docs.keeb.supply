@@ -1,9 +1,9 @@
 {
   "name": "docs.keeb.supply",
-  "version": "1.9.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/0xCB-dev/docs.keeb.supply"
+    "url": "https://github.com/0xCB-dev/docs.keeb.supply‚"
   },
   "scripts": {
     "dev": "hugo server --disableFastRender --noHTTPCache",
@@ -21,18 +21,13 @@
     "@thulite/seo": "^2.4.3",
     "thulite": "^2.6.5"
   },
-  "overrides": {
-    "minimatch": "^10.2.2",
-    "glob": "^13.0.6"
-  },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.5.2",
-    "@changesets/cli": "^2.29.8",
     "hugo-extended": "0.156.0",
     "prettier": "^3.8.1",
     "wrangler": "^4.90.0"
   },
   "engines": {
     "node": ">=24.13.0"
-  }
+  },
+  "packageManager": "pnpm@11.1.2+sha512.415a1cc25974731e75455c1468371be74c5aa5fb7621b50d4056d222451609f11412f23fd602e6169f1e060466641f798597e1be961a10688836a67b16569499"
 }

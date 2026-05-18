@@ -22,12 +22,12 @@ Here are the Vendors, where you can get Gemini.
 
 EU:
 
-- KeebSupply ([Link](https://keeb.supply/products/0xcb-gemini))
-- Keycapsss ([Link](https://keycapsss.com/keyboard-parts/mcu-controller/277/0xcb-gemini-waveshare-rp2040-zero-compatible-microcontroller))
+- [KeebSupply](https://keeb.supply/products/0xcb-gemini)
+- [Keycapsss](https://keycapsss.com/keyboard-parts/mcu-controller/277/0xcb-gemini-waveshare-rp2040-zero-compatible-microcontroller)
 
 US:
 
-- RingerKeys ([Link](https://ringerkeys.com/products/0xcb-gemini))
+- [RingerKeys](https://ringerkeys.com/products/0xcb-gemini)
 
 ## Changelog
 

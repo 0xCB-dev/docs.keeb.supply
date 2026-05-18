@@ -127,7 +127,7 @@ mathEngine = "KaTeX" # "KaTeX" (default) or "MathJax"
 # SEO (@thulite/seo)
 [seo]
   [seo.title]
-    separator = "" # "|" (default)
+    separator = "-" # "|" (default)
     suffix = "" # title hugo.toml (default)
   [seo.description]
     summaryFallback = "" # "" (default)

@@ -23,13 +23,13 @@ Here are the Vendors, where you can get Helios.
 
 EU:
 
-- KeebSupply ([Link](https://keeb.supply/products/0xcb-helios))
-- Keycapsss ([Link](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040))
+- [KeebSupply](https://keeb.supply/products/0xcb-helios)
+- [Keycapsss](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040)
 
 Worldwide:
 
-- US: RingerKeys ([Link](https://ringerkeys.com/products/0xcb-helios))
-- Canada: RNDKBD ([Link](https://rndkbd.com/products/0xcb-helios-microcontroller))
+- US: [RingerKeys](https://ringerkeys.com/products/0xcb-helios)
+- Canada: [RNDKBD](https://rndkbd.com/products/0xcb-helios-microcontroller)
 
 ## Changelog
 
