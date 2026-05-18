@@ -1,7 +1,9 @@
 // LQIP blur-up: blurred placeholder fades out as the real image fades in — no src swap
 .blur-up-wrap {
     overflow: hidden;
-    display: block;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: bottom; // kills the inline ghost gap beneath
     position: relative;
 }
 
@@ -25,6 +27,8 @@ img.blur-up {
     position: relative;
     z-index: 2;
     opacity: 0;
+    max-width: 100%;
+    height: auto;
     filter: none; // override theme's .blur-up { filter: blur(5px) } which expects lazysizes
     transition: opacity 0.4s ease;
 }

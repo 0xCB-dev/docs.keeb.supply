@@ -87,6 +87,8 @@
   width="{{ string $r.Width }}"
   height="{{ string $r.Height }}"
   decoding="{{ site.Params.thulite_images.defaults.decoding }}"
+  loading="{{ site.Params.thulite_images.defaults.loading }}"
+  fetchpriority="{{ site.Params.thulite_images.defaults.fetchpriority }}"
   alt="{{ .PlainText }}"
   {{- with .Title }} title="{{ . }}"{{ end }}
   id="{{ $id }}"
