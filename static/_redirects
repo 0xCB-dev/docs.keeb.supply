@@ -3,30 +3,56 @@
 
 # Legacy alias from old site
 /sweep-bling-lp     /instructions/sweep-lp/    301
+/sweep-bling-lp/     /instructions/sweep-lp/    301
 
 # Keyboard instruction sections moved from /<name>/ to /instructions/<name>/
 /0xcb-1337          /instructions/0xcb-1337/           301
+/0xcb-1337/         /instructions/0xcb-1337/           301
 /0xcb-1337-old      /instructions/0xcb-1337-old/        301
+/0xcb-1337-old/     /instructions/0xcb-1337-old/        301
 /0xcb-gemini        /instructions/0xcb-gemini/          301
+/0xcb-gemini/       /instructions/0xcb-gemini/          301
 /0xcb-helios        /instructions/0xcb-helios/          301
+/0xcb-helios/       /instructions/0xcb-helios/          301
 /0xcb-new-horizons      /instructions/0xcb-new-horizons/        301
+/0xcb-new-horizons/      /instructions/0xcb-new-horizons/        301
 /0xcb-static        /instructions/0xcb-static/          301
+/0xcb-static/        /instructions/0xcb-static/          301
 /0xcb-static-case       /instructions/0xcb-static-case/         301
+/0xcb-static-case/       /instructions/0xcb-static-case/         301
 /0xcb-tutel-pad     /instructions/0xcb-tutel-pad/       301
+/0xcb-tutel-pad/     /instructions/0xcb-tutel-pad/       301
 /Fidrildi           /instructions/Fidrildi/             301
+/Fidrildi/           /instructions/Fidrildi/             301
 /ampersand          /instructions/ampersand/            301
+/ampersand/          /instructions/ampersand/            301
 /badwings-v2        /instructions/badwings-v2/          301
+/badwings-v2/        /instructions/badwings-v2/          301
 /dasbob             /instructions/dasbob/               301
+/dasbob/             /instructions/dasbob/               301
 /endgame            /instructions/endgame/              301
+/endgame/            /instructions/endgame/              301
 /forager            /instructions/forager/              301
+/forager/            /instructions/forager/              301
 /hexapoda           /instructions/hexapoda/             301
+/hexapoda/           /instructions/hexapoda/             301
 /hexatana           /instructions/hexatana/             301
+/hexatana/           /instructions/hexatana/             301
 /miao               /instructions/miao/                 301
+/miao/               /instructions/miao/                 301
 /nomad              /instructions/nomad/                301
+/nomad/              /instructions/nomad/                301
 /re-gret            /instructions/re-gret/              301
+/re-gret/            /instructions/re-gret/              301
 /splaytoraid        /instructions/splaytoraid/          301
+/splaytoraid/        /instructions/splaytoraid/          301
 /stress             /instructions/stress/               301
+/stress/             /instructions/stress/               301
 /sweep-bling-mx     /instructions/sweep-bling-mx/       301
+/sweep-bling-mx/     /instructions/sweep-bling-mx/       301
 /sweep-lp           /instructions/sweep-lp/             301
+/sweep-lp/           /instructions/sweep-lp/             301
 /totem              /instructions/totem/                301
+/totem/              /instructions/totem/                301
 /zilpzalp           /instructions/zilpzalp/             301
+/zilpzalp/           /instructions/zilpzalp/             301
