@@ -26,6 +26,10 @@ params:
 | ![rubber feet](hex-feet.png)  | Rubber Feet     | 8        |
 | ![hex caps](hex-caps.png)     | Hex Keycaps     | 30       |
 
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+If your Hex keycaps have yellowed, you can place them in direct sunlight for a while as this will reverse the effect. This is a natural occurrence with ABS.
+{{< /callout >}}
+
 ## Case
 
 These components are only included if you buy the case.
