@@ -32,7 +32,7 @@ The only part that you need to solder for the Hexapoda are the HotSwap sockets. 
 When you buy the Hexapoda kit through KeebSupply you will receive an almost fully soldered PCB. The PCB features a controller that is running [FAK](https://github.com/semickolon/fak-config). Since the Hexapoda has such a unique layout, we decided to not preflash the controllers with any firmware and layout. You will have to do that yourself. Instructions on that can be found [here]({{< ref "/basics/firmware/flashing#wch" >}}). An example for a keymap can be found [here](https://github.com/ThePurox/fak-config/tree/main/keyboards/hexapoda).
 ![hexapoda-controller](hexapoda-controller.png)
 
-<br>When you have your keyboard flashed, it is good practice to do a matrix test with a [keytester](https://www.keyboardtester.com/tester.html). Use tweezers or other metallic objects for this and short the pads of each key.
+<br>When you have your keyboard flashed, it is good practice to do a matrix test with a [keytester](https://inputprobe.com/keyboard-tester/). Use tweezers or other metallic objects for this and short the pads of each key.
 ![matrix](hexapoda-matrix.png)
 
 If all of the keys are working properly, you can go ahead and continue with the assembly!
