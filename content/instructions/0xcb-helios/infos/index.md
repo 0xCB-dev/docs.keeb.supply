@@ -28,6 +28,7 @@ EU:
 
 Worldwide:
 
+- UK: [ProtoTypist](https://prototypist.net/products/in-stock-keeb-supply-0xcb-helios)
 - US: [RingerKeys](https://ringerkeys.com/products/0xcb-helios)
 - Canada: [RNDKBD](https://rndkbd.com/products/0xcb-helios-microcontroller)
 
@@ -56,6 +57,7 @@ gantt
     R6                          :2024-12-30, 2025-07-09
     R7                          :2025-07-09, 2026-01-24
     R8                          :2026-01-24, 30d
+    R9                          :2026-10-12, 30d
 ```
 
 ---
@@ -94,5 +96,7 @@ gantt
     - Supplied A stock to Keycapsss
   - Round 8 [More purple and white units]
     - Supplied A stock to KeebSupply
+  - Round 9 [Black units to PT]
+    - Supplied A stock to ProtoTypist
 
 ---
