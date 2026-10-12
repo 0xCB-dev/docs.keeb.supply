@@ -34,15 +34,15 @@ You can take your `keyboardfirmware.u2f` file and copy it to the mounted drive. 
 
 ## WCH
 
-WCH chips are low-cost integrated circuits (ICs) that use [FAK firmware](https://github.com/semickolon/fak-config). Getting your firmware onto your board consists of two different steps. You will use GitHub Codespaces to create your firmware, and after that WCHISP to flash said firmware onto your controller.
+WCH chips are low-cost integrated circuits (ICs) that use [FAK firmware](https://github.com/semickolon/fak-config). Getting your firmware onto your board consists of two different steps. You will fork the fak-config repository and use GitHub actions to create your firmware, and after that WCHISP to flash said firmware onto your controller.
 
 ### Setting up WCHISP
 
-Download the latest WCHISP release from [here](https://github.com/ch32-rs/wchisp). You can also find great instructions on what the tool does and how it works over there.
+WCHISP is a flashing utility designed for WCH chips. It's a command-line tool that detects chips in bootloader mode, resets them and flashes them with your specified firmware. Download the latest WCHISP release from [here](https://github.com/ch32-rs/wchisp). You can also find great instructions on what the tool does and how it works over there.
 
-### Setting up Codespaces
+### Setting up the repo
 
-Afterwards you will have to use [GitHub Codespaces](https://github.com/features/codespaces) to compile and download your `.ihx` firmware file. You can find instructions on how to set up a Codespace [here](https://github.com/semickolon/fak-config?tab=readme-ov-file#github-codespace).
+Next, you will need to fork the [FAK repository](https://github.com/semickolon/fak-config) and enable workflows under the actions tab in order to compile and download your .ihx firmware file. If you make changes to the repository, the workflow will automatically compile your firmware. Otherwise, you will have to manually run the workflow from the actions tab. This will generate a ZIP file that you can download once it is complete.
 
 ### Flashing Firmware
 

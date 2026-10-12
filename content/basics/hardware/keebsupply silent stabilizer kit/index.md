@@ -61,6 +61,12 @@ Since our stabilizers come pre-lubricated, there is no need for manual lubricati
 ## Clip-In Locks
 
 PCBs can vary a tiny bit in thickness, sometimes resulting in a bit of wobble in the whole stab housing. If that is the case, you can go ahead and install the clip-in locks.
+
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+Do not install these if your stabilizers fit snugly into the PCB. Depending on the tolerances of the PCB and keycap, the keys may bind or fail to return when pressed down.
+If this happens and you have already installed the locks, try removing them to see if this resolves the issue.
+{{< /callout >}}
+
 ![clip-in locks](clip-in-locks.png)
 
 For this you can flip the PCB over and detach one of the clip-in locks from the wheel. After that, just insert one lock between each prong of each housing to make it more stable. You will notice that the clip-in locks feature a wider part at the bottom. Insert the smaller part into the stab, so that the wider part sticks out the bottom.
