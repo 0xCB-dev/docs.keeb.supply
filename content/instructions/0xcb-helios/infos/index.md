@@ -55,9 +55,8 @@ gantt
     R4                          :2023-11-06, 2024-08-25
     R5                          :2024-08-25, 2024-12-30
     R6                          :2024-12-30, 2025-07-09
-    R7                          :2025-07-09, 2026-01-24
+    R7                          :2025-07-09, 2026-10-12
     R8                          :2026-01-24, 2026-10-12
-    R9                          :2026-10-12, 30d
 ```
 
 ---
@@ -94,9 +93,8 @@ gantt
   - Round 7 [Way more black units]
     - Supplied A stock to KeebSupply
     - Supplied A stock to Keycapsss
+    - Supplied A stock to ProtoTypist
   - Round 8 [More purple and white units]
     - Supplied A stock to KeebSupply
-  - Round 9 [Black units to PT]
-    - Supplied A stock to ProtoTypist
 
 ---
