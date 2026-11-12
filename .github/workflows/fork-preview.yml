@@ -59,7 +59,9 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - run: pnpm build
+      # config/_default/hugo.toml hardcodes https://docs.keeb.supply/, so point
+      # links at the preview alias instead.
+      - run: pnpm build --baseURL "https://pr-${{ github.event.pull_request.number }}.docs-keeb-supply.pages.dev/"
 
       - uses: actions/upload-artifact@v4
         with:
