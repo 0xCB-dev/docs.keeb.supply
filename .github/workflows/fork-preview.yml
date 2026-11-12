@@ -46,6 +46,10 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
+          # Deliberate: this job only runs after a maintainer approved the PR
+          # (opened it themselves or added the `preview` label), it has no
+          # secrets and a read-only token, and it uses no Actions cache.
+          allow-unsafe-pr-checkout: true
 
       - uses: pnpm/action-setup@v4
 
